@@ -1,0 +1,7 @@
+streamlit
+pandas_profiling
+plotly
+streamlit-authenticator==0.1.5
+pydantic-settings
+catboost
+scikit-learn
