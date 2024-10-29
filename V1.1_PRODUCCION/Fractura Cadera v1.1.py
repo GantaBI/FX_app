@@ -286,7 +286,7 @@ if authentication_status:
     #model_demora.load_model("model")
     #predcit = model_demora.predict([sexo, edad])
     #predcit = predcit.round(1)
-    model_demora.load_model("model_ds_demora_dias_rnfc")
+    model_demora.load_model("models/model_ds_demora_dias_rnfc")
     predcit = model_demora.predict([sexo, edad, lugar_residencia_normal, movilidad_pre,  pfeiffer, asa, lado_fractura_normal, \
     tipo_fractura_normal, sentarse_transformed, ulceras_presion_transformed ,leucocitos, glucosa,urea, creatinina, \
         ckd ,colinesterasa ,albumina, vitD,dia_llegada])
@@ -325,7 +325,7 @@ if authentication_status:
     #tipo_fractura_normal, sentarse_transformed, ulceras_presion_transformed ,leucocitos, glucosa,urea, creatinina, \
     #    ckd ,colinesterasa ,albumina, vitD, predcit])
     #predict_estancia_fijo = predict_estancia_fijo.round(1)
-    model_estancia_dias.load_model("model_ds_estancia_dias_rnfc")
+    model_estancia_dias.load_model("models/model_ds_estancia_dias_rnfc")
     predict_estancia = model_estancia_dias.predict([sexo, edad, lugar_residencia_normal, movilidad_pre,  pfeiffer, asa, lado_fractura_normal, \
     tipo_fractura_normal, resultado_demora, sentarse_transformed, ulceras_presion_transformed ,leucocitos, glucosa,urea, creatinina, \
         ckd ,colinesterasa ,albumina, vitD,dia_llegada])
@@ -439,7 +439,7 @@ if authentication_status:
 
 
 
-    model_destino_alta.load_model("model_destino_alta")
+    model_destino_alta.load_model("models/model_destino_alta")
 
 
 
@@ -505,7 +505,7 @@ if authentication_status:
     model_movilidad_alta = CatBoostClassifier()
 
 
-    model_movilidad_alta.load_model("model_movilidad")
+    model_movilidad_alta.load_model("models/model_movilidad")
 
 
 
@@ -573,7 +573,7 @@ if authentication_status:
 
     model_vivo_30d = CatBoostClassifier()
 
-    model_vivo_30d.load_model("model_vivo_30d")
+    model_vivo_30d.load_model("models/model_vivo_30d")
 
 
 
