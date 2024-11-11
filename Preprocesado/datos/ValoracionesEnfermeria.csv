@@ -1,0 +1,1665 @@
+gidenpac,ganoadme,gnumadme,gcodconc,dconclin,nsecuval,ncodtabu,nvalncon,ovallcon,fconcept,gdiagmed,dnombdia,gprobenf,dprobenf,vbivalor,ipatolog,ibajconc
+PLFR192406120,2016,3371,1033,Movilidad,1,2,,,,,,,,,,N
+PLFR192406120,2016,3371,1065,Nivel de conciencia,1,2,,,,,,,,,,N
+PLFR192406120,2016,3371,1819,Vestirse,1,,0.0,,,,,,,,N,N
+PLFR192406120,2016,3371,1827,Resultado Indice de Barthel,1,,,5,,,,,,,,N
+PLFR192406120,2016,3371,2257,Humedad,1,,2.0,,,,,,,,N,N
+SNPR192710441,2017,987,1021,Tipo de dieta,2,99,,,,,,,,,,N
+SPGR195003290,2017,2474,1817,Lavarse,1,,5.0,,,,,,,,N,N
+SPGR195003290,2017,2474,1821,Deposiciones.,1,,10.0,,,,,,,,N,N
+SPGR195003290,2017,2474,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+FRDP192501100,2017,3622,1817,Lavarse,1,,0.0,,,,,,,,N,S
+FRDP192501100,2017,3622,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+FRDP192501100,2017,3622,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,0.0,,,,,,,,N,N
+GNVD193108490,2018,490,994,Respiración,1,1,,,,,,,,,,N
+CSPR193305700,2018,1014,970,Antecedentes personales,1,,,H201800000010143003201821342529970.RTF,,,,,,,,N
+CSPR193305700,2018,1014,1013,Eliminación intestinal,1,1,,,,,,,,,,N
+CSPR193305700,2018,1014,2258,Actividad,1,,4.0,,,,,,,,N,N
+FRGT192606121,2018,3067,1822,Miccion,1,,10.0,,,,,,,,N,N
+FDFD192912290,2019,68,1816,Comer,1,,5.0,,,,,,,,N,N
+FDFD192912290,2019,68,1822,Miccion,1,,5.0,,,,,,,,N,N
+FDFD192912290,2019,68,2249,"Alteraciones Visuales (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+MRFR192902410,2019,867,2243,"medicamentos Diureticos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+MRFR192902410,2019,867,2280,Resultado Escala de Braden,1,,,16,,,,,,,,N
+LNGR192809630,2019,2090,998,Tipo de oxigenoterapia,1,2,,,,,,,,,,S
+LNGR192809630,2019,2090,1013,Eliminación intestinal,1,1,,,,,,,,,,N
+LNGR192809630,2019,2090,1047,Heridas,1,,,,,,,,,N,,N
+LNGR192809630,2019,2090,1063,Otros,1,,,ACORTAMIENTO DE EII,,,,,,,,N
+LNGR192809630,2019,2090,1819,Vestirse,1,,0.0,,,,,,,,N,S
+CRLN197704540,2019,2721,982,Otras alergias,1,,,,,,,,,N,,N
+LZCS192812620,2019,3563,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,1.0,,,,,,,,N,N
+SRCM193001430,2020,2282,986,Tensión diastólica,1,,70.0,,,,,,,,N,N
+SRCM193001430,2020,2282,994,Respiración,1,1,,,,,,,,,,N
+SRCM193001430,2020,2282,1052,Localización de hematomas,1,,,MMII,,,,,,,,N
+SRCM193001430,2020,2282,1822,Miccion,1,,5.0,,,,,,,,N,N
+SRCM193001430,2020,2282,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,0.0,,,,,,,,N,N
+SLLL196810050,2021,276,52,Tipo Dieta,1,1005,,,,,,,,,,N
+SLLL196810050,2021,276,985,Tensión sistólica,1,,120.0,,,,,,,,N,N
+CSBR193504540,2021,2352,2260,Friccion y Deslizamiento,1,,1.0,,,,,,,,N,N
+LZCN194806651,2021,3198,994,Respiración,1,1,,,,,,,,,,N
+LZCN194806651,2021,3198,1020,Vía,1,1,,,,,,,,,,N
+GNGR195912550,2021,3345,984,Pulso,1,,64.0,,,,,,,,N,S
+MRSN193402540,2022,1577,1007,Sondaje vesical,1,,,,,,,,,N,,N
+MRSN193402540,2022,1577,1033,Movilidad,1,2,,,,,,,,,,N
+MRSN193402540,2022,1577,1822,Miccion,1,,0.0,,,,,,,,N,N
+BRGR193406480,2022,2699,1021,Tipo de dieta,2,99,,,,,,,,,,N
+RDLV193007530,2024,629,1010,Fecha colocación,1,,,,2024-04-10T00:00:00,,,,,,,N
+RDLV193007530,2024,629,2280,Resultado Escala de Braden,1,,,17,,,,,,,,N
+GNGN194301590,2024,1871,1825,Deambular,1,,0.0,,,,,,,,N,S
+PLFR192406120,2016,3371,2236,percepcion sensorial,1,,4.0,,,,,,,,N,N
+PLFR192406120,2016,3371,2259,Nutricion,1,,2.0,,,,,,,,N,N
+SNPR192710441,2017,987,994,Respiración,1,1,,,,,,,,,,N
+SNPR192710441,2017,987,1040,Tipo de vía,1,2,,,,,,,,,,S
+SNPR192710441,2017,987,1051,Hematomas,1,,,,,,,,,N,,N
+SPGR195003290,2017,2474,2249,"Alteraciones Visuales (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+FRDP192501100,2017,3622,1000,Litros,1,,,2 LPM,,,,,,,,N
+FRDP192501100,2017,3622,1065,Nivel de conciencia,1,1,,,,,,,,,,N
+GNVD193108490,2018,490,1029,Prótesis dental,1,,,,,,,,,N,,N
+GNVD193108490,2018,490,1065,Nivel de conciencia,1,1,,,,,,,,,,N
+GNVD193108490,2018,490,1819,Vestirse,1,,5.0,,,,,,,,N,N
+CSPR193305700,2018,1014,979,Especificar a. medicament,1,,,"PENICILINA, AINES, AAS, GRUPO PARA, PIRAZOLONAS",,,,,,,,N
+CSPR193305700,2018,1014,2043,Resultado Indice de Barthel al Alta,1,,,80,,,,,,,,N
+CSPR193305700,2018,1014,2234,"Caidas Previas NO=0, SI=1",1,,1.0,,,,,,,,N,N
+CSPR193305700,2018,1014,2257,Humedad,1,,4.0,,,,,,,,N,N
+FRGT192606121,2018,3067,1072,Fonación,1,1,,,,,,,,,,N
+FRGT192606121,2018,3067,2249,"Alteraciones Visuales (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+FRGT192606121,2018,3067,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,0.0,,,,,,,,N,N
+MRFR192902410,2019,867,1823,Usar el retrete,1,,5.0,,,,,,,,N,N
+LNGR192809630,2019,2090,986,Tensión diastólica,1,,70.0,,,,,,,,N,N
+LNGR192809630,2019,2090,1825,Deambular,1,,0.0,,,,,,,,N,S
+LNGR192809630,2019,2090,2236,percepcion sensorial,1,,4.0,,,,,,,,N,N
+LRRD195708160,2019,2346,980,Alergia alimenticia,1,,,,,,,,,N,,N
+LRRD195708160,2019,2346,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+LRRD195708160,2019,2346,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+CRLN197704540,2019,2721,1021,Tipo de dieta,1,1,,,,,,,,,,N
+LZCS192812620,2019,3563,1064,Localización de úlceras,1,,,SACRO¿?,,,,,,,,S
+LZCS192812620,2019,3563,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,1.0,,,,,,,,N,N
+SRCM193001430,2020,2282,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,1.0,,,,,,,,N,N
+CSBR193504540,2021,2352,984,Pulso,1,,62.0,,,,,,,,N,N
+CSBR193504540,2021,2352,2243,"medicamentos Diureticos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+GNGR195912550,2021,3345,1040,Tipo de vía,1,2,,,,,,,,,,S
+GNGR195912550,2021,3345,2243,"medicamentos Diureticos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+GNGR195912550,2021,3345,2260,Friccion y Deslizamiento,1,,2.0,,,,,,,,N,N
+GNMR193911510,2022,940,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+MRSN193402540,2022,1577,1826,Escalones,1,,0.0,,,,,,,,N,N
+MRSN193402540,2022,1577,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,0.0,,,,,,,,N,N
+MRSN193402540,2022,1577,2258,Actividad,1,,1.0,,,,,,,,N,N
+BRGR193406480,2022,2699,1035,Aseo,1,3,,,,,,,,,,N
+BRGR193406480,2022,2699,1036,Medio de aseo,1,2,,,,,,,,,,N
+BRGR193406480,2022,2699,1822,Miccion,1,,0.0,,,,,,,,N,N
+RDLV193007530,2024,629,971,Medicación habitual,1,,,,,,,,,S,,N
+RDLV193007530,2024,629,982,Otras alergias,1,,,,,,,,,N,,N
+GNGN194301590,2024,1871,1013,Eliminación intestinal,1,1,,,,,,,,,,N
+GNGN194301590,2024,1871,1048,Localización de las herid,1,,,MID,,,,,,,,N
+GNGN194301590,2024,1871,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+PLFR192406120,2016,3371,985,Tensión sistólica,1,,140.0,,,,,,,,N,N
+PLFR192406120,2016,3371,2234,"Caidas Previas NO=0, SI=1",1,,0.0,,,,,,,,N,N
+SNPR192710441,2017,987,1046,Estado de la piel,1,1,,,,,,,,,,N
+SPGR195003290,2017,2474,985,Tensión sistólica,1,,190.0,,,,,,,,N,S
+FRDP192501100,2017,3622,980,Alergia alimenticia,1,,,,,,,,,N,,N
+FRDP192501100,2017,3622,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,0.0,,,,,,,,N,N
+FRDP192501100,2017,3622,2280,Resultado Escala de Braden,1,,,16,,,,,,,,N
+GNVD193108490,2018,490,1827,Resultado Indice de Barthel,1,,,40,,,,,,,,N
+GNVD193108490,2018,490,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,1.0,,,,,,,,N,N
+CSPR193305700,2018,1014,1040,Tipo de vía,1,2,,,,,,,,,,S
+FRGT192606121,2018,3067,1020,Vía,1,1,,,,,,,,,,N
+FRGT192606121,2018,3067,2234,"Caidas Previas NO=0, SI=1",1,,1.0,,,,,,,,N,N
+FRGT192606121,2018,3067,2257,Humedad,1,,4.0,,,,,,,,N,N
+FDFD192912290,2019,68,1040,Tipo de vía,1,2,,,,,,,,,,S
+MRFR192902410,2019,867,1012,Medio de contención,2,2,,,,,,,,,,N
+MRFR192902410,2019,867,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+MRFR192902410,2019,867,2249,"Alteraciones Visuales (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+LNGR192809630,2019,2090,1827,Resultado Indice de Barthel,1,,,25,,,,,,,,N
+LRRD195708160,2019,2346,1065,Nivel de conciencia,1,1,,,,,,,,,,N
+LRRD195708160,2019,2346,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+LRRD195708160,2019,2346,2282,Resultado Escala Riesgo Caidas,1,,,5,,,,,,,,N
+CRLN197704540,2019,2721,985,Tensión sistólica,1,,127.0,,,,,,,,N,N
+SRCM193001430,2020,2282,1052,Localización de hematomas,1,,,MUSLO IZQ,,,,,,,,S
+SLLL196810050,2021,276,994,Respiración,1,1,,,,,,,,,,N
+SLLL196810050,2021,276,1020,Vía,1,1,,,,,,,,,,N
+FRGR193404470,2021,1820,1037,Vestido,1,2,,,,,,,,,,N
+CSBR193504540,2021,2352,2257,Humedad,1,,2.0,,,,,,,,N,N
+GNGR195912550,2021,3345,970,Antecedentes personales,1,,,H202100000033452010202120043529970.RTF,,,,,,,,N
+GNMR193911510,2022,940,980,Alergia alimenticia,1,,,,,,,,,N,,N
+GNMR193911510,2022,940,986,Tensión diastólica,1,,59.0,,,,,,,,N,N
+MRSN193402540,2022,1577,1039,Seguridad,1,3,,,,,,,,,,N
+MRSN193402540,2022,1577,2043,Resultado Indice de Barthel al Alta,1,,,5,,,,,,,,N
+BRGR193406480,2022,2699,1033,Movilidad,1,2,,,,,,,,,,N
+FRDL195208630,2023,3198,970,Antecedentes personales,1,,,H202300000031980809202317442229970.RTF,,,,,,,,N
+FRDL195208630,2023,3198,1037,Vestido,1,2,,,,,,,,,,N
+FRDL195208630,2023,3198,1046,Estado de la piel,1,2,,,,,,,,,,N
+RDLV193007530,2024,629,1826,Escalones,1,,0.0,,,,,,,,N,N
+GNGN194301590,2024,1871,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+SPGR195003290,2017,2474,2259,Nutricion,1,,3.0,,,,,,,,N,N
+CSPR193305700,2018,1014,978,Alergia medicamentosa,1,,,,,,,,,S,,N
+CSPR193305700,2018,1014,1822,Miccion,1,,10.0,,,,,,,,N,N
+FRGT192606121,2018,3067,1816,Comer,1,,10.0,,,,,,,,N,N
+FDFD192912290,2019,68,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+LZCS192812620,2019,3563,985,Tensión sistólica,1,,165.0,,,,,,,,N,S
+LZCS192812620,2019,3563,1012,Medio de contención,1,1,,,,,,,,,,N
+LZCS192812620,2019,3563,1820,Arreglarse,1,,5.0,,,,,,,,N,N
+LZCS192812620,2019,3563,2342,G Reingreso <1 Mes,1,1,,,,,,,,,,N
+SRCM193001430,2020,2282,1020,Vía,1,1,,,,,,,,,,N
+SRCM193001430,2020,2282,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+SRCM193001430,2020,2282,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+SLLL196810050,2021,276,1012,Medio de contención,2,99,,,,,,,,,,N
+CSBR193504540,2021,2352,1021,Tipo de dieta,1,4,,,,,,,,,,N
+LZCN194806651,2021,3198,984,Pulso,1,,100.0,,,,,,,,N,N
+LZCN194806651,2021,3198,1021,Tipo de dieta,2,2,,,,,,,,,,N
+LZCN194806651,2021,3198,1049,Ulceras,1,,,,,,,,,S,,N
+LZCN194806651,2021,3198,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+GNGR195912550,2021,3345,1047,Heridas,1,,,,,,,,,S,,N
+GNMR193911510,2022,940,982,Otras alergias,1,,,,,,,,,N,,N
+GNMR193911510,2022,940,1029,Prótesis dental,1,,,,,,,,,S,,N
+MRSN193402540,2022,1577,1819,Vestirse,1,,0.0,,,,,,,,N,N
+MRSN193402540,2022,1577,2260,Friccion y Deslizamiento,1,,2.0,,,,,,,,N,N
+FRHR194705480,2022,1627,1013,Eliminación intestinal,1,1,,,,,,,,,,N
+BRGR193406480,2022,2699,970,Antecedentes personales,1,,,H202200000026990309202200124529970.RTF,,,,,,,,N
+BRGR193406480,2022,2699,1084,Localización,1,,,BRAZO Y CADERA DERECHA,,,,,,,,N
+FRDL195208630,2023,3198,984,Pulso,1,,109.0,,,,,,,,N,N
+FRDL195208630,2023,3198,999,Medio,1,2,,,,,,,,,,N
+RDLV193007530,2024,629,1823,Usar el retrete,1,,5.0,,,,,,,,N,N
+RDLV193007530,2024,629,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,1.0,,,,,,,,N,N
+GNGN194301590,2024,1871,1825,Deambular,1,,10.0,,,,,,,,N,N
+GNGN194301590,2024,1871,2243,"medicamentos Diureticos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+PLFR192406120,2016,3371,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,0.0,,,,,,,,N,N
+SNPR192710441,2017,987,985,Tensión sistólica,1,,184.0,,,,,,,,N,S
+SPGR195003290,2017,2474,1047,Heridas,1,,,,,,,,,N,,N
+FRDP192501100,2017,3622,984,Pulso,1,,102.0,,,,,,,,N,N
+FRDP192501100,2017,3622,1820,Arreglarse,1,,5.0,,,,,,,,N,N
+FRDP192501100,2017,3622,1823,Usar el retrete,1,,5.0,,,,,,,,N,N
+CSPR193305700,2018,1014,1038,Comida,1,1,,,,,,,,,,N
+FRGT192606121,2018,3067,2236,percepcion sensorial,1,,4.0,,,,,,,,N,N
+FDFD192912290,2019,68,1820,Arreglarse,1,,5.0,,,,,,,,N,N
+LNGR192809630,2019,2090,997,Oxigenoterapia,1,,,,,,,,,S,,S
+LNGR192809630,2019,2090,1072,Fonación,1,1,,,,,,,,,,N
+LNGR192809630,2019,2090,1817,Lavarse,1,,0.0,,,,,,,,N,S
+LNGR192809630,2019,2090,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,1.0,,,,,,,,N,N
+LNGR192809630,2019,2090,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+LNGR192809630,2019,2090,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,0.0,,,,,,,,N,N
+CRLN197704540,2019,2721,1013,Eliminación intestinal,1,1,,,,,,,,,,N
+LZCS192812620,2019,3563,970,Antecedentes personales,1,,,H201900000035631210201900594429970.RTF,,,,,,,,N
+LZCS192812620,2019,3563,1048,Localización de las herid,1,,,TIBIA IZQUIERDA Y CADERA DERECHA.,,,,,,,,N
+LZCS192812620,2019,3563,1064,Localización de úlceras,1,,,SACRO¿?,,,,,,,,N
+LZCS192812620,2019,3563,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,1.0,,,,,,,,N,N
+SRCM193001430,2020,2282,2280,Resultado Escala de Braden,1,,,15,,,,,,,,N
+SLLL196810050,2021,276,1030,Alimentos intolerados,1,,,,,,,,,N,,N
+CSBR193504540,2021,2352,1822,Miccion,1,,0.0,,,,,,,,N,N
+CSBR193504540,2021,2352,2281,_Movilidad,1,,2.0,,,,,,,,N,N
+GNGR195912550,2021,3345,979,Especificar a. medicament,1,,,"PENICILINA Y DERIVADOS-DOLQUINE, INTOLERANCIA A MANIDIPINO.",,,,,,,,N
+GNGR195912550,2021,3345,986,Tensión diastólica,1,,88.0,,,,,,,,N,N
+GNGR195912550,2021,3345,2236,percepcion sensorial,1,,4.0,,,,,,,,N,N
+MRSN193402540,2022,1577,1035,Aseo,1,2,,,,,,,,,,N
+MRSN193402540,2022,1577,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+FRHR194705480,2022,1627,985,Tensión sistólica,1,,110.0,,,,,,,,N,N
+FRHR194705480,2022,1627,1039,Seguridad,1,3,,,,,,,,,,N
+FRHR194705480,2022,1627,2259,Nutricion,1,,3.0,,,,,,,,N,N
+FRHR194705480,2022,1627,2281,_Movilidad,1,,2.0,,,,,,,,N,N
+BRGR193406480,2022,2699,1020,Vía,1,1,,,,,,,,,,N
+BRGR193406480,2022,2699,1049,Ulceras,1,,,,,,,,,S,,N
+BRGR193406480,2022,2699,1827,Resultado Indice de Barthel,1,,,20,,,,,,,,N
+GRGN194607190,2023,398,986,Tensión diastólica,1,,74.0,,,,,,,,N,N
+FRDL195208630,2023,3198,980,Alergia alimenticia,1,,,,,,,,,N,,N
+FRDL195208630,2023,3198,1038,Comida,1,2,,,,,,,,,,N
+FRDL195208630,2023,3198,1065,Nivel de conciencia,1,1,,,,,,,,,,N
+RDLV193007530,2024,629,2258,Actividad,1,,3.0,,,,,,,,N,N
+GNGN194301590,2024,1871,987,Temperatura,1,,36.1,,,,,,,,N,N
+GNGN194301590,2024,1871,2236,percepcion sensorial,1,,4.0,,,,,,,,N,N
+PLFR192406120,2016,3371,994,Respiración,1,1,,,,,,,,,,N
+SNPR192710441,2017,987,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+SPGR195003290,2017,2474,972,Especificar med.habitual,1,,,VER INFORME,,,,,,,,N
+SPGR195003290,2017,2474,980,Alergia alimenticia,1,,,,,,,,,N,,N
+SPGR195003290,2017,2474,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+FRDP192501100,2017,3622,1033,Movilidad,1,3,,,,,,,,,,N
+FRDP192501100,2017,3622,1821,Deposiciones.,1,,5.0,,,,,,,,N,N
+FRDP192501100,2017,3622,1825,Deambular,1,,10.0,,,,,,,,N,N
+GNVD193108490,2018,490,1035,Aseo,1,3,,,,,,,,,,N
+GNVD193108490,2018,490,1817,Lavarse,1,,5.0,,,,,,,,N,N
+FRGT192606121,2018,3067,1021,Tipo de dieta,2,3,,,,,,,,,,N
+MRFR192902410,2019,867,986,Tensión diastólica,1,,110.0,,,,,,,,N,N
+MRFR192902410,2019,867,1035,Aseo,1,2,,,,,,,,,,N
+MRFR192902410,2019,867,2282,Resultado Escala Riesgo Caidas,1,,,5,,,,,,,,N
+CRLN197704540,2019,2721,994,Respiración,1,1,,,,,,,,,,N
+LZCS192812620,2019,3563,1040,Tipo de vía,1,2,,,,,,,,,,S
+LZCN194806651,2021,3198,2260,Friccion y Deslizamiento,1,,2.0,,,,,,,,N,N
+MRSN193402540,2022,1577,980,Alergia alimenticia,1,,,,,,,,,N,,N
+FRHR194705480,2022,1627,1021,Tipo de dieta,1,1,,,,,,,,,,N
+BRGR193406480,2022,2699,971,Medicación habitual,1,,,,,,,,,S,,N
+BRGR193406480,2022,2699,982,Otras alergias,1,,,,,,,,,N,,N
+BRGR193406480,2022,2699,986,Tensión diastólica,1,,67.0,,,,,,,,N,N
+BRGR193406480,2022,2699,1820,Arreglarse,1,,0.0,,,,,,,,N,N
+BRGR193406480,2022,2699,2282,Resultado Escala Riesgo Caidas,1,,,6,,,,,,,,N
+FRDL195208630,2023,3198,1033,Movilidad,1,2,,,,,,,,,,N
+RDLV193007530,2024,629,1007,Sondaje vesical,1,,,,,,,,,S,,N
+GNGN194301590,2024,1871,1046,Estado de la piel,1,1,,,,,,,,,,N
+GNGN194301590,2024,1871,1823,Usar el retrete,1,,5.0,,,,,,,,N,N
+GNGN194301590,2024,1871,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,0.0,,,,,,,,N,N
+GNGN194301590,2024,1871,2280,Resultado Escala de Braden,1,,,17,,,,,,,,N
+PLFR192406120,2016,3371,986,Tensión diastólica,1,,70.0,,,,,,,,N,N
+SNPR192710441,2017,987,984,Pulso,1,,62.0,,,,,,,,N,N
+SPGR195003290,2017,2474,1037,Vestido,1,1,,,,,,,,,,N
+SPGR195003290,2017,2474,1826,Escalones,1,,5.0,,,,,,,,N,N
+SPGR195003290,2017,2474,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+SPGR195003290,2017,2474,2282,Resultado Escala Riesgo Caidas,1,,,3,,,,,,,,N
+FRDP192501100,2017,3622,1037,Vestido,1,3,,,,,,,,,,N
+FRDP192501100,2017,3622,1821,Deposiciones.,1,,10.0,,,,,,,,N,S
+GNVD193108490,2018,490,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+CSPR193305700,2018,1014,972,Especificar med.habitual,1,,,VER INFORME MÉDICO.,,,,,,,,N
+CSPR193305700,2018,1014,1020,Vía,1,1,,,,,,,,,,N
+CSPR193305700,2018,1014,1046,Estado de la piel,1,1,,,,,,,,,,N
+FDFD192912290,2019,68,994,Respiración,1,1,,,,,,,,,,N
+FDFD192912290,2019,68,1021,Tipo de dieta,2,2,,,,,,,,,,N
+FDFD192912290,2019,68,1817,Lavarse,1,,0.0,,,,,,,,N,N
+FDFD192912290,2019,68,2257,Humedad,1,,2.0,,,,,,,,N,N
+LNGR192809630,2019,2090,1030,Alimentos intolerados,1,,,,,,,,,N,,N
+LNGR192809630,2019,2090,2260,Friccion y Deslizamiento,1,,3.0,,,,,,,,N,N
+LZCS192812620,2019,3563,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+LZCS192812620,2019,3563,2258,Actividad,1,,2.0,,,,,,,,N,N
+SRCM193001430,2020,2282,1067,Nivel emocional,1,3,,,,,,,,,,N
+SRCM193001430,2020,2282,1819,Vestirse,1,,0.0,,,,,,,,N,N
+SLLL196810050,2021,276,1040,Tipo de vía,1,2,,,,,,,,,,S
+SLLL196810050,2021,276,1051,Hematomas,1,,,,,,,,,N,,N
+FRGR193404470,2021,1820,971,Medicación habitual,1,,,,,,,,,S,,N
+FRGR193404470,2021,1820,972,Especificar med.habitual,1,,,VER INFORME,,,,,,,,N
+FRGR193404470,2021,1820,982,Otras alergias,1,,,,,,,,,N,,N
+FRGR193404470,2021,1820,1049,Ulceras,1,,,,,,,,,N,,N
+CSBR193504540,2021,2352,994,Respiración,1,1,,,,,,,,,,N
+LZCN194806651,2021,3198,1062,Localización de contusion,1,,,MID,,,,,,,,N
+GNGR195912550,2021,3345,2234,"Caidas Previas NO=0, SI=1",1,,1.0,,,,,,,,N,N
+MRSN193402540,2022,1577,985,Tensión sistólica,1,,110.0,,,,,,,,N,N
+MRSN193402540,2022,1577,1012,Medio de contención,1,1,,,,,,,,,,N
+MRSN193402540,2022,1577,1823,Usar el retrete,1,,0.0,,,,,,,,N,N
+FRHR194705480,2022,1627,970,Antecedentes personales,1,,,H202200000016273105202209184629970.RTF,,,,,,,,N
+FRHR194705480,2022,1627,982,Otras alergias,1,,,,,,,,,S,,N
+FRHR194705480,2022,1627,994,Respiración,1,1,,,,,,,,,,N
+FRHR194705480,2022,1627,1021,Tipo de dieta,2,2,,,,,,,,,,N
+BRGR193406480,2022,2699,979,Especificar a. medicament,1,,,HEPARINA,,,,,,,,N
+BRGR193406480,2022,2699,1819,Vestirse,1,,0.0,,,,,,,,N,N
+BRGR193406480,2022,2699,1821,Deposiciones.,1,,10.0,,,,,,,,N,N
+BRGR193406480,2022,2699,2236,percepcion sensorial,1,,4.0,,,,,,,,N,N
+BRGR193406480,2022,2699,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,1.0,,,,,,,,N,N
+GRGN194607190,2023,398,985,Tensión sistólica,1,,122.0,,,,,,,,N,N
+FRDL195208630,2023,3198,1012,Medio de contención,1,1,,,,,,,,,,N
+RDLV193007530,2024,629,1039,Seguridad,1,3,,,,,,,,,,N
+RDLV193007530,2024,629,1040,Tipo de vía,1,2,,,,,,,,,,N
+GNGN194301590,2024,1871,1035,Aseo,1,2,,,,,,,,,,N
+GNGN194301590,2024,1871,1819,Vestirse,1,,5.0,,,,,,,,N,N
+SNPR192710441,2017,987,1039,Seguridad,1,3,,,,,,,,,,N
+GNVD193108490,2018,490,1047,Heridas,1,,,,,,,,,S,,S
+GNVD193108490,2018,490,1821,Deposiciones.,1,,10.0,,,,,,,,N,N
+GNVD193108490,2018,490,1826,Escalones,1,,0.0,,,,,,,,N,N
+FRGT192606121,2018,3067,2258,Actividad,1,,1.0,,,,,,,,N,N
+FDFD192912290,2019,68,2043,Resultado Indice de Barthel al Alta,1,,,35,,,,,,,,N
+FDFD192912290,2019,68,2258,Actividad,1,,1.0,,,,,,,,N,N
+MRFR192902410,2019,867,1047,Heridas,1,,,,,,,,,N,,N
+MRFR192902410,2019,867,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+LNGR192809630,2019,2090,1065,Nivel de conciencia,1,1,,,,,,,,,,N
+LNGR192809630,2019,2090,2234,"Caidas Previas NO=0, SI=1",1,,1.0,,,,,,,,N,N
+LRRD195708160,2019,2346,2259,Nutricion,1,,3.0,,,,,,,,N,N
+SLLL196810050,2021,276,1049,Ulceras,1,,,,,,,,,N,,N
+CSBR193504540,2021,2352,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+LZCN194806651,2021,3198,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,1.0,,,,,,,,N,N
+LZCN194806651,2021,3198,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,0.0,,,,,,,,N,N
+GNGR195912550,2021,3345,986,Tensión diastólica,1,,80.0,,,,,,,,N,N
+MRSN193402540,2022,1577,1012,Medio de contención,2,2,,,,,,,,,,N
+FRHR194705480,2022,1627,984,Pulso,1,,76.0,,,,,,,,N,N
+FRHR194705480,2022,1627,2234,"Caidas Previas NO=0, SI=1",1,,0.0,,,,,,,,N,N
+FRHR194705480,2022,1627,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,1.0,,,,,,,,N,N
+BRGR193406480,2022,2699,1000,Litros,1,,,2 LPM,,,,,,,,N
+BRGR193406480,2022,2699,1047,Heridas,1,,,,,,,,,N,,N
+BRGR193406480,2022,2699,2280,Resultado Escala de Braden,1,,,15,,,,,,,,N
+RDLV193007530,2024,629,1065,Nivel de conciencia,1,1,,,,,,,,,,N
+GNGN194301590,2024,1871,972,Especificar med.habitual,1,,,VER INFORME,,,,,,,,N
+SNPR192710441,2017,987,986,Tensión diastólica,1,,65.0,,,,,,,,N,S
+SNPR192710441,2017,987,2258,Actividad,1,,1.0,,,,,,,,N,N
+SPGR195003290,2017,2474,1013,Eliminación intestinal,1,1,,,,,,,,,,N
+FRDP192501100,2017,3622,2259,Nutricion,1,,2.0,,,,,,,,N,N
+CSPR193305700,2018,1014,1826,Escalones,1,,0.0,,,,,,,,N,N
+CSPR193305700,2018,1014,2236,percepcion sensorial,1,,4.0,,,,,,,,N,N
+CSPR193305700,2018,1014,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+FDFD192912290,2019,68,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,1.0,,,,,,,,N,N
+MRFR192902410,2019,867,985,Tensión sistólica,1,,190.0,,,,,,,,N,N
+LNGR192809630,2019,2090,1078,Tipo de sueño,1,1,,,,,,,,,,N
+LNGR192809630,2019,2090,1820,Arreglarse,1,,0.0,,,,,,,,N,S
+LNGR192809630,2019,2090,1823,Usar el retrete,1,,0.0,,,,,,,,N,S
+LNGR192809630,2019,2090,1826,Escalones,1,,0.0,,,,,,,,N,S
+LRRD195708160,2019,2346,1005,Eliminación renal,1,1,,,,,,,,,,N
+LZCS192812620,2019,3563,1021,Tipo de dieta,1,2,,,,,,,,,,N
+LZCS192812620,2019,3563,1824,Trasladarse,1,,5.0,,,,,,,,N,N
+SRCM193001430,2020,2282,2249,"Alteraciones Visuales (No=0, Si=1)",1,,1.0,,,,,,,,N,N
+SLLL196810050,2021,276,1048,Localización de las herid,1,,,CUERO CABELLUDO,,,,,,,,N
+FRGR193404470,2021,1820,1020,Vía,1,1,,,,,,,,,,N
+CSBR193504540,2021,2352,1816,Comer,1,,0.0,,,,,,,,N,N
+CSBR193504540,2021,2352,1819,Vestirse,1,,0.0,,,,,,,,N,N
+GNMR193911510,2022,940,984,Pulso,1,,65.0,,,,,,,,N,N
+GNMR193911510,2022,940,1035,Aseo,1,3,,,,,,,,,,N
+MRSN193402540,2022,1577,972,Especificar med.habitual,1,,,VER INFORME DE TRASLADO.,,,,,,,,N
+MRSN193402540,2022,1577,1065,Nivel de conciencia,1,1,,,,,,,,,,N
+MRSN193402540,2022,1577,1821,Deposiciones.,1,,0.0,,,,,,,,N,N
+FRHR194705480,2022,1627,983,Especificar otras alergia,1,,,POLEN,,,,,,,,N
+FRHR194705480,2022,1627,986,Tensión diastólica,1,,70.0,,,,,,,,N,N
+BRGR193406480,2022,2699,999,Medio,1,2,,,,,,,,,,N
+BRGR193406480,2022,2699,2260,Friccion y Deslizamiento,1,,2.0,,,,,,,,N,N
+GRGN194607190,2023,398,978,Alergia medicamentosa,1,,,,,,,,,N,,N
+FRDL195208630,2023,3198,1035,Aseo,1,2,,,,,,,,,,N
+RDLV193007530,2024,629,987,Temperatura,1,,37.0,,,,,,,,N,N
+RDLV193007530,2024,629,997,Oxigenoterapia,1,,,,,,,,,S,,S
+RDLV193007530,2024,629,1064,Localización de úlceras,1,,,TALON IZQ,,,,,,,,S
+GNGN194301590,2024,1871,986,Tensión diastólica,1,,90.0,,,,,,,,N,S
+GNGN194301590,2024,1871,1824,Trasladarse,1,,10.0,,,,,,,,N,N
+SPGR195003290,2017,2474,987,Temperatura,1,,35.4,,,,,,,,N,N
+GNVD193108490,2018,490,1816,Comer,1,,10.0,,,,,,,,N,N
+GNVD193108490,2018,490,2257,Humedad,1,,3.0,,,,,,,,N,N
+FDFD192912290,2019,68,2234,"Caidas Previas NO=0, SI=1",1,,1.0,,,,,,,,N,N
+MRFR192902410,2019,867,1012,Medio de contención,1,1,,,,,,,,,,N
+MRFR192902410,2019,867,1039,Seguridad,1,3,,,,,,,,,,N
+MRFR192902410,2019,867,1040,Tipo de vía,1,2,,,,,,,,,,N
+MRFR192902410,2019,867,1824,Trasladarse,1,,10.0,,,,,,,,N,N
+LNGR192809630,2019,2090,1039,Seguridad,1,3,,,,,,,,,,S
+LNGR192809630,2019,2090,1040,Tipo de vía,1,2,,,,,,,,,,S
+LNGR192809630,2019,2090,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+LRRD195708160,2019,2346,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+LRRD195708160,2019,2346,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+LZCS192812620,2019,3563,1007,Sondaje vesical,1,,,,,,,,,N,,N
+LZCS192812620,2019,3563,1822,Miccion,1,,0.0,,,,,,,,N,N
+SRCM193001430,2020,2282,1001,Circulación,1,1,,,,,,,,,,N
+SRCM193001430,2020,2282,1038,Comida,1,2,,,,,,,,,,N
+SRCM193001430,2020,2282,2234,"Caidas Previas NO=0, SI=1",1,,1.0,,,,,,,,N,N
+SRCM193001430,2020,2282,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+SLLL196810050,2021,276,978,Alergia medicamentosa,1,,,,,,,,,N,,N
+SLLL196810050,2021,276,1038,Comida,1,3,,,,,,,,,,N
+SLLL196810050,2021,276,1039,Seguridad,1,2,,,,,,,,,,N
+CSBR193504540,2021,2352,2249,"Alteraciones Visuales (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+LZCN194806651,2021,3198,972,Especificar med.habitual,1,,,VER INFORME,,,,,,,,N
+LZCN194806651,2021,3198,1013,Eliminación intestinal,1,1,,,,,,,,,,N
+LZCN194806651,2021,3198,1068,Visión,1,1,,,,,,,,,,N
+LZCN194806651,2021,3198,1816,Comer,1,,10.0,,,,,,,,N,N
+GNGR195912550,2021,3345,987,Temperatura,1,,35.8,,,,,,,,N,N
+GNGR195912550,2021,3345,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,0.0,,,,,,,,N,N
+FRHR194705480,2022,1627,1047,Heridas,1,,,,,,,,,S,,S
+FRHR194705480,2022,1627,1823,Usar el retrete,1,,0.0,,,,,,,,N,N
+BRGR193406480,2022,2699,1816,Comer,1,,5.0,,,,,,,,N,N
+FRDL195208630,2023,3198,2249,"Alteraciones Visuales (No=0, Si=1)",1,,1.0,,,,,,,,N,N
+RDLV193007530,2024,629,978,Alergia medicamentosa,1,,,,,,,,,N,,N
+RDLV193007530,2024,629,2260,Friccion y Deslizamiento,1,,2.0,,,,,,,,N,N
+RDLV193007530,2024,629,2281,_Movilidad,1,,3.0,,,,,,,,N,N
+GNGN194301590,2024,1871,1021,Tipo de dieta,1,99,,,,,,,,,,N
+PLFR192406120,2016,3371,1817,Lavarse,1,,0.0,,,,,,,,N,N
+PLFR192406120,2016,3371,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+SNPR192710441,2017,987,1013,Eliminación intestinal,1,1,,,,,,,,,,N
+SNPR192710441,2017,987,1047,Heridas,1,,,,,,,,,N,,N
+SPGR195003290,2017,2474,1824,Trasladarse,1,,10.0,,,,,,,,N,S
+GNVD193108490,2018,490,978,Alergia medicamentosa,1,,,,,,,,,N,,N
+GNVD193108490,2018,490,1068,Visión,1,2,,,,,,,,,,N
+GNVD193108490,2018,490,1823,Usar el retrete,1,,5.0,,,,,,,,N,N
+FRGT192606121,2018,3067,1021,Tipo de dieta,1,1,,,,,,,,,,N
+FDFD192912290,2019,68,1021,Tipo de dieta,3,3,,,,,,,,,,N
+MRFR192902410,2019,867,1005,Eliminación renal,1,3,,,,,,,,,,N
+MRFR192902410,2019,867,1819,Vestirse,1,,5.0,,,,,,,,N,N
+LNGR192809630,2019,2090,997,Oxigenoterapia,1,,,,,,,,,N,,N
+LNGR192809630,2019,2090,1824,Trasladarse,1,,0.0,,,,,,,,N,S
+LNGR192809630,2019,2090,2259,Nutricion,1,,3.0,,,,,,,,N,N
+LRRD195708160,2019,2346,986,Tensión diastólica,1,,100.0,,,,,,,,N,N
+CRLN197704540,2019,2721,1020,Vía,1,1,,,,,,,,,,N
+LZCS192812620,2019,3563,1049,Ulceras,1,,,,,,,,,S,,N
+LZCS192812620,2019,3563,2243,"medicamentos Diureticos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+LZCS192812620,2019,3563,2259,Nutricion,1,,2.0,,,,,,,,N,N
+SRCM193001430,2020,2282,1037,Vestido,1,2,,,,,,,,,,N
+SLLL196810050,2021,276,1083,Dolor,1,,,,,,,,,S,,S
+FRGR193404470,2021,1820,1000,Litros,1,,,2LPM,,,,,,,,N
+FRGR193404470,2021,1820,1065,Nivel de conciencia,1,2,,,,,,,,,,N
+LZCN194806651,2021,3198,970,Antecedentes personales,1,,,H202100000031982110202108450529970.RTF,,,,,,,,N
+LZCN194806651,2021,3198,2259,Nutricion,1,,3.0,,,,,,,,N,N
+GNGR195912550,2021,3345,978,Alergia medicamentosa,1,,,,,,,,,S,,N
+GNMR193911510,2022,940,1020,Vía,1,1,,,,,,,,,,N
+MRSN193402540,2022,1577,987,Temperatura,1,,37.4,,,,,,,,N,N
+FRHR194705480,2022,1627,1047,Heridas,1,,,,,,,,,S,,N
+BRGR193406480,2022,2699,972,Especificar med.habitual,1,,,VER INFORME DE URGENCIAS,,,,,,,,N
+BRGR193406480,2022,2699,1040,Tipo de vía,1,2,,,,,,,,,,N
+BRGR193406480,2022,2699,1823,Usar el retrete,1,,0.0,,,,,,,,N,N
+GNGN194301590,2024,1871,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+PLFR192406120,2016,3371,979,Especificar a. medicament,1,,,NOLOTIL,,,,,,,,N
+SNPR192710441,2017,987,978,Alergia medicamentosa,1,,,,,,,,,N,,N
+SNPR192710441,2017,987,1825,Deambular,1,,0.0,,,,,,,,N,N
+SNPR192710441,2017,987,2249,"Alteraciones Visuales (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+SPGR195003290,2017,2474,1005,Eliminación renal,1,1,,,,,,,,,,N
+SPGR195003290,2017,2474,1021,Tipo de dieta,3,99,,,,,,,,,,N
+SPGR195003290,2017,2474,1083,Dolor,1,,,,,,,,,S,,N
+FRDP192501100,2017,3622,985,Tensión sistólica,1,,150.0,,,,,,,,N,N
+FRDP192501100,2017,3622,1822,Miccion,1,,10.0,,,,,,,,N,S
+GNVD193108490,2018,490,986,Tensión diastólica,1,,60.0,,,,,,,,N,N
+GNVD193108490,2018,490,1047,Heridas,1,,,,,,,,,N,,N
+GNVD193108490,2018,490,1822,Miccion,1,,10.0,,,,,,,,N,N
+GNVD193108490,2018,490,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+CSPR193305700,2018,1014,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,0.0,,,,,,,,N,N
+FRGT192606121,2018,3067,1817,Lavarse,1,,0.0,,,,,,,,N,N
+FRGT192606121,2018,3067,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+MRFR192902410,2019,867,1049,Ulceras,1,,,,,,,,,N,,N
+MRFR192902410,2019,867,1820,Arreglarse,1,,5.0,,,,,,,,N,N
+MRFR192902410,2019,867,1826,Escalones,1,,0.0,,,,,,,,N,N
+LNGR192809630,2019,2090,994,Respiración,1,1,,,,,,,,,,N
+LRRD195708160,2019,2346,2249,"Alteraciones Visuales (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+LRRD195708160,2019,2346,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,0.0,,,,,,,,N,N
+LRRD195708160,2019,2346,2281,_Movilidad,1,,3.0,,,,,,,,N,N
+CRLN197704540,2019,2721,2234,"Caidas Previas NO=0, SI=1",1,,0.0,,,,,,,,N,N
+CRLN197704540,2019,2721,2243,"medicamentos Diureticos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+LZCS192812620,2019,3563,1033,Movilidad,1,2,,,,,,,,,,N
+LZCS192812620,2019,3563,1065,Nivel de conciencia,1,2,,,,,,,,,,N
+LZCS192812620,2019,3563,1827,Resultado Indice de Barthel,1,,,5,,,,,,,,N
+LZCS192812620,2019,3563,2260,Friccion y Deslizamiento,1,,2.0,,,,,,,,N,N
+SRCM193001430,2020,2282,1005,Eliminación renal,1,3,,,,,,,,,,N
+SRCM193001430,2020,2282,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,0.0,,,,,,,,N,N
+SLLL196810050,2021,276,1007,Sondaje vesical,1,,,,,,,,,N,,N
+SLLL196810050,2021,276,1072,Fonación,1,1,,,,,,,,,,N
+CSBR193504540,2021,2352,1046,Estado de la piel,1,1,,,,,,,,,,N
+CSBR193504540,2021,2352,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+LZCN194806651,2021,3198,980,Alergia alimenticia,1,,,,,,,,,N,,N
+LZCN194806651,2021,3198,1035,Aseo,1,2,,,,,,,,,,N
+LZCN194806651,2021,3198,1047,Heridas,1,,,,,,,,,N,,N
+GNGR195912550,2021,3345,986,Tensión diastólica,1,,88.0,,,,,,,,N,S
+GNGR195912550,2021,3345,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+GNGR195912550,2021,3345,2249,"Alteraciones Visuales (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+GNMR193911510,2022,940,1021,Tipo de dieta,1,2,,,,,,,,,,N
+GNMR193911510,2022,940,1827,Resultado Indice de Barthel,1,,,45,,,,,,,,N
+MRSN193402540,2022,1577,997,Oxigenoterapia,1,,,,,,,,,N,,N
+FRHR194705480,2022,1627,986,Tensión diastólica,1,,68.0,,,,,,,,N,N
+BRGR193406480,2022,2699,2249,"Alteraciones Visuales (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+FRDL195208630,2023,3198,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+RDLV193007530,2024,629,999,Medio,1,2,,,,,,,,,,S
+RDLV193007530,2024,629,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,1.0,,,,,,,,N,N
+GNGN194301590,2024,1871,1817,Lavarse,1,,0.0,,,,,,,,N,N
+PLFR192406120,2016,3371,1021,Tipo de dieta,1,99,,,,,,,,,,N
+FRDP192501100,2017,3622,982,Otras alergias,1,,,,,,,,,N,,N
+FRDP192501100,2017,3622,1826,Escalones,1,,0.0,,,,,,,,N,N
+GNVD193108490,2018,490,972,Especificar med.habitual,1,,,VER INFORME MÉDICO,,,,,,,,N
+GNVD193108490,2018,490,1824,Trasladarse,1,,10.0,,,,,,,,N,N
+GNVD193108490,2018,490,2243,"medicamentos Diureticos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+CSPR193305700,2018,1014,997,Oxigenoterapia,1,,,,,,,,,N,,N
+MRFR192902410,2019,867,1037,Vestido,1,3,,,,,,,,,,N
+MRFR192902410,2019,867,1065,Nivel de conciencia,1,1,,,,,,,,,,N
+MRFR192902410,2019,867,1822,Miccion,1,,5.0,,,,,,,,N,N
+MRFR192902410,2019,867,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+MRFR192902410,2019,867,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+MRFR192902410,2019,867,2281,_Movilidad,1,,2.0,,,,,,,,N,N
+LNGR192809630,2019,2090,1015,Laxantes,1,,,,,,,,,N,,S
+LNGR192809630,2019,2090,1049,Ulceras,1,,,,,,,,,N,,N
+CRLN197704540,2019,2721,2236,percepcion sensorial,1,,4.0,,,,,,,,N,N
+CRLN197704540,2019,2721,2280,Resultado Escala de Braden,1,,,18,,,,,,,,N
+LZCS192812620,2019,3563,986,Tensión diastólica,1,,70.0,,,,,,,,N,N
+LZCS192812620,2019,3563,994,Respiración,1,1,,,,,,,,,,N
+LZCS192812620,2019,3563,1020,Vía,1,1,,,,,,,,,,N
+SRCM193001430,2020,2282,971,Medicación habitual,1,,,,,,,,,S,,N
+SRCM193001430,2020,2282,982,Otras alergias,1,,,,,,,,,N,,N
+SRCM193001430,2020,2282,1012,Medio de contención,1,1,,,,,,,,,,N
+SRCM193001430,2020,2282,2258,Actividad,1,,1.0,,,,,,,,N,N
+MRPR197801030,2020,3365,982,Otras alergias,1,,,,,,,,,N,,N
+LZCN194806651,2021,3198,1012,Medio de contención,1,1,,,,,,,,,,N
+LZCN194806651,2021,3198,1012,Medio de contención,2,3,,,,,,,,,,N
+LZCN194806651,2021,3198,1021,Tipo de dieta,1,1,,,,,,,,,,N
+LZCN194806651,2021,3198,1046,Estado de la piel,1,2,,,,,,,,,,N
+LZCN194806651,2021,3198,2258,Actividad,1,,1.0,,,,,,,,N,N
+GNMR193911510,2022,940,985,Tensión sistólica,1,,114.0,,,,,,,,N,N
+GNMR193911510,2022,940,1012,Medio de contención,2,2,,,,,,,,,,N
+MRSN193402540,2022,1577,984,Pulso,1,,73.0,,,,,,,,N,N
+BRGR193406480,2022,2699,997,Oxigenoterapia,1,,,,,,,,,S,,N
+BRGR193406480,2022,2699,1012,Medio de contención,1,1,,,,,,,,,,N
+BRGR193406480,2022,2699,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,0.0,,,,,,,,N,N
+BRGR193406480,2022,2699,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+BRGR193406480,2022,2699,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+RDLV193007530,2024,629,2257,Humedad,1,,3.0,,,,,,,,N,N
+SNPR192710441,2017,987,1824,Trasladarse,1,,5.0,,,,,,,,N,N
+SPGR195003290,2017,2474,1816,Comer,1,,10.0,,,,,,,,N,N
+SPGR195003290,2017,2474,2236,percepcion sensorial,1,,4.0,,,,,,,,N,N
+FRDP192501100,2017,3622,978,Alergia medicamentosa,1,,,,,,,,,S,,N
+GNVD193108490,2018,490,1822,Miccion,1,,5.0,,,,,,,,N,S
+CSPR193305700,2018,1014,986,Tensión diastólica,1,,80.0,,,,,,,,N,S
+CSPR193305700,2018,1014,1037,Vestido,1,1,,,,,,,,,,N
+FRGT192606121,2018,3067,970,Antecedentes personales,1,,,H201800000030672510201817435729970.RTF,,,,,,,,N
+FRGT192606121,2018,3067,985,Tensión sistólica,1,,120.0,,,,,,,,N,N
+FRGT192606121,2018,3067,1825,Deambular,1,,0.0,,,,,,,,N,N
+FDFD192912290,2019,68,971,Medicación habitual,1,,,,,,,,,S,,N
+FDFD192912290,2019,68,982,Otras alergias,1,,,,,,,,,N,,N
+FDFD192912290,2019,68,1012,Medio de contención,1,1,,,,,,,,,,N
+FDFD192912290,2019,68,1821,Deposiciones.,1,,5.0,,,,,,,,N,N
+FDFD192912290,2019,68,1823,Usar el retrete,1,,0.0,,,,,,,,N,N
+FDFD192912290,2019,68,1826,Escalones,1,,0.0,,,,,,,,N,N
+MRFR192902410,2019,867,2234,"Caidas Previas NO=0, SI=1",1,,1.0,,,,,,,,N,N
+MRFR192902410,2019,867,2258,Actividad,1,,3.0,,,,,,,,N,N
+LNGR192809630,2019,2090,1820,Arreglarse,1,,5.0,,,,,,,,N,N
+LNGR192809630,2019,2090,1826,Escalones,1,,5.0,,,,,,,,N,N
+LNGR192809630,2019,2090,2243,"medicamentos Diureticos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+LNGR192809630,2019,2090,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,1.0,,,,,,,,N,N
+LZCS192812620,2019,3563,972,Especificar med.habitual,1,,,VER INFORME,,,,,,,,N
+LZCS192812620,2019,3563,1013,Eliminación intestinal,1,1,,,,,,,,,,N
+LZCS192812620,2019,3563,1821,Deposiciones.,1,,0.0,,,,,,,,N,N
+MRPR197801030,2020,3365,1033,Movilidad,1,2,,,,,,,,,,N
+MRPR197801030,2020,3365,1083,Dolor,1,,,,,,,,,S,,N
+CSBR193504540,2021,2352,1817,Lavarse,1,,0.0,,,,,,,,N,N
+CSBR193504540,2021,2352,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,0.0,,,,,,,,N,N
+CSBR193504540,2021,2352,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+LZCN194806651,2021,3198,1823,Usar el retrete,1,,5.0,,,,,,,,N,N
+LZCN194806651,2021,3198,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,1.0,,,,,,,,N,N
+GNGR195912550,2021,3345,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+GNMR193911510,2022,940,1033,Movilidad,1,1,,,,,,,,,,N
+GNMR193911510,2022,940,1821,Deposiciones.,1,,0.0,,,,,,,,N,N
+GNMR193911510,2022,940,2282,Resultado Escala Riesgo Caidas,1,,,4,,,,,,,,N
+BRGR193406480,2022,2699,2043,Resultado Indice de Barthel al Alta,1,,,20,,,,,,,,N
+FRDL195208630,2023,3198,1029,Prótesis dental,1,,,,,,,,,N,,N
+FRDL195208630,2023,3198,2236,percepcion sensorial,1,,3.0,,,,,,,,N,N
+RDLV193007530,2024,629,986,Tensión diastólica,1,,51.0,,,,,,,,N,S
+RDLV193007530,2024,629,1824,Trasladarse,1,,5.0,,,,,,,,N,N
+RDLV193007530,2024,629,2243,"medicamentos Diureticos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+PLFR192406120,2016,3371,2260,Friccion y Deslizamiento,1,,1.0,,,,,,,,N,N
+SNPR192710441,2017,987,1033,Movilidad,1,2,,,,,,,,,,N
+SNPR192710441,2017,987,1034,Tipo de dependencia,1,1,,,,,,,,,,N
+SPGR195003290,2017,2474,1825,Deambular,1,,10.0,,,,,,,,N,N
+SPGR195003290,2017,2474,2257,Humedad,1,,3.0,,,,,,,,N,N
+FRDP192501100,2017,3622,1817,Lavarse,1,,5.0,,,,,,,,N,N
+GNVD193108490,2018,490,1825,Deambular,1,,0.0,,,,,,,,N,S
+GNVD193108490,2018,490,2280,Resultado Escala de Braden,1,,,17,,,,,,,,N
+CSPR193305700,2018,1014,971,Medicación habitual,1,,,,,,,,,S,,N
+CSPR193305700,2018,1014,982,Otras alergias,1,,,,,,,,,N,,N
+CSPR193305700,2018,1014,985,Tensión sistólica,1,,160.0,,,,,,,,N,S
+CSPR193305700,2018,1014,1029,Prótesis dental,1,,,,,,,,,S,,N
+CSPR193305700,2018,1014,1039,Seguridad,1,3,,,,,,,,,,N
+CSPR193305700,2018,1014,1049,Ulceras,1,,,,,,,,,N,,N
+CSPR193305700,2018,1014,1817,Lavarse,1,,5.0,,,,,,,,N,N
+CSPR193305700,2018,1014,1821,Deposiciones.,1,,10.0,,,,,,,,N,N
+CSPR193305700,2018,1014,2259,Nutricion,1,,3.0,,,,,,,,N,N
+FRGT192606121,2018,3067,986,Tensión diastólica,1,,75.0,,,,,,,,N,S
+FRGT192606121,2018,3067,1005,Eliminación renal,1,2,,,,,,,,,,N
+FDFD192912290,2019,68,986,Tensión diastólica,1,,70.0,,,,,,,,N,N
+FDFD192912290,2019,68,2259,Nutricion,1,,3.0,,,,,,,,N,N
+LNGR192809630,2019,2090,1055,Edemas,1,,,,,,,,,S,,S
+LNGR192809630,2019,2090,1822,Miccion,1,,5.0,,,,,,,,N,N
+LRRD195708160,2019,2346,2236,percepcion sensorial,1,,4.0,,,,,,,,N,N
+CRLN197704540,2019,2721,2260,Friccion y Deslizamiento,1,,3.0,,,,,,,,N,N
+LZCS192812620,2019,3563,985,Tensión sistólica,1,,140.0,,,,,,,,N,N
+LZCS192812620,2019,3563,2249,"Alteraciones Visuales (No=0, Si=1)",1,,1.0,,,,,,,,N,N
+SRCM193001430,2020,2282,985,Tensión sistólica,1,,165.0,,,,,,,,N,S
+SRCM193001430,2020,2282,1827,Resultado Indice de Barthel,1,,,15,,,,,,,,N
+MRPR197801030,2020,3365,979,Especificar a. medicament,1,,,AINES,,,,,,,,N
+CSBR193504540,2021,2352,2258,Actividad,1,,1.0,,,,,,,,N,N
+LZCN194806651,2021,3198,985,Tensión sistólica,1,,120.0,,,,,,,,N,N
+LZCN194806651,2021,3198,1047,Heridas,1,,,,,,,,,S,,N
+GNGR195912550,2021,3345,1005,Eliminación renal,1,1,,,,,,,,,,N
+GNMR193911510,2022,940,978,Alergia medicamentosa,1,,,,,,,,,N,,N
+GNMR193911510,2022,940,1038,Comida,1,3,,,,,,,,,,N
+GNMR193911510,2022,940,1822,Miccion,1,,0.0,,,,,,,,N,N
+GNMR193911510,2022,940,2249,"Alteraciones Visuales (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+MRSN193402540,2022,1577,1068,Visión,1,1,,,,,,,,,,N
+FRHR194705480,2022,1627,1037,Vestido,1,2,,,,,,,,,,N
+FRHR194705480,2022,1627,2043,Resultado Indice de Barthel al Alta,1,,,5,,,,,,,,N
+FRHR194705480,2022,1627,2236,percepcion sensorial,1,,4.0,,,,,,,,N,N
+FRHR194705480,2022,1627,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,1.0,,,,,,,,N,N
+BRGR193406480,2022,2699,1817,Lavarse,1,,0.0,,,,,,,,N,N
+FRDL195208630,2023,3198,2282,Resultado Escala Riesgo Caidas,1,,,7,,,,,,,,N
+RDLV193007530,2024,629,1020,Vía,1,1,,,,,,,,,,N
+RDLV193007530,2024,629,1040,Tipo de vía,1,2,,,,,,,,,,S
+RDLV193007530,2024,629,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+GNGN194301590,2024,1871,1012,Medio de contención,1,1,,,,,,,,,,N
+GNGN194301590,2024,1871,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+PLFR192406120,2016,3371,980,Alergia alimenticia,1,,,,,,,,,N,,N
+PLFR192406120,2016,3371,1038,Comida,1,2,,,,,,,,,,N
+PLFR192406120,2016,3371,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+PLFR192406120,2016,3371,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+PLFR192406120,2016,3371,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+SPGR195003290,2017,2474,994,Respiración,1,1,,,,,,,,,,N
+SPGR195003290,2017,2474,1020,Vía,1,1,,,,,,,,,,N
+SPGR195003290,2017,2474,1069,Usa gafas/lentillas,1,,,,,,,,,S,,N
+FRDP192501100,2017,3622,1825,Deambular,1,,0.0,,,,,,,,N,S
+FRGT192606121,2018,3067,1008,Nº de sonda,1,,18.0,,,,,,,,N,N
+FRGT192606121,2018,3067,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+FRGT192606121,2018,3067,2260,Friccion y Deslizamiento,1,,2.0,,,,,,,,N,N
+FDFD192912290,2019,68,985,Tensión sistólica,1,,110.0,,,,,,,,N,N
+MRFR192902410,2019,867,1020,Vía,1,1,,,,,,,,,,N
+LNGR192809630,2019,2090,978,Alergia medicamentosa,1,,,,,,,,,N,,N
+LNGR192809630,2019,2090,1007,Sondaje vesical,1,,,,,,,,,N,,N
+LNGR192809630,2019,2090,1033,Movilidad,1,2,,,,,,,,,,N
+LNGR192809630,2019,2090,1038,Comida,1,3,,,,,,,,,,N
+LNGR192809630,2019,2090,1039,Seguridad,1,2,,,,,,,,,,N
+LNGR192809630,2019,2090,1824,Trasladarse,1,,10.0,,,,,,,,N,N
+LRRD195708160,2019,2346,987,Temperatura,1,,37.0,,,,,,,,N,N
+CRLN197704540,2019,2721,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+LZCS192812620,2019,3563,1005,Eliminación renal,1,3,,,,,,,,,,N
+LZCS192812620,2019,3563,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+LZCS192812620,2019,3563,2280,Resultado Escala de Braden,1,,,11,,,,,,,,N
+SRCM193001430,2020,2282,970,Antecedentes personales,1,,,H202000000022821706202001182629970.RTF,,,,,,,,S
+SRCM193001430,2020,2282,972,Especificar med.habitual,1,,,VER INFORME,,,,,,,,S
+CSBR193504540,2021,2352,997,Oxigenoterapia,1,,,,,,,,,S,,N
+CSBR193504540,2021,2352,1037,Vestido,1,2,,,,,,,,,,N
+CSBR193504540,2021,2352,1820,Arreglarse,1,,0.0,,,,,,,,N,N
+LZCN194806651,2021,3198,978,Alergia medicamentosa,1,,,,,,,,,N,,N
+LZCN194806651,2021,3198,1005,Eliminación renal,1,1,,,,,,,,,,N
+GNGR195912550,2021,3345,1040,Tipo de vía,1,2,,,,,,,,,,N
+GNMR193911510,2022,940,1005,Eliminación renal,1,3,,,,,,,,,,N
+GNMR193911510,2022,940,1065,Nivel de conciencia,1,1,,,,,,,,,,N
+GNMR193911510,2022,940,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+GNMR193911510,2022,940,2259,Nutricion,1,,2.0,,,,,,,,N,N
+FRHR194705480,2022,1627,1048,Localización de las herid,1,,,CADERA DCHA,,,,,,,,S
+FRHR194705480,2022,1627,1822,Miccion,1,,0.0,,,,,,,,N,N
+FRHR194705480,2022,1627,2243,"medicamentos Diureticos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+BRGR193406480,2022,2699,985,Tensión sistólica,1,,124.0,,,,,,,,N,N
+RDLV193007530,2024,629,1049,Ulceras,1,,,,,,,,,S,,N
+RDLV193007530,2024,629,2249,"Alteraciones Visuales (No=0, Si=1)",1,,1.0,,,,,,,,N,N
+PLFR192406120,2016,3371,971,Medicación habitual,1,,,,,,,,,S,,N
+PLFR192406120,2016,3371,982,Otras alergias,1,,,,,,,,,N,,N
+PLFR192406120,2016,3371,1037,Vestido,1,2,,,,,,,,,,N
+PLFR192406120,2016,3371,2043,Resultado Indice de Barthel al Alta,1,,,5,,,,,,,,N
+SNPR192710441,2017,987,1819,Vestirse,1,,5.0,,,,,,,,N,N
+SNPR192710441,2017,987,1827,Resultado Indice de Barthel,1,,,20,,,,,,,,N
+SNPR192710441,2017,987,2282,Resultado Escala Riesgo Caidas,1,,,4,,,,,,,,N
+SPGR195003290,2017,2474,997,Oxigenoterapia,1,,,,,,,,,N,,N
+SPGR195003290,2017,2474,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,1.0,,,,,,,,N,N
+FRDP192501100,2017,3622,1824,Trasladarse,1,,5.0,,,,,,,,N,S
+GNVD193108490,2018,490,1020,Vía,1,1,,,,,,,,,,N
+GNVD193108490,2018,490,1083,Dolor,1,,,,,,,,,N,,N
+GNVD193108490,2018,490,1817,Lavarse,1,,0.0,,,,,,,,N,S
+GNVD193108490,2018,490,2234,"Caidas Previas NO=0, SI=1",1,,1.0,,,,,,,,N,N
+GNVD193108490,2018,490,2258,Actividad,1,,3.0,,,,,,,,N,N
+CSPR193305700,2018,1014,1065,Nivel de conciencia,1,1,,,,,,,,,,N
+CSPR193305700,2018,1014,1823,Usar el retrete,1,,10.0,,,,,,,,N,N
+FRGT192606121,2018,3067,1009,Tipo de sonda,1,,,SILICONA,,,,,,,,N
+FDFD192912290,2019,68,1825,Deambular,1,,5.0,,,,,,,,N,N
+LNGR192809630,2019,2090,985,Tensión sistólica,1,,110.0,,,,,,,,N,N
+LNGR192809630,2019,2090,1012,Medio de contención,1,1,,,,,,,,,,N
+LNGR192809630,2019,2090,1070,Audición,1,1,,,,,,,,,,N
+CRLN197704540,2019,2721,1005,Eliminación renal,1,1,,,,,,,,,,N
+CRLN197704540,2019,2721,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,0.0,,,,,,,,N,N
+LZCS192812620,2019,3563,1049,Ulceras,1,,,,,,,,,S,,S
+LZCS192812620,2019,3563,2257,Humedad,1,,1.0,,,,,,,,N,N
+CSBR193504540,2021,2352,980,Alergia alimenticia,1,,,,,,,,,N,,N
+LZCN194806651,2021,3198,1047,Heridas,1,,,,,,,,,S,,S
+LZCN194806651,2021,3198,1070,Audición,1,1,,,,,,,,,,N
+GNMR193911510,2022,940,1049,Ulceras,1,,,,,,,,,S,,N
+FRHR194705480,2022,1627,979,Especificar a. medicament,1,,,BUPRENORFINA,,,,,,,,N
+FRHR194705480,2022,1627,1005,Eliminación renal,1,3,,,,,,,,,,N
+FRHR194705480,2022,1627,1821,Deposiciones.,1,,0.0,,,,,,,,N,N
+FRDL195208630,2023,3198,972,Especificar med.habitual,1,,,VER INFORME MÉDICO,,,,,,,,N
+RDLV193007530,2024,629,1012,Medio de contención,2,2,,,,,,,,,,S
+RDLV193007530,2024,629,1064,Localización de úlceras,1,,,TALON IZQ,,,,,,,,N
+RDLV193007530,2024,629,1819,Vestirse,1,,0.0,,,,,,,,N,N
+RDLV193007530,2024,629,1827,Resultado Indice de Barthel,1,,,25,,,,,,,,N
+GNGN194301590,2024,1871,1824,Trasladarse,1,,5.0,,,,,,,,N,S
+GNGN194301590,2024,1871,2260,Friccion y Deslizamiento,1,,2.0,,,,,,,,N,N
+PLFR192406120,2016,3371,1005,Eliminación renal,1,3,,,,,,,,,,N
+SNPR192710441,2017,987,1817,Lavarse,1,,0.0,,,,,,,,N,N
+SNPR192710441,2017,987,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,0.0,,,,,,,,N,N
+SPGR195003290,2017,2474,1021,Tipo de dieta,2,2,,,,,,,,,,N
+FRDP192501100,2017,3622,1021,Tipo de dieta,1,2,,,,,,,,,,N
+GNVD193108490,2018,490,997,Oxigenoterapia,1,,,,,,,,,N,,N
+GNVD193108490,2018,490,1021,Tipo de dieta,1,1,,,,,,,,,,N
+CSPR193305700,2018,1014,1005,Eliminación renal,1,1,,,,,,,,,,N
+CSPR193305700,2018,1014,2281,_Movilidad,1,,3.0,,,,,,,,N,N
+FRGT192606121,2018,3067,1008,Nº de sonda,1,,16.0,,,,,,,,N,S
+FRGT192606121,2018,3067,1824,Trasladarse,1,,10.0,,,,,,,,N,N
+FRGT192606121,2018,3067,2281,_Movilidad,1,,3.0,,,,,,,,N,N
+FDFD192912290,2019,68,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+FDFD192912290,2019,68,2282,Resultado Escala Riesgo Caidas,1,,,6,,,,,,,,N
+MRFR192902410,2019,867,1827,Resultado Indice de Barthel,1,,,50,,,,,,,,N
+MRFR192902410,2019,867,2259,Nutricion,1,,2.0,,,,,,,,N,N
+LNGR192809630,2019,2090,1005,Eliminación renal,1,1,,,,,,,,,,N
+LRRD195708160,2019,2346,985,Tensión sistólica,1,,152.0,,,,,,,,N,N
+CRLN197704540,2019,2721,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,0.0,,,,,,,,N,N
+CRLN197704540,2019,2721,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+LZCS192812620,2019,3563,980,Alergia alimenticia,1,,,,,,,,,N,,N
+LZCS192812620,2019,3563,1038,Comida,1,2,,,,,,,,,,N
+LZCS192812620,2019,3563,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+LZCS192812620,2019,3563,2281,_Movilidad,1,,2.0,,,,,,,,N,N
+LZCS192812620,2019,3563,2336,G Demencia Diagnosticada Previa,1,,,,,,,,,N,,N
+SRCM193001430,2020,2282,1012,Medio de contención,2,2,,,,,,,,,,S
+SRCM193001430,2020,2282,1051,Hematomas,1,,,,,,,,,S,,N
+CSBR193504540,2021,2352,999,Medio,1,2,,,,,,,,,,N
+LZCN194806651,2021,3198,1821,Deposiciones.,1,,10.0,,,,,,,,N,N
+FRHR194705480,2022,1627,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+BRGR193406480,2022,2699,985,Tensión sistólica,1,,130.0,,,,,,,,N,N
+GRGN194607190,2023,398,972,Especificar med.habitual,1,,,ALPHAGAN COLIRIO HIDROCLOROTIAZIDA  OMEPRAZOL,,,,,,,,S
+FRDL195208630,2023,3198,2260,Friccion y Deslizamiento,1,,2.0,,,,,,,,N,N
+RDLV193007530,2024,629,997,Oxigenoterapia,1,,,,,,,,,S,,N
+RDLV193007530,2024,629,1008,Nº de sonda,1,,16.0,,,,,,,,N,N
+RDLV193007530,2024,629,1021,Tipo de dieta,1,99,,,,,,,,,,N
+RDLV193007530,2024,629,1037,Vestido,1,2,,,,,,,,,,N
+RDLV193007530,2024,629,1820,Arreglarse,1,,0.0,,,,,,,,N,N
+GNGN194301590,2024,1871,1029,Prótesis dental,1,,,,,,,,,N,,N
+GNGN194301590,2024,1871,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,1.0,,,,,,,,N,N
+PLFR192406120,2016,3371,1823,Usar el retrete,1,,0.0,,,,,,,,N,N
+PLFR192406120,2016,3371,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+SNPR192710441,2017,987,980,Alergia alimenticia,1,,,,,,,,,N,,N
+SNPR192710441,2017,987,1035,Aseo,1,2,,,,,,,,,,N
+SNPR192710441,2017,987,1036,Medio de aseo,1,1,,,,,,,,,,N
+SNPR192710441,2017,987,1822,Miccion,1,,5.0,,,,,,,,N,N
+FRDP192501100,2017,3622,970,Antecedentes personales,1,,,H201700000036222312201702353329970.RTF,,,,,,,,N
+FRDP192501100,2017,3622,1020,Vía,1,1,,,,,,,,,,N
+GNVD193108490,2018,490,2043,Resultado Indice de Barthel al Alta,1,,,70,,,,,,,,N
+CSPR193305700,2018,1014,986,Tensión diastólica,1,,60.0,,,,,,,,N,N
+CSPR193305700,2018,1014,1021,Tipo de dieta,2,99,,,,,,,,,,N
+CSPR193305700,2018,1014,1068,Visión,1,1,,,,,,,,,,N
+CSPR193305700,2018,1014,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+CSPR193305700,2018,1014,2282,Resultado Escala Riesgo Caidas,1,,,5,,,,,,,,N
+FRGT192606121,2018,3067,1033,Movilidad,1,1,,,,,,,,,,N
+FRGT192606121,2018,3067,1065,Nivel de conciencia,1,1,,,,,,,,,,N
+FRGT192606121,2018,3067,1827,Resultado Indice de Barthel,1,,,40,,,,,,,,N
+FDFD192912290,2019,68,970,Antecedentes personales,1,,,H201900000000680701201920131329970.RTF,,,,,,,,N
+LNGR192809630,2019,2090,972,Especificar med.habitual,1,,,"ESCITALOPRAM, EUTIROX, OMEPRAZOL, LORMETAZEPAM..",,,,,,,,S
+LRRD195708160,2019,2346,994,Respiración,1,1,,,,,,,,,,N
+CRLN197704540,2019,2721,2249,"Alteraciones Visuales (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+CRLN197704540,2019,2721,2281,_Movilidad,1,,3.0,,,,,,,,N,N
+LZCS192812620,2019,3563,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+SRCM193001430,2020,2282,986,Tensión diastólica,1,,50.0,,,,,,,,N,S
+SRCM193001430,2020,2282,2281,_Movilidad,1,,2.0,,,,,,,,N,N
+SLLL196810050,2021,276,1065,Nivel de conciencia,1,1,,,,,,,,,,N
+CSBR193504540,2021,2352,1005,Eliminación renal,1,3,,,,,,,,,,N
+CSBR193504540,2021,2352,1038,Comida,1,2,,,,,,,,,,N
+CSBR193504540,2021,2352,1821,Deposiciones.,1,,0.0,,,,,,,,N,N
+CSBR193504540,2021,2352,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+LZCN194806651,2021,3198,1033,Movilidad,1,3,,,,,,,,,,N
+LZCN194806651,2021,3198,1820,Arreglarse,1,,0.0,,,,,,,,N,N
+LZCN194806651,2021,3198,2282,Resultado Escala Riesgo Caidas,1,,,6,,,,,,,,N
+GNGR195912550,2021,3345,1035,Aseo,1,2,,,,,,,,,,N
+GNGR195912550,2021,3345,2282,Resultado Escala Riesgo Caidas,1,,,5,,,,,,,,N
+GNMR193911510,2022,940,994,Respiración,1,1,,,,,,,,,,N
+GNMR193911510,2022,940,1816,Comer,1,,10.0,,,,,,,,N,N
+FRHR194705480,2022,1627,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+RDLV193007530,2024,629,970,Antecedentes personales,1,,,H202400000006291902202420103829970.RTF,,,,,,,,N
+GNGN194301590,2024,1871,2234,"Caidas Previas NO=0, SI=1",1,,1.0,,,,,,,,N,N
+SNPR192710441,2017,987,1816,Comer,1,,5.0,,,,,,,,N,N
+SNPR192710441,2017,987,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+SNPR192710441,2017,987,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,0.0,,,,,,,,N,N
+SPGR195003290,2017,2474,1827,Resultado Indice de Barthel,1,,,80,,,,,,,,N
+SPGR195003290,2017,2474,2260,Friccion y Deslizamiento,1,,2.0,,,,,,,,N,N
+GNVD193108490,2018,490,1036,Medio de aseo,1,4,,,,,,,,,,N
+GNVD193108490,2018,490,1037,Vestido,1,3,,,,,,,,,,N
+GNVD193108490,2018,490,1048,Localización de las herid,1,,,MID,,,,,,,,S
+GNVD193108490,2018,490,1070,Audición,1,2,,,,,,,,,,N
+CSPR193305700,2018,1014,985,Tensión sistólica,1,,160.0,,,,,,,,N,N
+FRGT192606121,2018,3067,994,Respiración,1,1,,,,,,,,,,N
+FRGT192606121,2018,3067,1040,Tipo de vía,1,2,,,,,,,,,,S
+FDFD192912290,2019,68,1065,Nivel de conciencia,1,1,,,,,,,,,,N
+FDFD192912290,2019,68,1455,Temperatura,1,,36.1,,,,,,,,N,N
+MRFR192902410,2019,867,970,Antecedentes personales,1,,,H201900000008670103201917453229970.RTF,,,,,,,,N
+LNGR192809630,2019,2090,1056,Localización de edemas,1,,,MMII,,,,,,,,S
+LZCS192812620,2019,3563,1816,Comer,1,,0.0,,,,,,,,N,N
+SRCM193001430,2020,2282,980,Alergia alimenticia,1,,,,,,,,,N,,N
+SRCM193001430,2020,2282,1824,Trasladarse,1,,0.0,,,,,,,,N,N
+MRPR197801030,2020,3365,980,Alergia alimenticia,1,,,,,,,,,N,,N
+FRGR193404470,2021,1820,986,Tensión diastólica,1,,68.0,,,,,,,,N,N
+CSBR193504540,2021,2352,970,Antecedentes personales,1,,,H202100000023520107202123594829970.RTF,,,,,,,,N
+CSBR193504540,2021,2352,1000,Litros,1,,,2LPM,,,,,,,,N
+LZCN194806651,2021,3198,1065,Nivel de conciencia,1,1,,,,,,,,,,N
+LZCN194806651,2021,3198,2257,Humedad,1,,3.0,,,,,,,,N,N
+GNGR195912550,2021,3345,2259,Nutricion,1,,4.0,,,,,,,,N,N
+GNMR193911510,2022,940,987,Temperatura,1,,37.0,,,,,,,,N,N
+MRSN193402540,2022,1577,1055,Edemas,1,,,,,,,,,N,,N
+MRSN193402540,2022,1577,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,1.0,,,,,,,,N,N
+FRHR194705480,2022,1627,970,Antecedentes personales,1,,,H202200000016271205202220352629970.RTF,,,,,,,,S
+BRGR193406480,2022,2699,1012,Medio de contención,2,2,,,,,,,,,,N
+BRGR193406480,2022,2699,1825,Deambular,1,,0.0,,,,,,,,N,N
+BRGR193406480,2022,2699,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,0.0,,,,,,,,N,N
+RDLV193007530,2024,629,1816,Comer,1,,5.0,,,,,,,,N,N
+RDLV193007530,2024,629,1822,Miccion,1,,0.0,,,,,,,,N,N
+RDLV193007530,2024,629,1825,Deambular,1,,0.0,,,,,,,,N,N
+PLFR192406120,2016,3371,2281,_Movilidad,1,,2.0,,,,,,,,N,N
+SPGR195003290,2017,2474,986,Tensión diastólica,1,,80.0,,,,,,,,N,N
+FRDP192501100,2017,3622,979,Especificar a. medicament,1,,,TETRACICLINAS Y RIFAMPICINA.,,,,,,,,N
+FRDP192501100,2017,3622,999,Medio,1,2,,,,,,,,,,N
+FRDP192501100,2017,3622,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,0.0,,,,,,,,N,N
+GNVD193108490,2018,490,972,Especificar med.habitual,1,,,VER INFORME,,,,,,,,S
+GNVD193108490,2018,490,1005,Eliminación renal,1,1,,,,,,,,,,N
+GNVD193108490,2018,490,1033,Movilidad,1,2,,,,,,,,,,N
+GNVD193108490,2018,490,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+GNVD193108490,2018,490,2260,Friccion y Deslizamiento,1,,2.0,,,,,,,,N,N
+FRGT192606121,2018,3067,2259,Nutricion,1,,3.0,,,,,,,,N,N
+FDFD192912290,2019,68,985,Tensión sistólica,1,,120.0,,,,,,,,N,S
+FDFD192912290,2019,68,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,1.0,,,,,,,,N,N
+MRFR192902410,2019,867,972,Especificar med.habitual,1,,,VER INFORME,,,,,,,,N
+LNGR192809630,2019,2090,986,Tensión diastólica,1,,58.0,,,,,,,,N,S
+LRRD195708160,2019,2346,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,0.0,,,,,,,,N,N
+LZCS192812620,2019,3563,1083,Dolor,1,,,,,,,,,N,,N
+LZCS192812620,2019,3563,2234,"Caidas Previas NO=0, SI=1",1,,1.0,,,,,,,,N,N
+LZCS192812620,2019,3563,2236,percepcion sensorial,1,,2.0,,,,,,,,N,N
+SRCM193001430,2020,2282,1826,Escalones,1,,0.0,,,,,,,,N,N
+MRPR197801030,2020,3365,1037,Vestido,1,2,,,,,,,,,,N
+MRPR197801030,2020,3365,1040,Tipo de vía,1,2,,,,,,,,,,N
+SLLL196810050,2021,276,972,Especificar med.habitual,1,,,PRISTIQ...,,,,,,,,S
+CSBR193504540,2021,2352,1827,Resultado Indice de Barthel,1,,,0,,,,,,,,N
+LZCN194806651,2021,3198,2280,Resultado Escala de Braden,1,,,15,,,,,,,,N
+GNMR193911510,2022,940,1046,Estado de la piel,1,1,,,,,,,,,,N
+GNMR193911510,2022,940,2281,_Movilidad,1,,4.0,,,,,,,,N,N
+MRSN193402540,2022,1577,986,Tensión diastólica,1,,61.0,,,,,,,,N,S
+MRSN193402540,2022,1577,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+BRGR193406480,2022,2699,2258,Actividad,1,,2.0,,,,,,,,N,N
+FRDL195208630,2023,3198,978,Alergia medicamentosa,1,,,,,,,,,N,,N
+FRDL195208630,2023,3198,1034,Tipo de dependencia,1,4,,,,,,,,,,N
+GNGN194301590,2024,1871,978,Alergia medicamentosa,1,,,,,,,,,N,,N
+GNGN194301590,2024,1871,2249,"Alteraciones Visuales (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+SNPR192710441,2017,987,982,Otras alergias,1,,,,,,,,,N,,N
+SNPR192710441,2017,987,1826,Escalones,1,,0.0,,,,,,,,N,N
+SPGR195003290,2017,2474,984,Pulso,1,,88.0,,,,,,,,N,N
+FRDP192501100,2017,3622,1005,Eliminación renal,1,1,,,,,,,,,,N
+FRDP192501100,2017,3622,2236,percepcion sensorial,1,,4.0,,,,,,,,N,N
+GNVD193108490,2018,490,1034,Tipo de dependencia,1,5,,,,,,,,,,N
+FRGT192606121,2018,3067,972,Especificar med.habitual,1,,,VER INFORME,,,,,,,,N
+FDFD192912290,2019,68,1034,Tipo de dependencia,2,3,,,,,,,,,,N
+FDFD192912290,2019,68,2236,percepcion sensorial,1,,4.0,,,,,,,,N,N
+FDFD192912290,2019,68,2243,"medicamentos Diureticos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+FDFD192912290,2019,68,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+MRFR192902410,2019,867,1052,Localización de hematomas,1,,,HOMBRO IZQ,,,,,,,,N
+LNGR192809630,2019,2090,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+LNGR192809630,2019,2090,2282,Resultado Escala Riesgo Caidas,1,,,7,,,,,,,,N
+LZCS192812620,2019,3563,1037,Vestido,1,2,,,,,,,,,,N
+SRCM193001430,2020,2282,1817,Lavarse,1,,0.0,,,,,,,,N,N
+SLLL196810050,2021,276,1048,Localización de las herid,1,,,"MID, MII, HOMBRO DERECHO, CODO DERECHO",,,,,,,,S
+SLLL196810050,2021,276,1067,Nivel emocional,1,1,,,,,,,,,,N
+SLLL196810050,2021,276,1070,Audición,1,1,,,,,,,,,,N
+LZCN194806651,2021,3198,1078,Tipo de sueño,1,1,,,,,,,,,,N
+LZCN194806651,2021,3198,1825,Deambular,1,,0.0,,,,,,,,N,N
+LZCN194806651,2021,3198,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+GNMR193911510,2022,940,1047,Heridas,1,,,,,,,,,S,,N
+GNMR193911510,2022,940,1820,Arreglarse,1,,5.0,,,,,,,,N,N
+MRSN193402540,2022,1577,1033,Movilidad,1,3,,,,,,,,,,S
+MRSN193402540,2022,1577,1046,Estado de la piel,1,1,,,,,,,,,,N
+MRSN193402540,2022,1577,1072,Fonación,1,1,,,,,,,,,,N
+FRHR194705480,2022,1627,972,Especificar med.habitual,1,,,VER INFORME,,,,,,,,N
+BRGR193406480,2022,2699,979,Especificar a. medicament,1,,,HEPARINA,,,,,,,,S
+BRGR193406480,2022,2699,985,Tensión sistólica,1,,124.0,,,,,,,,N,S
+BRGR193406480,2022,2699,1034,Tipo de dependencia,1,3,,,,,,,,,,N
+BRGR193406480,2022,2699,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+FRDL195208630,2023,3198,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+SNPR192710441,2017,987,1020,Vía,1,1,,,,,,,,,,N
+SPGR195003290,2017,2474,1012,Medio de contención,1,3,,,,,,,,,,N
+SPGR195003290,2017,2474,1046,Estado de la piel,1,1,,,,,,,,,,N
+SPGR195003290,2017,2474,1824,Trasladarse,1,,15.0,,,,,,,,N,N
+SPGR195003290,2017,2474,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,0.0,,,,,,,,N,N
+SPGR195003290,2017,2474,2258,Actividad,1,,3.0,,,,,,,,N,N
+FRDP192501100,2017,3622,1035,Aseo,1,2,,,,,,,,,,N
+FRDP192501100,2017,3622,1036,Medio de aseo,1,1,,,,,,,,,,N
+FRDP192501100,2017,3622,1822,Miccion,1,,5.0,,,,,,,,N,N
+FRDP192501100,2017,3622,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+CSPR193305700,2018,1014,994,Respiración,1,1,,,,,,,,,,N
+CSPR193305700,2018,1014,1816,Comer,1,,10.0,,,,,,,,N,N
+FRGT192606121,2018,3067,1046,Estado de la piel,1,1,,,,,,,,,,N
+FDFD192912290,2019,68,2260,Friccion y Deslizamiento,1,,2.0,,,,,,,,N,N
+MRFR192902410,2019,867,978,Alergia medicamentosa,1,,,,,,,,,N,,N
+MRFR192902410,2019,867,1046,Estado de la piel,1,1,,,,,,,,,,N
+MRFR192902410,2019,867,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,0.0,,,,,,,,N,N
+LNGR192809630,2019,2090,1073,Prótesis generales,1,,,CADERA DERECHA,,,,,,,,N
+LNGR192809630,2019,2090,1821,Deposiciones.,1,,10.0,,,,,,,,N,N
+LRRD195708160,2019,2346,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,1.0,,,,,,,,N,N
+CRLN197704540,2019,2721,1029,Prótesis dental,1,,,,,,,,,N,,N
+LZCS192812620,2019,3563,997,Oxigenoterapia,1,,,,,,,,,N,,N
+LZCS192812620,2019,3563,1021,Tipo de dieta,2,99,,,,,,,,,,N
+SRCM193001430,2020,2282,1033,Movilidad,1,2,,,,,,,,,,N
+SRCM193001430,2020,2282,1065,Nivel de conciencia,1,2,,,,,,,,,,N
+MRPR197801030,2020,3365,1005,Eliminación renal,1,1,,,,,,,,,,N
+SLLL196810050,2021,276,1078,Tipo de sueño,1,1,,,,,,,,,,N
+SLLL196810050,2021,276,1083,Dolor,1,,,,,,,,,N,,N
+FRGR193404470,2021,1820,1039,Seguridad,1,3,,,,,,,,,,N
+FRGR193404470,2021,1820,1040,Tipo de vía,1,2,,,,,,,,,,N
+CSBR193504540,2021,2352,2234,"Caidas Previas NO=0, SI=1",1,,1.0,,,,,,,,N,N
+GNGR195912550,2021,3345,985,Tensión sistólica,1,,163.0,,,,,,,,N,S
+GNGR195912550,2021,3345,994,Respiración,1,1,,,,,,,,,,N
+GNMR193911510,2022,940,970,Antecedentes personales,1,,,H202200000009401903202216404829970.RTF,,,,,,,,N
+GNMR193911510,2022,940,1037,Vestido,1,3,,,,,,,,,,N
+GNMR193911510,2022,940,2257,Humedad,1,,3.0,,,,,,,,N,N
+GNMR193911510,2022,940,2260,Friccion y Deslizamiento,1,,3.0,,,,,,,,N,N
+MRSN193402540,2022,1577,985,Tensión sistólica,1,,122.0,,,,,,,,N,S
+MRSN193402540,2022,1577,1029,Prótesis dental,1,,,,,,,,,S,,N
+MRSN193402540,2022,1577,2249,"Alteraciones Visuales (No=0, Si=1)",1,,1.0,,,,,,,,N,N
+MRSN193402540,2022,1577,2282,Resultado Escala Riesgo Caidas,1,,,6,,,,,,,,N
+BRGR193406480,2022,2699,1005,Eliminación renal,1,4,,,,,,,,,,N
+BRGR193406480,2022,2699,1455,Temperatura,1,,36.3,,,,,,,,N,N
+FRDL195208630,2023,3198,971,Medicación habitual,1,,,,,,,,,S,,N
+FRDL195208630,2023,3198,982,Otras alergias,1,,,,,,,,,N,,N
+FRDL195208630,2023,3198,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+RDLV193007530,2024,629,1012,Medio de contención,1,1,,,,,,,,,,N
+RDLV193007530,2024,629,2259,Nutricion,1,,3.0,,,,,,,,N,N
+RDLV193007530,2024,629,2282,Resultado Escala Riesgo Caidas,1,,,10,,,,,,,,N
+GNGN194301590,2024,1871,980,Alergia alimenticia,1,,,,,,,,,N,,N
+GNGN194301590,2024,1871,2258,Actividad,1,,2.0,,,,,,,,N,N
+PLFR192406120,2016,3371,1816,Comer,1,,0.0,,,,,,,,N,N
+PLFR192406120,2016,3371,1825,Deambular,1,,0.0,,,,,,,,N,N
+FRDP192501100,2017,3622,1012,Medio de contención,1,3,,,,,,,,,,N
+FRDP192501100,2017,3622,1816,Comer,1,,5.0,,,,,,,,N,N
+FRDP192501100,2017,3622,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+GNVD193108490,2018,490,984,Pulso,1,,99.0,,,,,,,,N,S
+GNVD193108490,2018,490,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+CSPR193305700,2018,1014,986,Tensión diastólica,1,,80.0,,,,,,,,N,N
+CSPR193305700,2018,1014,987,Temperatura,1,,36.3,,,,,,,,N,N
+FRGT192606121,2018,3067,980,Alergia alimenticia,1,,,,,,,,,N,,N
+FRGT192606121,2018,3067,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+FRGT192606121,2018,3067,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+FDFD192912290,2019,68,1046,Estado de la piel,1,1,,,,,,,,,,N
+FDFD192912290,2019,68,1819,Vestirse,1,,5.0,,,,,,,,N,N
+FDFD192912290,2019,68,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,1.0,,,,,,,,N,N
+MRFR192902410,2019,867,1033,Movilidad,1,2,,,,,,,,,,N
+LNGR192809630,2019,2090,1036,Medio de aseo,1,4,,,,,,,,,,N
+LRRD195708160,2019,2346,2280,Resultado Escala de Braden,1,,,17,,,,,,,,N
+SRCM193001430,2020,2282,987,Temperatura,1,,36.0,,,,,,,,N,N
+SRCM193001430,2020,2282,1040,Tipo de vía,1,2,,,,,,,,,,S
+SRCM193001430,2020,2282,1816,Comer,1,,5.0,,,,,,,,N,N
+SRCM193001430,2020,2282,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,1.0,,,,,,,,N,N
+SLLL196810050,2021,276,1021,Tipo de dieta,1,1,,,,,,,,,,N
+SLLL196810050,2021,276,1047,Heridas,1,,,,,,,,,S,,N
+FRGR193404470,2021,1820,970,Antecedentes personales,1,,,H202100000018202105202114245229970.RTF,,,,,,,,N
+CSBR193504540,2021,2352,985,Tensión sistólica,1,,129.0,,,,,,,,N,N
+LZCN194806651,2021,3198,1822,Miccion,1,,5.0,,,,,,,,N,N
+LZCN194806651,2021,3198,2281,_Movilidad,1,,2.0,,,,,,,,N,N
+GNMR193911510,2022,940,1012,Medio de contención,1,1,,,,,,,,,,N
+GNMR193911510,2022,940,1040,Tipo de vía,1,2,,,,,,,,,,N
+GNMR193911510,2022,940,1826,Escalones,1,,0.0,,,,,,,,N,N
+GNMR193911510,2022,940,2253,Deambulacion -Normal (0) -Resto (1),1,,0.0,,,,,,,,N,N
+MRSN193402540,2022,1577,978,Alergia medicamentosa,1,,,,,,,,,N,,N
+MRSN193402540,2022,1577,1048,Localización de las herid,1,,,HERIDA QUIRÚRGICA EN CADERA IZQUIERDA.,,,,,,,,N
+MRSN193402540,2022,1577,1827,Resultado Indice de Barthel,1,,,5,,,,,,,,N
+FRHR194705480,2022,1627,978,Alergia medicamentosa,1,,,,,,,,,S,,N
+FRHR194705480,2022,1627,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+FRHR194705480,2022,1627,2257,Humedad,1,,3.0,,,,,,,,N,N
+BRGR193406480,2022,2699,994,Respiración,1,2,,,,,,,,,,N
+FRDL195208630,2023,3198,985,Tensión sistólica,1,,133.0,,,,,,,,N,N
+FRDL195208630,2023,3198,1021,Tipo de dieta,1,99,,,,,,,,,,N
+RDLV193007530,2024,629,997,Oxigenoterapia,1,,,,,,,,,N,,N
+RDLV193007530,2024,629,1825,Deambular,1,,10.0,,,,,,,,N,S
+GNGN194301590,2024,1871,2043,Resultado Indice de Barthel al Alta,1,,,65,,,,,,,,N
+PLFR192406120,2016,3371,972,Especificar med.habitual,1,,,VER INFORME,,,,,,,,N
+PLFR192406120,2016,3371,1029,Prótesis dental,1,,,,,,,,,S,,N
+PLFR192406120,2016,3371,1820,Arreglarse,1,,0.0,,,,,,,,N,N
+PLFR192406120,2016,3371,1824,Trasladarse,1,,5.0,,,,,,,,N,N
+PLFR192406120,2016,3371,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,0.0,,,,,,,,N,N
+SNPR192710441,2017,987,1065,Nivel de conciencia,1,1,,,,,,,,,,N
+SNPR192710441,2017,987,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+SNPR192710441,2017,987,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+FRDP192501100,2017,3622,1048,Localización de las herid,1,,,ANTEBRAZO DERECHO,,,,,,,,N
+GNVD193108490,2018,490,1012,Medio de contención,1,99,,,,,,,,,,N
+GNVD193108490,2018,490,1823,Usar el retrete,1,,0.0,,,,,,,,N,S
+GNVD193108490,2018,490,1824,Trasladarse,1,,5.0,,,,,,,,N,S
+GNVD193108490,2018,490,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,0.0,,,,,,,,N,N
+CSPR193305700,2018,1014,980,Alergia alimenticia,1,,,,,,,,,N,,N
+CSPR193305700,2018,1014,1827,Resultado Indice de Barthel,1,,,80,,,,,,,,N
+FRGT192606121,2018,3067,985,Tensión sistólica,1,,135.0,,,,,,,,N,S
+FRGT192606121,2018,3067,986,Tensión diastólica,1,,60.0,,,,,,,,N,N
+FRGT192606121,2018,3067,1035,Aseo,1,2,,,,,,,,,,N
+FRGT192606121,2018,3067,1036,Medio de aseo,1,1,,,,,,,,,,N
+FRGT192606121,2018,3067,1047,Heridas,1,,,,,,,,,S,,N
+FRGT192606121,2018,3067,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,0.0,,,,,,,,N,N
+FRGT192606121,2018,3067,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+FDFD192912290,2019,68,980,Alergia alimenticia,1,,,,,,,,,N,,N
+FDFD192912290,2019,68,1005,Eliminación renal,1,3,,,,,,,,,,N
+FDFD192912290,2019,68,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+FDFD192912290,2019,68,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,1.0,,,,,,,,N,S
+MRFR192902410,2019,867,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,1.0,,,,,,,,N,N
+LNGR192809630,2019,2090,1034,Tipo de dependencia,1,5,,,,,,,,,,N
+LNGR192809630,2019,2090,1037,Vestido,1,2,,,,,,,,,,N
+LRRD195708160,2019,2346,1020,Vía,1,1,,,,,,,,,,N
+LRRD195708160,2019,2346,2234,"Caidas Previas NO=0, SI=1",1,,1.0,,,,,,,,N,N
+CRLN197704540,2019,2721,1046,Estado de la piel,1,1,,,,,,,,,,N
+LZCS192812620,2019,3563,1064,Localización de úlceras,1,,,TIBIA IZQUIERDA,,,,,,,,N
+LZCS192812620,2019,3563,2043,Resultado Indice de Barthel al Alta,1,,,20,,,,,,,,N
+SLLL196810050,2021,276,1068,Visión,1,1,,,,,,,,,,N
+FRGR193404470,2021,1820,998,Tipo de oxigenoterapia,1,2,,,,,,,,,,N
+LZCN194806651,2021,3198,971,Medicación habitual,1,,,,,,,,,S,,N
+LZCN194806651,2021,3198,982,Otras alergias,1,,,,,,,,,N,,N
+LZCN194806651,2021,3198,1039,Seguridad,1,3,,,,,,,,,,N
+LZCN194806651,2021,3198,1061,Contusiones,1,,,,,,,,,S,,N
+LZCN194806651,2021,3198,1067,Nivel emocional,1,1,,,,,,,,,,N
+LZCN194806651,2021,3198,1817,Lavarse,1,,0.0,,,,,,,,N,N
+LZCN194806651,2021,3198,1824,Trasladarse,1,,5.0,,,,,,,,N,N
+LZCN194806651,2021,3198,1826,Escalones,1,,0.0,,,,,,,,N,N
+GNGR195912550,2021,3345,1065,Nivel de conciencia,1,1,,,,,,,,,,N
+GNGR195912550,2021,3345,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+MRSN193402540,2022,1577,2236,percepcion sensorial,1,,4.0,,,,,,,,N,N
+FRDL195208630,2023,3198,998,Tipo de oxigenoterapia,1,2,,,,,,,,,,N
+RDLV193007530,2024,629,998,Tipo de oxigenoterapia,1,2,,,,,,,,,,N
+RDLV193007530,2024,629,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,1.0,,,,,,,,N,N
+PLFR192406120,2016,3371,1040,Tipo de vía,1,2,,,,,,,,,,S
+SNPR192710441,2017,987,1021,Tipo de dieta,1,2,,,,,,,,,,N
+SPGR195003290,2017,2474,1039,Seguridad,1,1,,,,,,,,,,N
+SPGR195003290,2017,2474,1065,Nivel de conciencia,1,1,,,,,,,,,,N
+SPGR195003290,2017,2474,1822,Miccion,1,,5.0,,,,,,,,N,N
+SPGR195003290,2017,2474,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,0.0,,,,,,,,N,N
+SPGR195003290,2017,2474,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+SPGR195003290,2017,2474,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+SPGR195003290,2017,2474,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+FRDP192501100,2017,3622,997,Oxigenoterapia,1,,,,,,,,,S,,N
+GNVD193108490,2018,490,1038,Comida,1,3,,,,,,,,,,N
+GNVD193108490,2018,490,1820,Arreglarse,1,,5.0,,,,,,,,N,N
+FRGT192606121,2018,3067,997,Oxigenoterapia,1,,,,,,,,,N,,N
+MRFR192902410,2019,867,980,Alergia alimenticia,1,,,,,,,,,N,,N
+MRFR192902410,2019,867,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+LNGR192809630,2019,2090,987,Temperatura,1,,36.8,,,,,,,,N,N
+LNGR192809630,2019,2090,1000,Litros,1,,,"1,5",,,,,,,,S
+LNGR192809630,2019,2090,2280,Resultado Escala de Braden,1,,,15,,,,,,,,N
+LRRD195708160,2019,2346,982,Otras alergias,1,,,,,,,,,N,,N
+CRLN197704540,2019,2721,2282,Resultado Escala Riesgo Caidas,1,,,2,,,,,,,,N
+LZCS192812620,2019,3563,1022,S.N.G.,1,,,,,,,,,N,,N
+SRCM193001430,2020,2282,970,Antecedentes personales,1,,,H202000000022823006202022492329970.RTF,,,,,,,,N
+SRCM193001430,2020,2282,1823,Usar el retrete,1,,0.0,,,,,,,,N,N
+SLLL196810050,2021,276,1013,Eliminación intestinal,1,1,,,,,,,,,,N
+FRGR193404470,2021,1820,978,Alergia medicamentosa,1,,,,,,,,,N,,N
+FRGR193404470,2021,1820,1033,Movilidad,1,2,,,,,,,,,,N
+LZCN194806651,2021,3198,986,Tensión diastólica,1,,65.0,,,,,,,,N,N
+GNGR195912550,2021,3345,2258,Actividad,1,,2.0,,,,,,,,N,N
+GNMR193911510,2022,940,2234,"Caidas Previas NO=0, SI=1",1,,1.0,,,,,,,,N,N
+GNMR193911510,2022,940,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,0.0,,,,,,,,N,N
+GNMR193911510,2022,940,2258,Actividad,1,,3.0,,,,,,,,N,N
+MRSN193402540,2022,1577,970,Antecedentes personales,1,,,H202200000015771005202220080229970.RTF,,,,,,,,N
+MRSN193402540,2022,1577,1038,Comida,1,2,,,,,,,,,,N
+FRHR194705480,2022,1627,987,Temperatura,1,,36.8,,,,,,,,N,N
+FRHR194705480,2022,1627,997,Oxigenoterapia,1,,,,,,,,,N,,N
+BRGR193406480,2022,2699,986,Tensión diastólica,1,,60.0,,,,,,,,N,S
+BRGR193406480,2022,2699,1824,Trasladarse,1,,5.0,,,,,,,,N,N
+BRGR193406480,2022,2699,1826,Escalones,1,,0.0,,,,,,,,N,N
+GRGN194607190,2023,398,972,Especificar med.habitual,1,,,ALPHAGAN COLIRIO TRINOMIA BARNIX OMEPRAZOL,,,,,,,,N
+FRDL195208630,2023,3198,987,Temperatura,1,,36.4,,,,,,,,N,N
+GNGN194301590,2024,1871,2281,_Movilidad,1,,3.0,,,,,,,,N,N
+PLFR192406120,2016,3371,997,Oxigenoterapia,1,,,,,,,,,N,,N
+PLFR192406120,2016,3371,1821,Deposiciones.,1,,0.0,,,,,,,,N,N
+SNPR192710441,2017,987,2281,_Movilidad,1,,2.0,,,,,,,,N,N
+SPGR195003290,2017,2474,1079,Uso de somníferos,1,,,,,,,,,N,,N
+SPGR195003290,2017,2474,2043,Resultado Indice de Barthel al Alta,1,,,85,,,,,,,,N
+FRDP192501100,2017,3622,1039,Seguridad,1,3,,,,,,,,,,N
+FRDP192501100,2017,3622,1040,Tipo de vía,1,2,,,,,,,,,,N
+FRDP192501100,2017,3622,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+FRDP192501100,2017,3622,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,1.0,,,,,,,,N,N
+CSPR193305700,2018,1014,985,Tensión sistólica,1,,110.0,,,,,,,,N,N
+CSPR193305700,2018,1014,1012,Medio de contención,1,1,,,,,,,,,,N
+CSPR193305700,2018,1014,1070,Audición,1,1,,,,,,,,,,N
+FRGT192606121,2018,3067,971,Medicación habitual,1,,,,,,,,,S,,N
+FRGT192606121,2018,3067,982,Otras alergias,1,,,,,,,,,N,,N
+MRFR192902410,2019,867,1034,Tipo de dependencia,1,2,,,,,,,,,,N
+LNGR192809630,2019,2090,999,Medio,1,2,,,,,,,,,,S
+LNGR192809630,2019,2090,1020,Vía,1,1,,,,,,,,,,N
+LNGR192809630,2019,2090,1816,Comer,1,,5.0,,,,,,,,N,N
+LNGR192809630,2019,2090,1819,Vestirse,1,,5.0,,,,,,,,N,N
+LNGR192809630,2019,2090,2249,"Alteraciones Visuales (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+LRRD195708160,2019,2346,2258,Actividad,1,,1.0,,,,,,,,N,N
+LZCS192812620,2019,3563,1825,Deambular,1,,0.0,,,,,,,,N,S
+LZCS192812620,2019,3563,1825,Deambular,1,,10.0,,,,,,,,N,N
+SRCM193001430,2020,2282,1821,Deposiciones.,1,,5.0,,,,,,,,N,N
+SRCM193001430,2020,2282,2243,"medicamentos Diureticos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+SRCM193001430,2020,2282,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+SRCM193001430,2020,2282,2257,Humedad,1,,3.0,,,,,,,,N,N
+MRPR197801030,2020,3365,1013,Eliminación intestinal,1,1,,,,,,,,,,N
+CSBR193504540,2021,2352,1065,Nivel de conciencia,1,2,,,,,,,,,,N
+LZCN194806651,2021,3198,985,Tensión sistólica,1,,117.0,,,,,,,,N,S
+GNGR195912550,2021,3345,1033,Movilidad,1,2,,,,,,,,,,N
+GNGR195912550,2021,3345,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+GNGR195912550,2021,3345,2280,Resultado Escala de Braden,1,,,18,,,,,,,,N
+GNMR193911510,2022,940,2243,"medicamentos Diureticos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+MRSN193402540,2022,1577,1005,Eliminación renal,1,3,,,,,,,,,,N
+MRSN193402540,2022,1577,2234,"Caidas Previas NO=0, SI=1",1,,1.0,,,,,,,,N,N
+FRHR194705480,2022,1627,979,Especificar a. medicament,1,,,BUPRENORFINA,,,,,,,,S
+FRHR194705480,2022,1627,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+GRGN194607190,2023,398,972,Especificar med.habitual,1,,,ALPHAGAN COLIRIO TINOMIA BARNIX OMEPRAZOL,,,,,,,,S
+FRDL195208630,2023,3198,1005,Eliminación renal,1,3,,,,,,,,,,N
+FRDL195208630,2023,3198,2234,"Caidas Previas NO=0, SI=1",1,,1.0,,,,,,,,N,N
+RDLV193007530,2024,629,985,Tensión sistólica,1,,148.0,,,,,,,,N,N
+RDLV193007530,2024,629,1046,Estado de la piel,1,1,,,,,,,,,,N
+RDLV193007530,2024,629,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+RDLV193007530,2024,629,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,1.0,,,,,,,,N,N
+GNGN194301590,2024,1871,970,Antecedentes personales,1,,,H202400000018711405202420435029970.RTF,,,,,,,,N
+GNGN194301590,2024,1871,971,Medicación habitual,1,,,,,,,,,S,,N
+GNGN194301590,2024,1871,982,Otras alergias,1,,,,,,,,,N,,N
+GNGN194301590,2024,1871,1821,Deposiciones.,1,,10.0,,,,,,,,N,N
+GNGN194301590,2024,1871,1826,Escalones,1,,0.0,,,,,,,,N,N
+SNPR192710441,2017,987,1037,Vestido,1,2,,,,,,,,,,N
+SNPR192710441,2017,987,1038,Comida,1,1,,,,,,,,,,N
+SNPR192710441,2017,987,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+SPGR195003290,2017,2474,1034,Tipo de dependencia,1,2,,,,,,,,,,N
+SPGR195003290,2017,2474,1035,Aseo,1,1,,,,,,,,,,N
+GNVD193108490,2018,490,971,Medicación habitual,1,,,,,,,,,S,,N
+GNVD193108490,2018,490,982,Otras alergias,1,,,,,,,,,N,,N
+CSPR193305700,2018,1014,1021,Tipo de dieta,1,2,,,,,,,,,,N
+FRGT192606121,2018,3067,2280,Resultado Escala de Braden,1,,,17,,,,,,,,N
+MRFR192902410,2019,867,1021,Tipo de dieta,1,2,,,,,,,,,,N
+LNGR192809630,2019,2090,2043,Resultado Indice de Barthel al Alta,1,,,65,,,,,,,,N
+LRRD195708160,2019,2346,1040,Tipo de vía,1,2,,,,,,,,,,N
+LZCS192812620,2019,3563,986,Tensión diastólica,1,,75.0,,,,,,,,N,S
+LZCS192812620,2019,3563,1817,Lavarse,1,,0.0,,,,,,,,N,N
+LZCS192812620,2019,3563,1823,Usar el retrete,1,,0.0,,,,,,,,N,N
+LZCS192812620,2019,3563,1826,Escalones,1,,0.0,,,,,,,,N,N
+LZCS192812620,2019,3563,2335,G Vive Solo,1,,,,,,,,,N,,N
+SRCM193001430,2020,2282,1820,Arreglarse,1,,0.0,,,,,,,,N,N
+SRCM193001430,2020,2282,2282,Resultado Escala Riesgo Caidas,1,,,9,,,,,,,,N
+SLLL196810050,2021,276,971,Medicación habitual,1,,,,,,,,,S,,N
+SLLL196810050,2021,276,972,Especificar med.habitual,1,,,VER INFORME MÉDICO,,,,,,,,N
+SLLL196810050,2021,276,982,Otras alergias,1,,,,,,,,,N,,N
+FRGR193404470,2021,1820,1035,Aseo,1,2,,,,,,,,,,N
+LZCN194806651,2021,3198,2249,"Alteraciones Visuales (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+GNGR195912550,2021,3345,2253,Deambulacion -Normal (0) -Resto (1),1,,0.0,,,,,,,,N,N
+GNMR193911510,2022,940,1824,Trasladarse,1,,10.0,,,,,,,,N,N
+MRSN193402540,2022,1577,1020,Vía,1,1,,,,,,,,,,N
+MRSN193402540,2022,1577,2280,Resultado Escala de Braden,1,,,14,,,,,,,,N
+FRHR194705480,2022,1627,2258,Actividad,1,,1.0,,,,,,,,N,N
+BRGR193406480,2022,2699,980,Alergia alimenticia,1,,,,,,,,,N,,N
+BRGR193406480,2022,2699,1037,Vestido,1,3,,,,,,,,,,N
+BRGR193406480,2022,2699,1038,Comida,1,2,,,,,,,,,,N
+BRGR193406480,2022,2699,2243,"medicamentos Diureticos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+BRGR193406480,2022,2699,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+GRGN194607190,2023,398,971,Medicación habitual,1,,,,,,,,,S,,N
+GRGN194607190,2023,398,982,Otras alergias,1,,,,,,,,,N,,N
+FRDL195208630,2023,3198,1000,Litros,1,,,2LPM,,,,,,,,N
+RDLV193007530,2024,629,1005,Eliminación renal,1,3,,,,,,,,,,N
+RDLV193007530,2024,629,1821,Deposiciones.,1,,0.0,,,,,,,,N,N
+SNPR192710441,2017,987,986,Tensión diastólica,1,,60.0,,,,,,,,N,N
+SNPR192710441,2017,987,1005,Eliminación renal,2,3,,,,,,,,,,N
+SNPR192710441,2017,987,2243,"medicamentos Diureticos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+SNPR192710441,2017,987,2260,Friccion y Deslizamiento,1,,2.0,,,,,,,,N,N
+SPGR195003290,2017,2474,1033,Movilidad,1,2,,,,,,,,,,N
+GNVD193108490,2018,490,980,Alergia alimenticia,1,,,,,,,,,N,,N
+GNVD193108490,2018,490,1825,Deambular,1,,10.0,,,,,,,,N,N
+CSPR193305700,2018,1014,1035,Aseo,1,1,,,,,,,,,,N
+CSPR193305700,2018,1014,2280,Resultado Escala de Braden,1,,,21,,,,,,,,N
+FRGT192606121,2018,3067,987,Temperatura,1,,36.2,,,,,,,,N,N
+FRGT192606121,2018,3067,1008,Nº de sonda,1,,16.0,,,,,,,,N,N
+MRFR192902410,2019,867,971,Medicación habitual,1,,,,,,,,,S,,N
+MRFR192902410,2019,867,982,Otras alergias,1,,,,,,,,,N,,N
+MRFR192902410,2019,867,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,1.0,,,,,,,,N,N
+LNGR192809630,2019,2090,1021,Tipo de dieta,1,99,,,,,,,,,,N
+LRRD195708160,2019,2346,1046,Estado de la piel,1,1,,,,,,,,,,N
+CRLN197704540,2019,2721,2258,Actividad,1,,1.0,,,,,,,,N,N
+LZCS192812620,2019,3563,978,Alergia medicamentosa,1,,,,,,,,,N,,N
+MRPR197801030,2020,3365,1035,Aseo,1,2,,,,,,,,,,N
+MRPR197801030,2020,3365,1065,Nivel de conciencia,1,1,,,,,,,,,,N
+SLLL196810050,2021,276,1005,Eliminación renal,1,1,,,,,,,,,,N
+MRSN193402540,2022,1577,2259,Nutricion,1,,3.0,,,,,,,,N,N
+FRHR194705480,2022,1627,1048,Localización de las herid,1,,,CADERA DCHA,,,,,,,,N
+FRHR194705480,2022,1627,1820,Arreglarse,1,,0.0,,,,,,,,N,N
+FRHR194705480,2022,1627,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,0.0,,,,,,,,N,N
+BRGR193406480,2022,2699,986,Tensión diastólica,1,,60.0,,,,,,,,N,N
+BRGR193406480,2022,2699,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+RDLV193007530,2024,629,986,Tensión diastólica,1,,51.0,,,,,,,,N,N
+RDLV193007530,2024,629,1012,Medio de contención,2,2,,,,,,,,,,N
+RDLV193007530,2024,629,1038,Comida,1,3,,,,,,,,,,N
+RDLV193007530,2024,629,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,0.0,,,,,,,,N,N
+GNGN194301590,2024,1871,2282,Resultado Escala Riesgo Caidas,1,,,6,,,,,,,,N
+SNPR192710441,2017,987,985,Tensión sistólica,1,,80.0,,,,,,,,N,N
+SNPR192710441,2017,987,2234,"Caidas Previas NO=0, SI=1",1,,1.0,,,,,,,,N,N
+SNPR192710441,2017,987,2257,Humedad,1,,2.0,,,,,,,,N,N
+SPGR195003290,2017,2474,978,Alergia medicamentosa,1,,,,,,,,,N,,N
+SPGR195003290,2017,2474,1068,Visión,1,2,,,,,,,,,,N
+SPGR195003290,2017,2474,2281,_Movilidad,1,,3.0,,,,,,,,N,N
+FRDP192501100,2017,3622,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+FRDP192501100,2017,3622,2282,Resultado Escala Riesgo Caidas,1,,,5,,,,,,,,N
+GNVD193108490,2018,490,970,Antecedentes personales,1,,,H201800000004901102201816181429970.RTF,,,,,,,,N
+CSPR193305700,2018,1014,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,0.0,,,,,,,,N,N
+FDFD192912290,2019,68,972,Especificar med.habitual,1,,,VER INFORME MEDICO,,,,,,,,N
+MRFR192902410,2019,867,1038,Comida,1,3,,,,,,,,,,N
+LNGR192809630,2019,2090,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,1.0,,,,,,,,N,N
+LRRD195708160,2019,2346,1013,Eliminación intestinal,1,1,,,,,,,,,,N
+CRLN197704540,2019,2721,986,Tensión diastólica,1,,78.0,,,,,,,,N,N
+LZCS192812620,2019,3563,1047,Heridas,1,,,,,,,,,S,,N
+LZCS192812620,2019,3563,1048,Localización de las herid,1,,,TIBIA DERECHA,,,,,,,,S
+SRCM193001430,2020,2282,985,Tensión sistólica,1,,150.0,,,,,,,,N,N
+SRCM193001430,2020,2282,1825,Deambular,1,,0.0,,,,,,,,N,N
+SLLL196810050,2021,276,970,Antecedentes personales,1,,,H202100000002762501202113514829970.RTF,,,,,,,,S
+SLLL196810050,2021,276,1033,Movilidad,1,3,,,,,,,,,,S
+SLLL196810050,2021,276,1046,Estado de la piel,1,1,,,,,,,,,,N
+CSBR193504540,2021,2352,1020,Vía,1,1,,,,,,,,,,N
+LZCN194806651,2021,3198,1048,Localización de las herid,1,,,MID,,,,,,,,S
+MRSN193402540,2022,1577,971,Medicación habitual,1,,,,,,,,,S,,N
+MRSN193402540,2022,1577,982,Otras alergias,1,,,,,,,,,N,,N
+MRSN193402540,2022,1577,1037,Vestido,1,2,,,,,,,,,,N
+MRSN193402540,2022,1577,1070,Audición,1,1,,,,,,,,,,N
+MRSN193402540,2022,1577,1824,Trasladarse,1,,5.0,,,,,,,,N,N
+FRHR194705480,2022,1627,1020,Vía,1,1,,,,,,,,,,N
+FRHR194705480,2022,1627,1040,Tipo de vía,1,2,,,,,,,,,,S
+BRGR193406480,2022,2699,998,Tipo de oxigenoterapia,1,2,,,,,,,,,,N
+BRGR193406480,2022,2699,1083,Dolor,1,,,,,,,,,S,,N
+FRDL195208630,2023,3198,997,Oxigenoterapia,1,,,,,,,,,S,,N
+FRDL195208630,2023,3198,1039,Seguridad,1,3,,,,,,,,,,N
+FRDL195208630,2023,3198,1040,Tipo de vía,1,2,,,,,,,,,,N
+FRDL195208630,2023,3198,2258,Actividad,1,,1.0,,,,,,,,N,N
+RDLV193007530,2024,629,1064,Localización de úlceras,1,,,SACRO,,,,,,,,N
+GNGN194301590,2024,1871,1037,Vestido,1,3,,,,,,,,,,N
+GNGN194301590,2024,1871,1065,Nivel de conciencia,1,1,,,,,,,,,,N
+PLFR192406120,2016,3371,984,Pulso,1,,88.0,,,,,,,,N,N
+PLFR192406120,2016,3371,1826,Escalones,1,,0.0,,,,,,,,N,N
+SNPR192710441,2017,987,1821,Deposiciones.,1,,0.0,,,,,,,,N,N
+SNPR192710441,2017,987,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+SPGR195003290,2017,2474,986,Tensión diastólica,1,,62.0,,,,,,,,N,S
+SPGR195003290,2017,2474,2043,Resultado Indice de Barthel al Alta,1,,,85,,,,,,,,S
+FRDP192501100,2017,3622,2234,"Caidas Previas NO=0, SI=1",1,,1.0,,,,,,,,N,N
+FRDP192501100,2017,3622,2257,Humedad,1,,4.0,,,,,,,,N,N
+GNVD193108490,2018,490,1069,Usa gafas/lentillas,1,,,,,,,,,S,,N
+CSPR193305700,2018,1014,1033,Movilidad,1,1,,,,,,,,,,N
+CSPR193305700,2018,1014,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+CSPR193305700,2018,1014,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+FDFD192912290,2019,68,1819,Vestirse,1,,0.0,,,,,,,,N,S
+MRFR192902410,2019,867,1021,Tipo de dieta,2,99,,,,,,,,,,N
+MRFR192902410,2019,867,1816,Comer,1,,5.0,,,,,,,,N,N
+LNGR192809630,2019,2090,971,Medicación habitual,1,,,,,,,,,S,,N
+LNGR192809630,2019,2090,982,Otras alergias,1,,,,,,,,,N,,N
+LNGR192809630,2019,2090,1029,Prótesis dental,1,,,,,,,,,S,,N
+LNGR192809630,2019,2090,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+LRRD195708160,2019,2346,2260,Friccion y Deslizamiento,1,,2.0,,,,,,,,N,N
+CRLN197704540,2019,2721,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+LZCS192812620,2019,3563,1012,Medio de contención,2,2,,,,,,,,,,N
+LZCS192812620,2019,3563,1034,Tipo de dependencia,1,4,,,,,,,,,,N
+SRCM193001430,2020,2282,997,Oxigenoterapia,1,,,,,,,,,N,,N
+SRCM193001430,2020,2282,2259,Nutricion,1,,3.0,,,,,,,,N,N
+MRPR197801030,2020,3365,1047,Heridas,1,,,,,,,,,S,,N
+SLLL196810050,2021,276,1035,Aseo,1,2,,,,,,,,,,N
+CSBR193504540,2021,2352,1048,Localización de las herid,1,,,HERIDA QUIRÚRGICA FX. CADERA IZQUIERDA,,,,,,,,N
+CSBR193504540,2021,2352,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+GNGR195912550,2021,3345,980,Alergia alimenticia,1,,,,,,,,,N,,N
+GNGR195912550,2021,3345,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+GNGR195912550,2021,3345,2257,Humedad,1,,3.0,,,,,,,,N,N
+GNMR193911510,2022,940,1825,Deambular,1,,10.0,,,,,,,,N,N
+MRSN193402540,2022,1577,1816,Comer,1,,0.0,,,,,,,,N,N
+FRHR194705480,2022,1627,980,Alergia alimenticia,1,,,,,,,,,N,,N
+FRHR194705480,2022,1627,1035,Aseo,1,2,,,,,,,,,,N
+FRHR194705480,2022,1627,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+FRDL195208630,2023,3198,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,1.0,,,,,,,,N,N
+FRDL195208630,2023,3198,2259,Nutricion,1,,2.0,,,,,,,,N,N
+FRDL195208630,2023,3198,2280,Resultado Escala de Braden,1,,,13,,,,,,,,N
+RDLV193007530,2024,629,985,Tensión sistólica,1,,126.0,,,,,,,,N,N
+GNGN194301590,2024,1871,1823,Usar el retrete,1,,0.0,,,,,,,,N,S
+PLFR192406120,2016,3371,978,Alergia medicamentosa,1,,,,,,,,,S,,N
+PLFR192406120,2016,3371,1013,Eliminación intestinal,1,1,,,,,,,,,,N
+SNPR192710441,2017,987,987,Temperatura,1,,35.7,,,,,,,,N,N
+SNPR192710441,2017,987,1820,Arreglarse,1,,0.0,,,,,,,,N,N
+SPGR195003290,2017,2474,993,Otros,1,,,SATO2: 95%,,,,,,,,N
+SPGR195003290,2017,2474,1040,Tipo de vía,1,2,,,,,,,,,,S
+SPGR195003290,2017,2474,1819,Vestirse,1,,10.0,,,,,,,,N,N
+SPGR195003290,2017,2474,2280,Resultado Escala de Braden,1,,,18,,,,,,,,N
+FRDP192501100,2017,3622,1827,Resultado Indice de Barthel,1,,,35,,,,,,,,N
+FRDP192501100,2017,3622,2043,Resultado Indice de Barthel al Alta,1,,,55,,,,,,,,N
+GNVD193108490,2018,490,1005,Eliminación renal,1,3,,,,,,,,,,S
+GNVD193108490,2018,490,1034,Tipo de dependencia,1,3,,,,,,,,,,S
+GNVD193108490,2018,490,1049,Ulceras,1,,,,,,,,,N,,N
+GNVD193108490,2018,490,1078,Tipo de sueño,1,2,,,,,,,,,,N
+GNVD193108490,2018,490,2259,Nutricion,1,,3.0,,,,,,,,N,N
+CSPR193305700,2018,1014,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+FRGT192606121,2018,3067,978,Alergia medicamentosa,1,,,,,,,,,N,,N
+FRGT192606121,2018,3067,1068,Visión,1,2,,,,,,,,,,N
+FRGT192606121,2018,3067,2282,Resultado Escala Riesgo Caidas,1,,,3,,,,,,,,N
+FDFD192912290,2019,68,1824,Trasladarse,1,,5.0,,,,,,,,N,N
+LRRD195708160,2019,2346,979,Especificar a. medicament,1,,,CONTRASTE YODADO.,,,,,,,,N
+CRLN197704540,2019,2721,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+LZCS192812620,2019,3563,2282,Resultado Escala Riesgo Caidas,1,,,10,,,,,,,,N
+LZCS192812620,2019,3563,2331,G Procedencia,1,1,,,,,,,,,,N
+SLLL196810050,2021,276,986,Tensión diastólica,1,,60.0,,,,,,,,N,N
+FRGR193404470,2021,1820,984,Pulso,1,,93.0,,,,,,,,N,N
+CSBR193504540,2021,2352,1823,Usar el retrete,1,,0.0,,,,,,,,N,N
+CSBR193504540,2021,2352,1826,Escalones,1,,0.0,,,,,,,,N,N
+CSBR193504540,2021,2352,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,1.0,,,,,,,,N,N
+LZCN194806651,2021,3198,1083,Dolor,1,,,,,,,,,S,,N
+LZCN194806651,2021,3198,1819,Vestirse,1,,0.0,,,,,,,,N,N
+LZCN194806651,2021,3198,2243,"medicamentos Diureticos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+GNGR195912550,2021,3345,985,Tensión sistólica,1,,163.0,,,,,,,,N,N
+GNGR195912550,2021,3345,1038,Comida,1,1,,,,,,,,,,N
+GNGR195912550,2021,3345,1047,Heridas,1,,,,,,,,,S,,S
+GNGR195912550,2021,3345,1067,Nivel emocional,1,1,,,,,,,,,,N
+GNMR193911510,2022,940,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,1.0,,,,,,,,N,N
+MRSN193402540,2022,1577,994,Respiración,1,1,,,,,,,,,,N
+MRSN193402540,2022,1577,1817,Lavarse,1,,0.0,,,,,,,,N,N
+FRHR194705480,2022,1627,984,Pulso,1,,76.0,,,,,,,,N,S
+FRHR194705480,2022,1627,985,Tensión sistólica,1,,108.0,,,,,,,,N,S
+FRHR194705480,2022,1627,986,Tensión diastólica,1,,68.0,,,,,,,,N,S
+FRHR194705480,2022,1627,1033,Movilidad,1,2,,,,,,,,,,N
+BRGR193406480,2022,2699,978,Alergia medicamentosa,1,,,,,,,,,S,,N
+FRDL195208630,2023,3198,994,Respiración,1,2,,,,,,,,,,N
+RDLV193007530,2024,629,999,Medio,1,2,,,,,,,,,,N
+RDLV193007530,2024,629,1817,Lavarse,1,,0.0,,,,,,,,N,N
+GNGN194301590,2024,1871,985,Tensión sistólica,1,,135.0,,,,,,,,N,N
+GNGN194301590,2024,1871,1047,Heridas,1,,,,,,,,,S,,N
+GNGN194301590,2024,1871,2259,Nutricion,1,,3.0,,,,,,,,N,N
+PLFR192406120,2016,3371,1822,Miccion,1,,0.0,,,,,,,,N,N
+PLFR192406120,2016,3371,2243,"medicamentos Diureticos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+PLFR192406120,2016,3371,2282,Resultado Escala Riesgo Caidas,1,,,3,,,,,,,,N
+SPGR195003290,2017,2474,1049,Ulceras,1,,,,,,,,,N,,N
+FRDP192501100,2017,3622,1046,Estado de la piel,1,1,,,,,,,,,,N
+FRDP192501100,2017,3622,1819,Vestirse,1,,5.0,,,,,,,,N,N
+FRDP192501100,2017,3622,1823,Usar el retrete,1,,0.0,,,,,,,,N,S
+FRDP192501100,2017,3622,2249,"Alteraciones Visuales (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+GNVD193108490,2018,490,2281,_Movilidad,1,,2.0,,,,,,,,N,N
+CSPR193305700,2018,1014,1047,Heridas,1,,,,,,,,,N,,N
+CSPR193305700,2018,1014,1825,Deambular,1,,10.0,,,,,,,,N,N
+CSPR193305700,2018,1014,2249,"Alteraciones Visuales (No=0, Si=1)",1,,1.0,,,,,,,,N,N
+FRGT192606121,2018,3067,1007,Sondaje vesical,1,,,,,,,,,S,,N
+FDFD192912290,2019,68,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,0.0,,,,,,,,N,N
+MRFR192902410,2019,867,1051,Hematomas,1,,,,,,,,,S,,N
+LNGR192809630,2019,2090,1068,Visión,1,1,,,,,,,,,,N
+LNGR192809630,2019,2090,1825,Deambular,1,,10.0,,,,,,,,N,N
+LNGR192809630,2019,2090,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+CRLN197704540,2019,2721,1040,Tipo de vía,1,2,,,,,,,,,,N
+LZCS192812620,2019,3563,1049,Ulceras,1,,,,,,,,,N,,N
+LZCS192812620,2019,3563,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,1.0,,,,,,,,N,N
+MRPR197801030,2020,3365,970,Antecedentes personales,1,,,H202000000033652109202021390029970.RTF,,,,,,,,N
+SLLL196810050,2021,276,970,Antecedentes personales,1,,,H202100000002762602202100252029970.RTF,,,,,,,,N
+SLLL196810050,2021,276,1013,Eliminación intestinal,1,1,,,,,,,,,,S
+SLLL196810050,2021,276,1055,Edemas,1,,,,,,,,,N,,N
+FRGR193404470,2021,1820,1047,Heridas,1,,,,,,,,,N,,N
+CSBR193504540,2021,2352,1001,Circulación,1,1,,,,,,,,,,N
+CSBR193504540,2021,2352,1047,Heridas,1,,,,,,,,,S,,N
+LZCN194806651,2021,3198,1064,Localización de úlceras,1,,,MMII,,,,,,,,N
+LZCN194806651,2021,3198,2043,Resultado Indice de Barthel al Alta,1,,,35,,,,,,,,N
+LZCN194806651,2021,3198,2236,percepcion sensorial,1,,4.0,,,,,,,,N,N
+GNMR193911510,2022,940,2247,"Otros medicamentos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+GNMR193911510,2022,940,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+MRSN193402540,2022,1577,2243,"medicamentos Diureticos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+FRHR194705480,2022,1627,1047,Heridas,1,,,,,,,,,N,,N
+BRGR193406480,2022,2699,1065,Nivel de conciencia,1,1,,,,,,,,,,N
+FRDL195208630,2023,3198,1049,Ulceras,1,,,,,,,,,S,,N
+FRDL195208630,2023,3198,2281,_Movilidad,1,,2.0,,,,,,,,N,N
+RDLV193007530,2024,629,994,Respiración,1,2,,,,,,,,,,N
+RDLV193007530,2024,629,2236,percepcion sensorial,1,,3.0,,,,,,,,N,N
+GNGN194301590,2024,1871,1822,Miccion,1,,10.0,,,,,,,,N,N
+GNGN194301590,2024,1871,986,Tensión diastólica,1,,72.0,,,,,,,,N,N
+GNGN194301590,2024,1871,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+GNGN194301590,2024,1871,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+PLFR192406120,2016,3371,2280,Resultado Escala de Braden,1,,,12,,,,,,,,N
+SNPR192710441,2017,987,1005,Eliminación renal,1,1,,,,,,,,,,N
+SPGR195003290,2017,2474,2234,"Caidas Previas NO=0, SI=1",1,,0.0,,,,,,,,N,N
+SPGR195003290,2017,2474,2243,"medicamentos Diureticos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+FRDP192501100,2017,3622,1021,Tipo de dieta,2,3,,,,,,,,,,N
+FRDP192501100,2017,3622,1047,Heridas,1,,,,,,,,,S,,N
+GNVD193108490,2018,490,1013,Eliminación intestinal,1,1,,,,,,,,,,N
+GNVD193108490,2018,490,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+FRGT192606121,2018,3067,2043,Resultado Indice de Barthel al Alta,1,,,40,,,,,,,,N
+MRFR192902410,2019,867,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+LNGR192809630,2019,2090,1032,Boca,1,1,,,,,,,,,,N
+LNGR192809630,2019,2090,1078,Tipo de sueño,1,2,,,,,,,,,,S
+LRRD195708160,2019,2346,984,Pulso,1,,107.0,,,,,,,,N,N
+LZCS192812620,2019,3563,1819,Vestirse,1,,0.0,,,,,,,,N,N
+SRCM193001430,2020,2282,1035,Aseo,1,2,,,,,,,,,,N
+SLLL196810050,2021,276,1033,Movilidad,1,2,,,,,,,,,,N
+SLLL196810050,2021,276,1034,Tipo de dependencia,1,1,,,,,,,,,,N
+FRGR193404470,2021,1820,997,Oxigenoterapia,1,,,,,,,,,S,,N
+FRGR193404470,2021,1820,999,Medio,1,2,,,,,,,,,,N
+CSBR193504540,2021,2352,1825,Deambular,1,,0.0,,,,,,,,N,N
+LZCN194806651,2021,3198,1037,Vestido,1,3,,,,,,,,,,N
+LZCN194806651,2021,3198,2234,"Caidas Previas NO=0, SI=1",1,,1.0,,,,,,,,N,N
+LZCN194806651,2021,3198,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+GNGR195912550,2021,3345,1046,Estado de la piel,1,1,,,,,,,,,,N
+GNGR195912550,2021,3345,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,1.0,,,,,,,,N,N
+GNGR195912550,2021,3345,2281,_Movilidad,1,,3.0,,,,,,,,N,N
+GNMR193911510,2022,940,2280,Resultado Escala de Braden,1,,,19,,,,,,,,N
+MRSN193402540,2022,1577,1047,Heridas,1,,,,,,,,,S,,N
+MRSN193402540,2022,1577,1049,Ulceras,1,,,,,,,,,N,,N
+FRHR194705480,2022,1627,1817,Lavarse,1,,0.0,,,,,,,,N,N
+BRGR193406480,2022,2699,1046,Estado de la piel,1,1,,,,,,,,,,N
+BRGR193406480,2022,2699,1078,Tipo de sueño,1,1,,,,,,,,,,N
+GRGN194607190,2023,398,970,Antecedentes personales,1,,,H202300000003983101202316353029970.RTF,,,,,,,,N
+FRDL195208630,2023,3198,2243,"medicamentos Diureticos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+FRDL195208630,2023,3198,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+FRDL195208630,2023,3198,2257,Humedad,1,,3.0,,,,,,,,N,N
+RDLV193007530,2024,629,1000,Litros,1,,,2LPM,,,,,,,,N
+GNGN194301590,2024,1871,1038,Comida,1,1,,,,,,,,,,N
+PLFR192406120,2016,3371,1020,Vía,1,1,,,,,,,,,,N
+PLFR192406120,2016,3371,1046,Estado de la piel,1,1,,,,,,,,,,N
+SNPR192710441,2017,987,1049,Ulceras,1,,,,,,,,,N,,N
+SNPR192710441,2017,987,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,1.0,,,,,,,,N,N
+SNPR192710441,2017,987,2259,Nutricion,1,,3.0,,,,,,,,N,N
+SPGR195003290,2017,2474,970,Antecedentes personales,1,,,H201700000024740509201720072929970.RTF,,,,,,,,N
+SPGR195003290,2017,2474,1036,Medio de aseo,1,3,,,,,,,,,,N
+SPGR195003290,2017,2474,1038,Comida,1,1,,,,,,,,,,N
+GNVD193108490,2018,490,985,Tensión sistólica,1,,110.0,,,,,,,,N,N
+GNVD193108490,2018,490,2236,percepcion sensorial,1,,4.0,,,,,,,,N,N
+GNVD193108490,2018,490,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,1.0,,,,,,,,N,N
+FDFD192912290,2019,68,978,Alergia medicamentosa,1,,,,,,,,,N,,N
+MRFR192902410,2019,867,1821,Deposiciones.,1,,5.0,,,,,,,,N,N
+LNGR192809630,2019,2090,985,Tensión sistólica,1,,152.0,,,,,,,,N,S
+LNGR192809630,2019,2090,1035,Aseo,1,2,,,,,,,,,,N
+LRRD195708160,2019,2346,1021,Tipo de dieta,1,1,,,,,,,,,,N
+LRRD195708160,2019,2346,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,1.0,,,,,,,,N,N
+CRLN197704540,2019,2721,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,0.0,,,,,,,,N,N
+SLLL196810050,2021,276,1012,Medio de contención,1,1,,,,,,,,,,N
+SLLL196810050,2021,276,1037,Vestido,1,2,,,,,,,,,,N
+FRGR193404470,2021,1820,980,Alergia alimenticia,1,,,,,,,,,N,,N
+FRGR193404470,2021,1820,985,Tensión sistólica,1,,122.0,,,,,,,,N,N
+CSBR193504540,2021,2352,971,Medicación habitual,1,,,,,,,,,S,,N
+CSBR193504540,2021,2352,982,Otras alergias,1,,,,,,,,,N,,N
+CSBR193504540,2021,2352,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,1.0,,,,,,,,N,N
+GNMR193911510,2022,940,1823,Usar el retrete,1,,5.0,,,,,,,,N,N
+MRSN193402540,2022,1577,1083,Dolor,1,,,,,,,,,N,,N
+MRSN193402540,2022,1577,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+MRSN193402540,2022,1577,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,1.0,,,,,,,,N,N
+FRHR194705480,2022,1627,985,Tensión sistólica,1,,108.0,,,,,,,,N,N
+FRHR194705480,2022,1627,1819,Vestirse,1,,0.0,,,,,,,,N,N
+FRHR194705480,2022,1627,1824,Trasladarse,1,,5.0,,,,,,,,N,N
+BRGR193406480,2022,2699,1084,Localización,1,,,BRAZO Y CADERA DERECHA,,,,,,,,S
+GRGN194607190,2023,398,980,Alergia alimenticia,1,,,,,,,,,S,,N
+FRDL195208630,2023,3198,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+FRDL195208630,2023,3198,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,0.0,,,,,,,,N,N
+RDLV193007530,2024,629,986,Tensión diastólica,1,,65.0,,,,,,,,N,N
+RDLV193007530,2024,629,1009,Tipo de sonda,1,,,SILICONA,,,,,,,,N
+RDLV193007530,2024,629,1035,Aseo,1,2,,,,,,,,,,N
+RDLV193007530,2024,629,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+GNGN194301590,2024,1871,985,Tensión sistólica,1,,180.0,,,,,,,,N,S
+GNGN194301590,2024,1871,1005,Eliminación renal,1,1,,,,,,,,,,N
+GNGN194301590,2024,1871,994,Respiración,1,1,,,,,,,,,,N
+GNGN194301590,2024,1871,1020,Vía,1,1,,,,,,,,,,N
+PLFR192406120,2016,3371,1035,Aseo,1,2,,,,,,,,,,N
+SNPR192710441,2017,987,2043,Resultado Indice de Barthel al Alta,1,,,20,,,,,,,,S
+SNPR192710441,2017,987,2280,Resultado Escala de Braden,1,,,13,,,,,,,,N
+SPGR195003290,2017,2474,985,Tensión sistólica,1,,140.0,,,,,,,,N,N
+FRDP192501100,2017,3622,1824,Trasladarse,1,,10.0,,,,,,,,N,N
+GNVD193108490,2018,490,1071,Usa audífono,1,,,,,,,,,S,,N
+GNVD193108490,2018,490,2249,"Alteraciones Visuales (No=0, Si=1)",1,,1.0,,,,,,,,N,N
+CSPR193305700,2018,1014,1012,Medio de contención,2,3,,,,,,,,,,N
+CSPR193305700,2018,1014,1824,Trasladarse,1,,10.0,,,,,,,,N,N
+CSPR193305700,2018,1014,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,1.0,,,,,,,,N,N
+FRGT192606121,2018,3067,1037,Vestido,1,2,,,,,,,,,,N
+FRGT192606121,2018,3067,1038,Comida,1,1,,,,,,,,,,N
+FRGT192606121,2018,3067,1067,Nivel emocional,1,1,,,,,,,,,,N
+FRGT192606121,2018,3067,1070,Audición,1,1,,,,,,,,,,N
+FRGT192606121,2018,3067,1820,Arreglarse,1,,0.0,,,,,,,,N,N
+FRGT192606121,2018,3067,1823,Usar el retrete,1,,0.0,,,,,,,,N,N
+FRGT192606121,2018,3067,1826,Escalones,1,,0.0,,,,,,,,N,N
+FRGT192606121,2018,3067,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,0.0,,,,,,,,N,N
+FRGT192606121,2018,3067,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+FDFD192912290,2019,68,1021,Tipo de dieta,1,1,,,,,,,,,,N
+MRFR192902410,2019,867,1817,Lavarse,1,,0.0,,,,,,,,N,N
+LNGR192809630,2019,2090,1046,Estado de la piel,1,1,,,,,,,,,,N
+LNGR192809630,2019,2090,1083,Dolor,1,,,,,,,,,N,,N
+LRRD195708160,2019,2346,2243,"medicamentos Diureticos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+CRLN197704540,2019,2721,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+SRCM193001430,2020,2282,978,Alergia medicamentosa,1,,,,,,,,,S,,N
+SRCM193001430,2020,2282,979,Especificar a. medicament,1,,,QUINOLONAS,,,,,,,,S
+MRPR197801030,2020,3365,978,Alergia medicamentosa,1,,,,,,,,,S,,N
+MRPR197801030,2020,3365,1048,Localización de las herid,1,,,TORAX,,,,,,,,N
+CSBR193504540,2021,2352,978,Alergia medicamentosa,1,,,,,,,,,N,,N
+CSBR193504540,2021,2352,986,Tensión diastólica,1,,79.0,,,,,,,,N,N
+CSBR193504540,2021,2352,987,Temperatura,1,,36.0,,,,,,,,N,N
+CSBR193504540,2021,2352,998,Tipo de oxigenoterapia,1,2,,,,,,,,,,N
+CSBR193504540,2021,2352,1033,Movilidad,1,2,,,,,,,,,,N
+LZCN194806651,2021,3198,997,Oxigenoterapia,1,,,,,,,,,N,,N
+MRSN193402540,2022,1577,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,0.0,,,,,,,,N,N
+FRHR194705480,2022,1627,971,Medicación habitual,1,,,,,,,,,S,,N
+FRHR194705480,2022,1627,1826,Escalones,1,,0.0,,,,,,,,N,N
+BRGR193406480,2022,2699,972,Especificar med.habitual,1,,,VER INFORME DE URGENCIAS,,,,,,,,S
+BRGR193406480,2022,2699,1040,Tipo de vía,1,2,,,,,,,,,,S
+BRGR193406480,2022,2699,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+GRGN194607190,2023,398,981,Especificar a. alimentici,1,,,ALERGIA A LECHE Y DERIVADOS.,,,,,,,,N
+FRDL195208630,2023,3198,2245,"medicamentos Anti parkisonianos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+RDLV193007530,2024,629,2043,Resultado Indice de Barthel al Alta,1,,,15,,,,,,,,N
+GNGN194301590,2024,1871,1820,Arreglarse,1,,5.0,,,,,,,,N,N
+PLFR192406120,2016,3371,970,Antecedentes personales,1,,,H201600000033712411201620511229970.RTF,,,,,,,,N
+SNPR192710441,2017,987,997,Oxigenoterapia,1,,,,,,,,,N,,N
+SNPR192710441,2017,987,2236,percepcion sensorial,1,,3.0,,,,,,,,N,N
+SPGR195003290,2017,2474,971,Medicación habitual,1,,,,,,,,,S,,N
+SPGR195003290,2017,2474,982,Otras alergias,1,,,,,,,,,N,,N
+SPGR195003290,2017,2474,1070,Audición,1,1,,,,,,,,,,N
+SPGR195003290,2017,2474,1820,Arreglarse,1,,5.0,,,,,,,,N,N
+FRDP192501100,2017,3622,1038,Comida,1,3,,,,,,,,,,N
+FRDP192501100,2017,3622,1820,Arreglarse,1,,0.0,,,,,,,,N,S
+GNVD193108490,2018,490,1040,Tipo de vía,1,2,,,,,,,,,,S
+CSPR193305700,2018,1014,1819,Vestirse,1,,10.0,,,,,,,,N,N
+CSPR193305700,2018,1014,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+CSPR193305700,2018,1014,2260,Friccion y Deslizamiento,1,,3.0,,,,,,,,N,N
+FRGT192606121,2018,3067,984,Pulso,1,,140.0,,,,,,,,N,N
+FDFD192912290,2019,68,1020,Vía,1,1,,,,,,,,,,N
+MRFR192902410,2019,867,987,Temperatura,1,,36.4,,,,,,,,N,N
+MRFR192902410,2019,867,2260,Friccion y Deslizamiento,1,,2.0,,,,,,,,N,N
+LNGR192809630,2019,2090,980,Alergia alimenticia,1,,,,,,,,,N,,N
+LNGR192809630,2019,2090,2257,Humedad,1,,3.0,,,,,,,,N,N
+LRRD195708160,2019,2346,1029,Prótesis dental,1,,,,,,,,,N,,N
+CRLN197704540,2019,2721,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+CRLN197704540,2019,2721,2257,Humedad,1,,4.0,,,,,,,,N,N
+CRLN197704540,2019,2721,2259,Nutricion,1,,3.0,,,,,,,,N,N
+LZCS192812620,2019,3563,1039,Seguridad,1,3,,,,,,,,,,N
+LZCS192812620,2019,3563,1048,Localización de las herid,1,,,"TROCANTER DCHO, MMII...",,,,,,,,N
+SRCM193001430,2020,2282,1046,Estado de la piel,1,1,,,,,,,,,,N
+SRCM193001430,2020,2282,2236,percepcion sensorial,1,,4.0,,,,,,,,N,N
+SRCM193001430,2020,2282,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,1.0,,,,,,,,N,N
+SLLL196810050,2021,276,997,Oxigenoterapia,1,,,,,,,,,N,,N
+FRGR193404470,2021,1820,1013,Eliminación intestinal,1,1,,,,,,,,,,N
+CSBR193504540,2021,2352,2236,percepcion sensorial,1,,3.0,,,,,,,,N,N
+CSBR193504540,2021,2352,2280,Resultado Escala de Braden,1,,,12,,,,,,,,N
+CSBR193504540,2021,2352,2282,Resultado Escala Riesgo Caidas,1,,,7,,,,,,,,N
+GNGR195912550,2021,3345,997,Oxigenoterapia,1,,,,,,,,,N,,N
+GNMR193911510,2022,940,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,1.0,,,,,,,,N,N
+MRSN193402540,2022,1577,1825,Deambular,1,,0.0,,,,,,,,N,N
+MRSN193402540,2022,1577,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+MRSN193402540,2022,1577,2257,Humedad,1,,2.0,,,,,,,,N,N
+BRGR193406480,2022,2699,2234,"Caidas Previas NO=0, SI=1",1,,1.0,,,,,,,,N,N
+BRGR193406480,2022,2699,2259,Nutricion,1,,2.0,,,,,,,,N,N
+FRDL195208630,2023,3198,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,0.0,,,,,,,,N,N
+GNGN194301590,2024,1871,1827,Resultado Indice de Barthel,1,,,45,,,,,,,,N
+GNGN194301590,2024,1871,2257,Humedad,1,,3.0,,,,,,,,N,N
+GNGN194301590,2024,1871,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,1.0,,,,,,,,N,N
+PLFR192406120,2016,3371,1039,Seguridad,1,3,,,,,,,,,,N
+PLFR192406120,2016,3371,2258,Actividad,1,,1.0,,,,,,,,N,N
+SPGR195003290,2017,2474,1021,Tipo de dieta,1,1,,,,,,,,,,N
+SPGR195003290,2017,2474,1823,Usar el retrete,1,,10.0,,,,,,,,N,N
+FRDP192501100,2017,3622,994,Respiración,1,1,,,,,,,,,,N
+FRDP192501100,2017,3622,2243,"medicamentos Diureticos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+FRDP192501100,2017,3622,2260,Friccion y Deslizamiento,1,,2.0,,,,,,,,N,N
+GNVD193108490,2018,490,1046,Estado de la piel,1,1,,,,,,,,,,N
+CSPR193305700,2018,1014,1036,Medio de aseo,1,4,,,,,,,,,,N
+FRGT192606121,2018,3067,1819,Vestirse,1,,5.0,,,,,,,,N,N
+FDFD192912290,2019,68,1013,Eliminación intestinal,1,1,,,,,,,,,,N
+FDFD192912290,2019,68,2253,Deambulacion -Normal (0) -Resto (1),1,,1.0,,,,,,,,N,N
+MRFR192902410,2019,867,997,Oxigenoterapia,1,,,,,,,,,N,,N
+LNGR192809630,2019,2090,1079,Uso de somníferos,1,,,,,,,,,S,,S
+LNGR192809630,2019,2090,2258,Actividad,1,,1.0,,,,,,,,N,N
+LNGR192809630,2019,2090,2281,_Movilidad,1,,1.0,,,,,,,,N,N
+LRRD195708160,2019,2346,2257,Humedad,1,,4.0,,,,,,,,N,N
+CRLN197704540,2019,2721,978,Alergia medicamentosa,1,,,,,,,,,N,,N
+LZCS192812620,2019,3563,1046,Estado de la piel,1,1,,,,,,,,,,N
+LZCS192812620,2019,3563,1048,Localización de las herid,1,,,"TROCANTER DCHO, MMII...",,,,,,,,S
+LZCS192812620,2019,3563,1820,Arreglarse,1,,0.0,,,,,,,,N,S
+SLLL196810050,2021,276,980,Alergia alimenticia,1,,,,,,,,,N,,N
+CSBR193504540,2021,2352,1035,Aseo,1,2,,,,,,,,,,N
+CSBR193504540,2021,2352,1824,Trasladarse,1,,0.0,,,,,,,,N,N
+CSBR193504540,2021,2352,2251,"Deficits Sensoriales Extremidades (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+LZCN194806651,2021,3198,1036,Medio de aseo,1,3,,,,,,,,,,N
+LZCN194806651,2021,3198,1038,Comida,1,1,,,,,,,,,,N
+LZCN194806651,2021,3198,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+GNGR195912550,2021,3345,1013,Eliminación intestinal,1,1,,,,,,,,,,N
+GNGR195912550,2021,3345,1037,Vestido,1,3,,,,,,,,,,N
+GNMR193911510,2022,940,1817,Lavarse,1,,0.0,,,,,,,,N,N
+GNMR193911510,2022,940,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+MRSN193402540,2022,1577,986,Tensión diastólica,1,,70.0,,,,,,,,N,N
+MRSN193402540,2022,1577,1021,Tipo de dieta,1,2,,,,,,,,,,N
+MRSN193402540,2022,1577,1039,Seguridad,1,2,,,,,,,,,,S
+MRSN193402540,2022,1577,1040,Tipo de vía,1,1,,,,,,,,,,S
+FRHR194705480,2022,1627,1038,Comida,1,2,,,,,,,,,,N
+FRHR194705480,2022,1627,1455,Temperatura,1,,35.6,,,,,,,,N,N
+FRHR194705480,2022,1627,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+FRHR194705480,2022,1627,2282,Resultado Escala Riesgo Caidas,1,,,4,,,,,,,,N
+BRGR193406480,2022,2699,1034,Tipo de dependencia,1,3,,,,,,,,,,S
+BRGR193406480,2022,2699,2281,_Movilidad,1,,2.0,,,,,,,,N,N
+RDLV193007530,2024,629,972,Especificar med.habitual,1,,,VER INFORME MÉDICO,,,,,,,,N
+RDLV193007530,2024,629,985,Tensión sistólica,1,,148.0,,,,,,,,N,S
+RDLV193007530,2024,629,1033,Movilidad,1,2,,,,,,,,,,N
+GNGN194301590,2024,1871,1046,Estado de la piel,1,2,,,,,,,,,,S
+GNGN194301590,2024,1871,1816,Comer,1,,10.0,,,,,,,,N,N
+SNPR192710441,2017,987,1823,Usar el retrete,1,,0.0,,,,,,,,N,N
+SNPR192710441,2017,987,2043,Resultado Indice de Barthel al Alta,1,,,20,,,,,,,,N
+SPGR195003290,2017,2474,1078,Tipo de sueño,1,1,,,,,,,,,,N
+FRDP192501100,2017,3622,2258,Actividad,1,,2.0,,,,,,,,N,N
+CSPR193305700,2018,1014,1071,Usa audífono,1,,,,,,,,,N,,N
+CSPR193305700,2018,1014,1820,Arreglarse,1,,5.0,,,,,,,,N,N
+CSPR193305700,2018,1014,2243,"medicamentos Diureticos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+FRGT192606121,2018,3067,2243,"medicamentos Diureticos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+FDFD192912290,2019,68,2282,Resultado Escala Riesgo Caidas,1,,,7,,,,,,,,S
+MRFR192902410,2019,867,994,Respiración,1,1,,,,,,,,,,N
+MRFR192902410,2019,867,2236,percepcion sensorial,1,,4.0,,,,,,,,N,N
+LNGR192809630,2019,2090,970,Antecedentes personales,1,,,H201900000020902705201923172729970.RTF,,,,,,,,N
+LNGR192809630,2019,2090,972,Especificar med.habitual,1,,,VER INFORME MÉDICO,,,,,,,,N
+LNGR192809630,2019,2090,1051,Hematomas,1,,,,,,,,,N,,S
+LNGR192809630,2019,2090,1817,Lavarse,1,,5.0,,,,,,,,N,N
+LNGR192809630,2019,2090,1822,Miccion,1,,10.0,,,,,,,,N,S
+LNGR192809630,2019,2090,1823,Usar el retrete,1,,5.0,,,,,,,,N,N
+LRRD195708160,2019,2346,978,Alergia medicamentosa,1,,,,,,,,,S,,N
+CRLN197704540,2019,2721,980,Alergia alimenticia,1,,,,,,,,,N,,N
+LZCS192812620,2019,3563,1035,Aseo,1,2,,,,,,,,,,N
+LZCS192812620,2019,3563,1036,Medio de aseo,1,1,,,,,,,,,,N
+LZCS192812620,2019,3563,2250,"Alteraciones Auditivas (No=0, Si=1)",1,,1.0,,,,,,,,N,N
+LZCS192812620,2019,3563,2334,G Destino Alta,1,1,,,,,,,,,,N
+SLLL196810050,2021,276,986,Tensión diastólica,1,,79.0,,,,,,,,N,S
+SLLL196810050,2021,276,1013,Eliminación intestinal,1,3,,,,,,,,,,S
+LZCN194806651,2021,3198,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,1.0,,,,,,,,N,N
+LZCN194806651,2021,3198,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,0.0,,,,,,,,N,N
+GNGR195912550,2021,3345,971,Medicación habitual,1,,,,,,,,,S,,N
+GNGR195912550,2021,3345,982,Otras alergias,1,,,,,,,,,N,,N
+GNGR195912550,2021,3345,984,Pulso,1,,64.0,,,,,,,,N,N
+GNGR195912550,2021,3345,985,Tensión sistólica,1,,130.0,,,,,,,,N,N
+GNMR193911510,2022,940,1819,Vestirse,1,,5.0,,,,,,,,N,N
+GNMR193911510,2022,940,2236,percepcion sensorial,1,,4.0,,,,,,,,N,N
+MRSN193402540,2022,1577,1820,Arreglarse,1,,0.0,,,,,,,,N,N
+MRSN193402540,2022,1577,2281,_Movilidad,1,,2.0,,,,,,,,N,N
+FRHR194705480,2022,1627,970,Antecedentes personales,1,,,H202200000016271205202220352629970.RTF,,,,,,,,N
+FRHR194705480,2022,1627,1065,Nivel de conciencia,1,2,,,,,,,,,,N
+FRHR194705480,2022,1627,1825,Deambular,1,,0.0,,,,,,,,N,N
+FRHR194705480,2022,1627,1827,Resultado Indice de Barthel,1,,,5,,,,,,,,N
+FRHR194705480,2022,1627,2249,"Alteraciones Visuales (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+FRHR194705480,2022,1627,2260,Friccion y Deslizamiento,1,,2.0,,,,,,,,N,N
+FRHR194705480,2022,1627,2280,Resultado Escala de Braden,1,,,15,,,,,,,,N
+BRGR193406480,2022,2699,984,Pulso,1,,79.0,,,,,,,,N,N
+BRGR193406480,2022,2699,987,Temperatura,1,,36.2,,,,,,,,N,N
+BRGR193406480,2022,2699,1005,Eliminación renal,1,4,,,,,,,,,,S
+BRGR193406480,2022,2699,1021,Tipo de dieta,1,2,,,,,,,,,,N
+FRDL195208630,2023,3198,986,Tensión diastólica,1,,78.0,,,,,,,,N,N
+RDLV193007530,2024,629,1000,Litros,1,,,2LPM,,,,,,,,S
+RDLV193007530,2024,629,1029,Prótesis dental,1,,,,,,,,,S,,N
+RDLV193007530,2024,629,2246,"medicamentos Antidepresivos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+PLFR192406120,2016,3371,2247,"Otros medicamentos (No =0, Si=1)",1,,1.0,,,,,,,,N,N
+PLFR192406120,2016,3371,2249,"Alteraciones Visuales (No=0, Si=1)",1,,0.0,,,,,,,,N,N
+PLFR192406120,2016,3371,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,0.0,,,,,,,,N,N
+FRDP192501100,2017,3622,986,Tensión diastólica,1,,70.0,,,,,,,,N,N
+FRDP192501100,2017,3622,998,Tipo de oxigenoterapia,1,2,,,,,,,,,,N
+FRDP192501100,2017,3622,2281,_Movilidad,1,,2.0,,,,,,,,N,N
+GNVD193108490,2018,490,985,Tensión sistólica,1,,120.0,,,,,,,,N,S
+GNVD193108490,2018,490,987,Temperatura,1,,36.0,,,,,,,,N,N
+GNVD193108490,2018,490,2244,"medicamentos Hipotensores no diureticos (No=0,Si=1",1,,0.0,,,,,,,,N,N
+GNVD193108490,2018,490,2282,Resultado Escala Riesgo Caidas,1,,,6,,,,,,,,N
+CSPR193305700,2018,1014,1012,Medio de contención,1,3,,,,,,,,,,S
+FRGT192606121,2018,3067,1455,Temperatura,1,,36.5,,,,,,,,N,N
+FRGT192606121,2018,3067,1821,Deposiciones.,1,,5.0,,,,,,,,N,N
+FDFD192912290,2019,68,1033,Movilidad,1,2,,,,,,,,,,N
+FDFD192912290,2019,68,1034,Tipo de dependencia,1,1,,,,,,,,,,N
+FDFD192912290,2019,68,1827,Resultado Indice de Barthel,1,,,30,,,,,,,,N
+FDFD192912290,2019,68,2281,_Movilidad,1,,2.0,,,,,,,,N,N
+MRFR192902410,2019,867,1825,Deambular,1,,10.0,,,,,,,,N,N
+MRFR192902410,2019,867,2257,Humedad,1,,3.0,,,,,,,,N,N
+CRLN197704540,2019,2721,970,Antecedentes personales,1,,,H201900000027212207201920280529970.RTF,,,,,,,,N
+LZCS192812620,2019,3563,971,Medicación habitual,1,,,,,,,,,S,,N
+LZCS192812620,2019,3563,982,Otras alergias,1,,,,,,,,,N,,N
+LZCS192812620,2019,3563,2333,G Lugar de Residencia,1,1,,,,,,,,,,N
+SRCM193001430,2020,2282,2260,Friccion y Deslizamiento,1,,2.0,,,,,,,,N,N
+SLLL196810050,2021,276,985,Tensión sistólica,1,,129.0,,,,,,,,N,S
+SLLL196810050,2021,276,1029,Prótesis dental,1,,,,,,,,,N,,S
+FRGR193404470,2021,1820,1005,Eliminación renal,1,3,,,,,,,,,,N
+FRGR193404470,2021,1820,1038,Comida,1,2,,,,,,,,,,N
+CSBR193504540,2021,2352,972,Especificar med.habitual,1,,,VER INFORME MÉDICO,,,,,,,,N
+CSBR193504540,2021,2352,1012,Medio de contención,1,1,,,,,,,,,,N
+CSBR193504540,2021,2352,1039,Seguridad,1,3,,,,,,,,,,N
+CSBR193504540,2021,2352,1040,Tipo de vía,1,2,,,,,,,,,,N
+CSBR193504540,2021,2352,2259,Nutricion,1,,3.0,,,,,,,,N,N
+LZCN194806651,2021,3198,1067,Nivel emocional,2,2,,,,,,,,,,N
+GNGR195912550,2021,3345,2242,"medicamentos Tranquilizantes-Sedantes (No=0,Si=1)",1,,1.0,,,,,,,,N,N
+MRSN193402540,2022,1577,1022,S.N.G.,1,,,,,,,,,N,,N
+MRSN193402540,2022,1577,2252,Estado Mental: (0) Orientado - (1) Confuso,1,,0.0,,,,,,,,N,N
+FRHR194705480,2022,1627,984,Pulso,1,,75.0,,,,,,,,N,N
+FRHR194705480,2022,1627,1816,Comer,1,,0.0,,,,,,,,N,N
+BRGR193406480,2022,2699,1013,Eliminación intestinal,1,1,,,,,,,,,,N
+BRGR193406480,2022,2699,2257,Humedad,1,,3.0,,,,,,,,N,N
+FRDL195208630,2023,3198,1020,Vía,1,1,,,,,,,,,,N
+RDLV193007530,2024,629,980,Alergia alimenticia,1,,,,,,,,,N,,N
+RDLV193007530,2024,629,984,Pulso,1,,98.0,,,,,,,,N,N
+RDLV193007530,2024,629,998,Tipo de oxigenoterapia,1,2,,,,,,,,,,S
+RDLV193007530,2024,629,2234,"Caidas Previas NO=0, SI=1",1,,1.0,,,,,,,,N,N
+GNGN194301590,2024,1871,1033,Movilidad,1,2,,,,,,,,,,N
