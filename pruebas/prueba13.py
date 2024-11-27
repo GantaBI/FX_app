@@ -76,3 +76,4 @@ async def capture_sections(url, output_pdf_path):
 url = "http://99.81.70.181:8000/"
 output_pdf_path = "./output/mejorada_prueba13"
 asyncio.run(capture_sections(url, output_pdf_path))
+ 
