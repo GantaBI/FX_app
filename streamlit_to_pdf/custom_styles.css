@@ -1,0 +1,13 @@
+@page {
+    size: A4;
+    margin: 0.1in 1in 0.5in 1in; /* Top, Right, Bottom, Left */
+}
+  body {
+    margin: 0;
+    padding: 0.5em;
+    box-sizing: border-box;
+  }
+  .no-overlap {
+    page-break-after: always;
+}
+  
