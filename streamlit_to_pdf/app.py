@@ -23,18 +23,23 @@ with open("data_paciente.json", "r") as file:
 id_paciente = data["id_paciente"]
 sexo = data["sexo"]
 edad = data["edad"]
+tipo_ingreso = data["tipo_ingreso"]
+reingreso = data["reingreso"]
+fecha_ingreso = data["fecha_ingreso"]
 lugar_residencia = data["lugar_residencia"]
 tipo_fractura = data["tipo_fractura"]
 lado_fractura = data["lado_fractura"]
-resultado_demora = data["resultado_demora"]
-predict_estancia = data["predict_estancia"]
-postoperatorio = data["postoperatorio"]
-postoperatorio_fijo = data["postoperatorio_fijo"]
-prediccion_costes = data["prediccion_costes"]
-ahorro_costes = data["ahorro_costes"]
+predict_preoperatorio = data["predict_preoperatorio"]
+predict_postoperatorio = data["predict_postoperatorio"]
 predict_destino_alta = data["predict_destino_alta"]
+destino_alta = data["destino_alta"]
 predict_movilidad_alta = data["predict_movilidad_alta"]
+movilidad_alta = data["movilidad_alta"]
+predict_situacion_alta = data["predict_situacion_alta"]
+situacion_alta = data["situacion_alta"]
 predict_vivo_alta = data["predict_vivo_alta"]
+vivo_alta = data["vivo_alta"]
+
 
 # ____________________________________ VISUAL __________________________________________
 # ______________________________________________________________________________________
@@ -47,7 +52,7 @@ fecha_actual = datetime.now().strftime("%Y-%m-%d")
 st.markdown(
     f"""
     <div style="display: flex; justify-content: flex-end; align-items: center; padding-right: 10px;">
-        <p style="font-size: 16px; margin: 0;">Fecha de ingreso: {'2024-11-26'}</p>
+        <p style="font-size: 16px; margin: 0;">Fecha de ingreso: {fecha_ingreso}</p>
     </div>
     """,
     unsafe_allow_html=True
@@ -69,8 +74,8 @@ st.header("Datos del paciente")
 st.success(f"**ID paciente: {id_paciente}**")
 
 tabla_resumen = pd.DataFrame({
-    "Variable": ["Sexo", "Edad", "Lugar de residencia", "Tipo de fractura", "Lado de fractura"],
-    "Valor": [sexo, edad, lugar_residencia, tipo_fractura, lado_fractura]
+    "Variable": ["Sexo", "Edad", "Tipo de ingreso","Reingreso", "Lugar de residencia", "Tipo de fractura", "Lado de fractura"],
+    "Valor": [sexo, edad, tipo_ingreso, reingreso, lugar_residencia, tipo_fractura, lado_fractura]
 })
 
 st.subheader("Resumen paciente")
@@ -79,34 +84,26 @@ st.table(tabla_resumen)
 # _____________________________________________ RESUMEN PREDICCIONES ______________________________
 #__________________________________________________________________________________________________
 
-# ------------------------------------- DEMORA -------------------------------------
+# ------------------------------------- ESTANCIA -------------------------------------
 with st.container():
     st.header("Resumen predicciones")
-    st.subheader("Demora")
+    st.subheader("Estancia")
 
-    st.info(f"**Predicción de demora:** {resultado_demora} días")
+    st.info(f"**Pre-operatorio:** {predict_preoperatorio} días")
+    st.info(f"**Post-operatorio:** {predict_postoperatorio} días")
+    st.info(f"**Estancia total:** {predict_postoperatorio + predict_preoperatorio} días")
 
-# ------------------------------------- ESTANCIA -----------------------------------
-    st.subheader("Estancia Hospitalaria")
+# ------------------------------------- SITUACION AL ALTA -----------------------------------
+    st.subheader("Situacion al alta")
+    st.info(f"**Destino:** {destino_alta}")
+    st.info(f"**Movilidad:** {movilidad_alta}")
+    st.info(f"**Situación:** {situacion_alta}")
+    st.info(f"**Vive/Fallece:** {vivo_alta}")
 
-    st.info(f"**Predicción de postoperatorio:** {postoperatorio_fijo} días")
-    st.info(f"**Predicción de estancia total:** {postoperatorio_fijo + resultado_demora} días")
-
-# ------------------------------------- DESTINO -----------------------------------
-    st.subheader("Destino al alta")
-    st.info(f"**Predicción de destino al alta:** Domicilio")
-    
-# ------------------------------------- MOVILIDAD -----------------------------------
-    st.subheader("Movilidad al alta")
-    st.info(f"**Predicción de movilidad al alta:** Muy limitada")
-
-# ------------------------------------- VIVO 30 DIAS-----------------------------------
-    st.subheader("Vivo a los 30 días")
-    st.info(f"**Predicción de vivo a los 30 días:** Vivo a 30 días")
 
     st.markdown("<div class='no-overlap'></div>", unsafe_allow_html=True)
 
-# _____________________________________________ GRAFICOS Y TABLAS __ ______________________________
+# _____________________________________________ GRAFICOS Y TABLAS _________________________________
 #__________________________________________________________________________________________________
 def crear_tabla_y_grafico(titulo, categorias, porcentajes, orden, colores=None):
     """
@@ -160,15 +157,23 @@ with st.container():
     # Separador visual
     st.markdown("<div class='no-overlap'></div>", unsafe_allow_html=True)
 
-# --------------------------VIVO A LOS 30 DIAS ------------------------
+# -------------------------- SITUACION AL ALTA ------------------------
 with st.container():
     st.markdown("<div class='no-overlap'></div>", unsafe_allow_html=True)
     st.markdown("<br><br>", unsafe_allow_html=True)  # Dos líneas vacías
 
     crear_tabla_y_grafico(
-    titulo="Probabilidad de estar vivo a los 30 días",
-    categorias=["Fallece", "Vivo a 30 días"],
+    titulo="Probabilidad de situación al alta",
+    categorias=["Curación total", "Mejoría", "Sin cambios", "Agravamiento", "In extremis", "Con secuelas", "Exitus", "Mejoria a residencia"],
+    porcentajes=predict_situacion_alta,
+    orden=["Curación total", "Mejoría", "Sin cambios", "Agravamiento", "In extremis", "Con secuelas", "Exitus", "Mejoria a residencia"],
+)
+    
+    # -------------------------- VIVO AL ALTA ------------------------
+with st.container():
+    crear_tabla_y_grafico(
+    titulo="Probabilidad de Vivo al alta",
+    categorias=["Fallece", "Vivo"],
     porcentajes=predict_vivo_alta,
-    orden=["Fallece", "Vivo a 30 días"],
-    colores=["#ff2b2b", "#83c9ff"],
+    orden=["Fallece", "Vivo"],
 )
