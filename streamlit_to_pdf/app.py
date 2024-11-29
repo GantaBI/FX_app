@@ -39,6 +39,22 @@ predict_situacion_alta = data["predict_situacion_alta"]
 situacion_alta = data["situacion_alta"]
 predict_vivo_alta = data["predict_vivo_alta"]
 vivo_alta = data["vivo_alta"]
+# Enfermedades
+itu = data["itu"]
+anemia = data["anemia"]
+vitamina_d = data["vitamina_d"]
+insuficiencia_respiratoria = data["insuficiencia_respiratoria"]
+insuficiencia_cardiaca = data["insuficiencia_cardiaca"]
+deterioro_cognitivo = data["deterioro_cognitivo"]
+insuficiencia_renal = data["insuficiencia_renal"]
+hta = data["hta"]
+diabetes = data["diabetes"]
+
+barthel = data["barthel"]
+braden = data["braden"]
+riesgo_caida = data["riesgo_caida"]
+movilidad = data["movilidad"]
+
 
 
 # ____________________________________ VISUAL __________________________________________
@@ -102,9 +118,33 @@ with st.container():
 
 
     st.markdown("<div class='no-overlap'></div>", unsafe_allow_html=True)
+    
+# ----------------------------------- ENFERMEDADES  ------------------------------
+st.markdown("<div class='no-overlap'></div>", unsafe_allow_html=True)
+st.header("Enfermedades del paciente")
+
+tabla_enfermedades = pd.DataFrame({
+    "Variable": ["ITU","Anemia", "Déficit Vitamina D", "Insuficiencia Respiratoria","Insuficiencia Cardíaca", "Deterioro Cognitivo", "Insuficiencia Renal", "HTA", "Diabetes"],
+    "Valor": [itu,anemia, vitamina_d, insuficiencia_respiratoria, insuficiencia_cardiaca, deterioro_cognitivo, insuficiencia_renal, hta, diabetes]
+})
+
+st.table(tabla_enfermedades)
+
+# ----------------------------------- GERIATRIA  ------------------------------
+st.header("Geriatría")
+
+tabla_enfermedades = pd.DataFrame({
+    "Variable": ["Escala de Barthel","Escala de Braden", "Riesgo caida", "Movilidad"],
+    "Valor": [barthel,braden, riesgo_caida, movilidad]
+})
+
+st.table(tabla_enfermedades)
+st.markdown("<div class='no-overlap'></div>", unsafe_allow_html=True)
+
 
 # _____________________________________________ GRAFICOS Y TABLAS _________________________________
 #__________________________________________________________________________________________________
+
 def crear_tabla_y_grafico(titulo, categorias, porcentajes, orden, colores=None):
     """
     Crea y muestra una tabla y un gráfico circular a partir de las categorías y porcentajes proporcionados.
@@ -136,7 +176,7 @@ def crear_tabla_y_grafico(titulo, categorias, porcentajes, orden, colores=None):
 # ----------------------------------- DESTINO ALTA ----------------------------------
 with st.container():
     st.markdown("<div class='no-overlap'></div>", unsafe_allow_html=True)
-    st.markdown("<br><br>", unsafe_allow_html=True)  # Dos líneas vacías
+    st.header("Gráficos y Estadísticas")
 
     crear_tabla_y_grafico(
     titulo="Probabilidad de destino al alta",
