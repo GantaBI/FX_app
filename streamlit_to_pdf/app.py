@@ -111,36 +111,42 @@ with st.container():
 
 # ------------------------------------- SITUACION AL ALTA -----------------------------------
     st.subheader("Situacion al alta")
-    st.info(f"**Destino:** {destino_alta}")
-    
-    if not movilidad_alta:
-        st.warning("La movilidad no está definida.")
-    elif movilidad_alta in ["Sin limitaciones","Ligeramente limitada"]:
-        st.success(f"**Movilidad:** {movilidad_alta}")
-    elif movilidad_alta in ["Muy limitada", "Completamente inmóvil"]:
-        st.error(f"**Movilidad:** {movilidad_alta}")
-    else:
-        st.info(f"**Movilidad:** {situacion_alta}")
-    
-    if not situacion_alta:
-        st.warning("La situación no está definida.")
-    elif situacion_alta in ["Curación total", "Mejoria"]:
-        st.success(f"**Situación:** {situacion_alta}")
-    elif situacion_alta in ["Agravamiento", "In extremis", "Con secuelas", "Exitus"]:
-        st.error(f"**Situación:** {situacion_alta}")
-    else:
-        st.info(f"**Situación:** {situacion_alta}")
+   # Destino
+    destino_index = predict_destino_alta.index(max(predict_destino_alta))
+    destino_percentage = predict_destino_alta[destino_index]
+    st.info(f"**Destino:** {destino_alta} ({destino_percentage * 100:.1f}%)")
 
+    # Movilidad
+    movilidad_index = predict_movilidad_alta.index(max(predict_movilidad_alta))
+    movilidad_percentage = predict_movilidad_alta[movilidad_index]
 
-    
-    
-    
-    if vivo_alta == "Vive":
-        st.success(f"**Vive/Fallece:** {vivo_alta}")
-    elif vivo_alta == "Fallece":
-        st.error(f"**Vive/Fallece:** {vivo_alta}")
+    if movilidad_index == 0 or movilidad_index == 1:  # Ejemplo: índices para movilidad favorable
+        st.success(f"**Movilidad:** {movilidad_alta} ({movilidad_percentage * 100:.1f}%)")
+    elif movilidad_index == 2 or movilidad_index == 3:  # Ejemplo: índices para movilidad limitada
+        st.error(f"**Movilidad:** {movilidad_alta} ({movilidad_percentage * 100:.1f}%)")
     else:
-        st.info(f"**Vive/Fallece:** {vivo_alta}")
+        st.info(f"**Movilidad:** {movilidad_alta} ({movilidad_percentage * 100:.1f}%)")
+    
+    
+# Situación
+    situacion_index = predict_situacion_alta.index(max(predict_situacion_alta))
+    situacion_percentage = predict_situacion_alta[situacion_index]
+    if situacion_index == 0 or situacion_index == 1:  # Ejemplo: índices para situaciones favorables
+        st.success(f"**Situación:** {situacion_alta} ({situacion_percentage * 100:.1f}%)")
+    elif situacion_index == 2 or situacion_index == 3:  # Ejemplo: índices para situaciones desfavorables
+        st.error(f"**Situación:** {situacion_alta} ({situacion_percentage * 100:.1f}%)")
+    else:
+        st.info(f"**Situación:** {situacion_alta} ({situacion_percentage * 100:.1f}%)")
+
+    # Vive/Fallece
+    vivo_index = predict_vivo_alta.index(max(predict_vivo_alta))
+    vivo_percentage = predict_vivo_alta[vivo_index]
+    if vivo_index == 0:  # "Vive"
+        st.error(f"**Vive/Fallece:** {vivo_alta} ({vivo_percentage * 100:.1f}%)")
+    elif vivo_index == 1:  # "Fallece"
+        st.success(f"**Vive/Fallece:** {vivo_alta} ({vivo_percentage * 100:.1f}%)")
+    else:
+        st.info(f"**Vive/Fallece:** {vivo_alta} ({vivo_percentage * 100:.1f}%)")
 
 
 
