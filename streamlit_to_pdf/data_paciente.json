@@ -17,7 +17,7 @@
     "predict_situacion_alta": [0.45, 0.05, 0.20, 0.10, 0.05, 0.10, 0.03, 0.02],
     "situacion_alta": "Mejoria",
     "predict_vivo_alta": [0.65, 0.35],
-    "vivo_alta": "Vive",
+    "vivo_alta": "Fallece",
     "itu": "Si",
     "anemia": "Si", 
     "vitamina_d": "No",

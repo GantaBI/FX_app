@@ -112,9 +112,36 @@ with st.container():
 # ------------------------------------- SITUACION AL ALTA -----------------------------------
     st.subheader("Situacion al alta")
     st.info(f"**Destino:** {destino_alta}")
-    st.info(f"**Movilidad:** {movilidad_alta}")
-    st.info(f"**Situación:** {situacion_alta}")
-    st.info(f"**Vive/Fallece:** {vivo_alta}")
+    
+    if not movilidad_alta:
+        st.warning("La movilidad no está definida.")
+    elif movilidad_alta in ["Sin limitaciones","Ligeramente limitada"]:
+        st.success(f"**Movilidad:** {movilidad_alta}")
+    elif movilidad_alta in ["Muy limitada", "Completamente inmóvil"]:
+        st.error(f"**Movilidad:** {movilidad_alta}")
+    else:
+        st.info(f"**Movilidad:** {situacion_alta}")
+    
+    if not situacion_alta:
+        st.warning("La situación no está definida.")
+    elif situacion_alta in ["Curación total", "Mejoria"]:
+        st.success(f"**Situación:** {situacion_alta}")
+    elif situacion_alta in ["Agravamiento", "In extremis", "Con secuelas", "Exitus"]:
+        st.error(f"**Situación:** {situacion_alta}")
+    else:
+        st.info(f"**Situación:** {situacion_alta}")
+
+
+    
+    
+    
+    if vivo_alta == "Vive":
+        st.success(f"**Vive/Fallece:** {vivo_alta}")
+    elif vivo_alta == "Fallece":
+        st.error(f"**Vive/Fallece:** {vivo_alta}")
+    else:
+        st.info(f"**Vive/Fallece:** {vivo_alta}")
+
 
 
     st.markdown("<div class='no-overlap'></div>", unsafe_allow_html=True)
