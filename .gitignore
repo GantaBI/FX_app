@@ -14,3 +14,16 @@ models_v2/catboost_info/test_error.tsv
 models_v2/catboost_info/time_left.tsv
 models_v2/catboost_info/learn/events.out.tfevents
 models_v2/catboost_info/test/events.out.tfevents
+
+*.csv
+*.ipynb_checkpoints
+*.pyc
+__pycache__/
+.env
+.vscode/
+*.tsv
+*.tfevents
+*.pkl
+*.cbm
+*.pdf
+*.json

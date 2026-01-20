@@ -12,7 +12,7 @@ df = pd.read_csv('/home/ubuntu/STG-fractura_cadera/2025_02/models/PREPROCESADO_2
 
 # Selección de columnas relevantes
 columnas_relevantes = [
-    'ds_vivo_alta', 'itipsexo', 'itipingr', 'ireingre', 'iotrocen', 
+    'ds_vivo_alta', 'itipsexo', 'iotrocen', 
     'gdiagalt', 'ds_izq_der', 'ds_turno', 'ds_edad', 'ds_estancia', 
     'ds_pre_oper', 'ds_post_oper', 'ds_dia_semana_llegada', 
     'ds_mes_llegada', 'ds_centro_afueras', 'ds_alergia_medicamentosa', 
@@ -24,7 +24,7 @@ df = df[columnas_relevantes]
 
 #%% Variables categóricas
 cat_features = [
-    'itipsexo', 'itipingr', 'ireingre', 'iotrocen', 'gdiagalt', 
+    'itipsexo', 'iotrocen', 'gdiagalt', 
     'ds_izq_der', 'ds_turno', 'ds_dia_semana_llegada', 'ds_mes_llegada', 
     'ds_centro_afueras', 'ds_alergia_medicamentosa', 'ds_alergia_alimenticia', 
     'ds_otras_alergias', 'ds_ITU', 'ds_anemia', 'ds_vitamina_d', 
