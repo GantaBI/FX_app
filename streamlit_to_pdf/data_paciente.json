@@ -15,7 +15,7 @@
     "predict_movilidad_alta": [0.10, 0.25, 0.40, 0.25],
     "movilidad_alta": "Muy limitada",
     "predict_situacion_alta": [0.45, 0.05, 0.20, 0.10, 0.05, 0.10, 0.03, 0.02],
-    "situacion_alta": "Mejoria",
+    "situacion_alta": "Mejoría",
     "predict_vivo_alta": [0.65, 0.35],
     "vivo_alta": "Fallece",
     "itu": "Si",
