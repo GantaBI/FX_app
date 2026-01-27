@@ -169,7 +169,7 @@ async def capture_sections(url, es_simulacion=False):
 
 def combine_odd_pages(pdf_paths, output_path):
     print("📚 Combinando PDF final...")
-    writer = PdfWriter()
+    writer = PdfWriter() 
     for pdf_path in pdf_paths:
         try:
             reader = PdfReader(pdf_path)

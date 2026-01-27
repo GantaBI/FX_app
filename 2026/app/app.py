@@ -155,7 +155,7 @@ def mostrar_visualizacion(data, predict_preoperatorio, predict_postoperatorio, p
                           predict_situacion_alta, situacion_alta, categorias_situacion, 
                           es_simulacion=False, gidenpac="Simulación"):
     
-    diccionario_colores = {
+    diccionario_colores = { 
         "Mejora": "#09AB3B",
         "Empeora": "#FF2B2B"
     }
