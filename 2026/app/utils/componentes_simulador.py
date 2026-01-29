@@ -84,50 +84,57 @@ def mostrar_formulario_simulador(predecir_dias_fn, predecir_probabilidades_fn,
     with col18:
         movilidad_sim = st.selectbox("Movilidad", [0, 1, 2], format_func=lambda x: ["Independiente", "Ayuda", "Dependiente"][x])
     
+    
+# BOTÓN DE PREDICCIÓN CENTRADO (1, 3, 1)
     st.markdown("---")
     
-    # BOTÓN DE PREDICCIÓN
-    if st.button("Calcular predicciones", type="primary", use_container_width=True):
-        datos_formulario = {
-            "itipsexo_map": sexo_sim,
-            "ds_edad_map": edad_sim,
-            "iotrocen_map": otro_centro_sim,
-            "ds_centro_afueras_map": lugar_residencia_sim,
-            "gdiagalt_map": tipo_fractura_sim,
-            "ds_izq_der_map": lado_fractura_sim,
-            "ntensmin_map": ntensmin_sim,
-            "ntensmax_map": ntensmax_sim,
-            "ntempera_map": ntempera_sim,
-            "nsatuoxi_map": nsatuoxi_sim,
-            "ds_ITU_map": itu_sim,
-            "ds_insuficiencia_respiratoria_map": insuf_resp_sim,
-            "ds_insuficiencia_cardiaca_map": insuf_card_sim,
-            "ds_deterioro_cognitivo_map": deterioro_cog_sim,
-            "ds_insuficiencia_renal_map": insuf_renal_sim,
-            "ds_HTA_map": hta_sim,
-            "ds_diabetes_map": diabetes_sim,
-            "ds_obesidad_map": obesidad_sim,
-            "ds_osteoporosis_map": osteoporosis_sim,
-            "ds_anemia_map": anemia_sim,
-            "ds_vitamina_d_map": vitamina_d_sim,
-            "ds_acido_folico_map": acido_folico_sim,
-            "ds_alergia_medicamentosa_map": alergia_med_sim,
-            "ds_alergia_alimentaria_map": alergia_alim_sim,
-            "ds_otra_alergias_map": otras_alergias_sim,
-            "barthel_map": barthel_sim,
-            "braden_map": braden_sim,
-            "riesgo_caida_map": riesgo_caida_sim,
-            "movilidad_map": movilidad_sim,
-        }
-        
-        calcular_predicciones_simulador(
-            datos_formulario, 
-            predecir_dias_fn, 
-            predecir_probabilidades_fn,
-            cargar_modelo_real_fn,
-            cargar_modelo_clasificacion_fn
-        )
-
+    # 1. Definimos las columnas para centrar el botón
+    col_izq, col_btn, col_der = st.columns([1, 3, 1])
+    
+    # 2. Metemos el botón DENTRO de la columna central
+    with col_btn:
+        if st.button("Calcular predicciones", type="primary", use_container_width=True):
+            
+            # --- TU LÓGICA ORIGINAL (INTACTA) ---
+            datos_formulario = {
+                "itipsexo_map": sexo_sim,
+                "ds_edad_map": edad_sim,
+                "iotrocen_map": otro_centro_sim,
+                "ds_centro_afueras_map": lugar_residencia_sim,
+                "gdiagalt_map": tipo_fractura_sim,
+                "ds_izq_der_map": lado_fractura_sim,
+                "ntensmin_map": ntensmin_sim,
+                "ntensmax_map": ntensmax_sim,
+                "ntempera_map": ntempera_sim,
+                "nsatuoxi_map": nsatuoxi_sim,
+                "ds_ITU_map": itu_sim,
+                "ds_insuficiencia_respiratoria_map": insuf_resp_sim,
+                "ds_insuficiencia_cardiaca_map": insuf_card_sim,
+                "ds_deterioro_cognitivo_map": deterioro_cog_sim,
+                "ds_insuficiencia_renal_map": insuf_renal_sim,
+                "ds_HTA_map": hta_sim,
+                "ds_diabetes_map": diabetes_sim,
+                "ds_obesidad_map": obesidad_sim,
+                "ds_osteoporosis_map": osteoporosis_sim,
+                "ds_anemia_map": anemia_sim,
+                "ds_vitamina_d_map": vitamina_d_sim,
+                "ds_acido_folico_map": acido_folico_sim,
+                "ds_alergia_medicamentosa_map": alergia_med_sim,
+                "ds_alergia_alimentaria_map": alergia_alim_sim,
+                "ds_otra_alergias_map": otras_alergias_sim,
+                "barthel_map": barthel_sim,
+                "braden_map": braden_sim,
+                "riesgo_caida_map": riesgo_caida_sim,
+                "movilidad_map": movilidad_sim,
+            }
+            
+            calcular_predicciones_simulador(
+                datos_formulario, 
+                predecir_dias_fn, 
+                predecir_probabilidades_fn,
+                cargar_modelo_real_fn,
+                cargar_modelo_clasificacion_fn
+            )
 
 def calcular_predicciones_simulador(datos_formulario, predecir_dias_fn, predecir_probabilidades_fn,
                                      cargar_modelo_real_fn, cargar_modelo_clasificacion_fn):
@@ -203,9 +210,11 @@ def mostrar_botones_accion_simulador(gidenpac_real, generar_pdf_backend_fn):
             st.rerun()
     
     with col_download:
+        # CASO A: Aún no generado -> Botón Generar
         if st.session_state.pdf_simulacion_bytes is None:
             if st.button("📄 Generar PDF Simulación", type="primary", use_container_width=True):
-                with st.spinner("⏳ Generando PDF de simulación..."):
+                with st.spinner("Generando PDF de simulación..."):
+                    # Preparamos los datos
                     datos_para_pdf = {
                         **st.session_state.data_simulado,
                         "predict_preoperatorio": st.session_state.calculo_pre_sim,
@@ -216,14 +225,25 @@ def mostrar_botones_accion_simulador(gidenpac_real, generar_pdf_backend_fn):
                         "categorias_situacion": st.session_state.categorias_situacion_sim
                     }
                     
+                    # Llamada a tu función backend
                     pdf_bytes, error = generar_pdf_backend_fn(es_simulacion=True, datos_simulacion=datos_para_pdf)
                     
                     if pdf_bytes:
                         st.session_state.pdf_simulacion_bytes = pdf_bytes
+                        # Marcamos éxito para mostrar el aviso tras la recarga
+                        st.session_state.mostrar_aviso_simulacion = True
                         st.rerun()
                     else:
                         st.error(f"Error: {error}")
+
+        # CASO B: Generado y listo para descargar
         else:
+            # 1. Notificación flotante (solo la primera vez)
+            if st.session_state.get("mostrar_aviso_simulacion"):
+                st.toast("¡Simulación generada correctamente!", icon="✅")
+                st.session_state.mostrar_aviso_simulacion = False
+
+            # 3. Botón de descarga
             st.download_button(
                 label="📥 Descargar PDF Simulación",
                 data=st.session_state.pdf_simulacion_bytes,

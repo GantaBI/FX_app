@@ -244,36 +244,60 @@ if modo == "Visualización paciente":
         gidenpac=gidenpac
     )
     
-    # Botones de descarga PDF
+# -------------------------------------------------------------------------
+    # BOTONES DE DESCARGA - DISEÑO DINÁMICO (Centro -> Lados)
+    # -------------------------------------------------------------------------
     st.markdown("---")
     st.markdown("<br>", unsafe_allow_html=True)
     
+    # Inicializar estado
     if 'pdf_paciente_bytes' not in st.session_state:
         st.session_state.pdf_paciente_bytes = None
 
-    col_botones = st.columns([1, 3, 1])[1]
-    
-    with col_botones:
-        if st.session_state.pdf_paciente_bytes is None:
+    # CASO A: Aún no generado (BOTÓN CENTRADO)
+    if st.session_state.pdf_paciente_bytes is None:
+        # Truco para centrar: Creamos 3 columnas y usamos la del medio.
+        # [1, 2, 1] hace que el botón ocupe el 50% del ancho central.
+        c_izq, c_centro, c_der = st.columns([1, 3, 1])
+        
+        with c_centro:
             if st.button("📄 Generar Informe PDF", type="primary", use_container_width=True):
-                with st.spinner(" Generando informe..."):
+                with st.spinner("Generando informe..."):
                     pdf_bytes, error = generar_pdf_backend(es_simulacion=False)
                     
                     if pdf_bytes:
                         st.session_state.pdf_paciente_bytes = pdf_bytes
+                        st.session_state.mostrar_aviso_exito = True 
                         st.rerun()
                     else:
                         st.error(f"Error al generar: {error}")
-        else:
+
+    # CASO B: Generado (BOTONES A LOS LADOS)
+    else:
+        # 1. Notificación flotante (Toast)
+        if st.session_state.get("mostrar_aviso_exito"):
+            st.toast("¡Informe generado correctamente!", icon="✅")
+            st.session_state.mostrar_aviso_exito = False 
+
+        # 3. Columnas divididas 50/50
+        col_reset, col_download = st.columns([1, 1])
+        
+        # --- IZQUIERDA: Botón Nuevo (Gris) ---
+        with col_reset:
+            if st.button("🔄 Generar uno nuevo", type="secondary", use_container_width=True):
+                st.session_state.pdf_paciente_bytes = None
+                st.rerun()
+
+        # --- DERECHA: Botón Descargar (Rojo) ---
+        with col_download:
             st.download_button(
-                label="📥 Descargar Informe PDF",
+                label="📥 Descargar PDF",
                 data=st.session_state.pdf_paciente_bytes,
                 file_name=f"informe_{gidenpac}_{datetime.now().strftime('%Y%m%d')}.pdf",
                 mime="application/pdf",
                 type="primary",
                 use_container_width=True
             )
-
 # ==========================================
 # MODO: SIMULADOR
 # ==========================================
