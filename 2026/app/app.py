@@ -194,11 +194,15 @@ def predecir_probabilidades(modelo, scaler, cols, datos_json):
 # FUNCIONES AUXILIARES
 # ==========================================
 
-def load_css(file_path):
-    """Carga estilos CSS personalizados"""
+def load_css(file_name):
+    # Obtiene la ruta del directorio donde está app.py actualmente
+    file_path = os.path.join(os.path.dirname(__file__), file_name)
+    
     with open(file_path, "r") as f:
-        css = f.read()
-        st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+# Luego la llamas igual que antes
+load_css("custom_styles.css")
 
 
 def generar_pdf_backend(es_simulacion=False, datos_simulacion=None):
