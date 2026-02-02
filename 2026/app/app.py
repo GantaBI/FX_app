@@ -313,17 +313,26 @@ if modo == "Visualización paciente":
         predict_estancia_total = data.get("predict_estancia_total", suma_default)
     # --- FIN DEL CAMBIO ---
 
-    # --- AQUI ESTABA EL ERROR: Faltaba este IF ---
+    # ... el if anterior ...
     if mod_sit and len(probs_sit) > 0:
         predict_situacion_alta = probs_sit
         categorias_situacion = [diccionario_nombres.get(c, str(c)) for c in clases_sit]
         idx_max = probs_sit.index(max(probs_sit))
         situacion_alta = categorias_situacion[idx_max]
     else:
-        predict_situacion_alta = data.get("predict_situacion_alta", [])
-        situacion_alta = data.get("situacion_alta", "N/A")
+        # --- CORRECCIÓN AQUÍ ---
+        probs_json = data.get("predict_situacion_alta", [])
         categorias_situacion = ["Mejora", "Empeora"]
-    
+        
+        # 3. VERIFICACIÓN DE SEGURIDAD:
+        # Si la lista está vacía o no tiene el mismo tamaño que las categorías (2),
+        # creamos una lista de ceros para que Pandas no explote.
+        if len(probs_json) != len(categorias_situacion):
+            predict_situacion_alta = [0.0] * len(categorias_situacion) # Crea [0.0, 0.0]
+        else:
+            predict_situacion_alta = probs_json
+            
+        situacion_alta = data.get("situacion_alta", "N/A")
     # Mostrar visualización
     mostrar_visualizacion(
         data, 
