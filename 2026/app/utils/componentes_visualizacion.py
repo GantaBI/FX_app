@@ -118,7 +118,9 @@ def mostrar_visualizacion(data, predict_preoperatorio, predict_postoperatorio, p
     st.subheader("Estancia")
     st.info(f"**Pre-operatorio:** {predict_preoperatorio:.1f} días")
     st.info(f"**Post-operatorio:** {predict_postoperatorio:.1f} días")
-    st.info(f"**Estancia total:** {predict_estancia_total:.1f} días")
+    st.info(f"**Estancia total:** {predict_estancia_total:.1f} días")    
+    st.caption("ℹ️ Cada predicción proviene de un modelo independiente. La estancia total no es necesariamente la suma de pre y post-operatorio, ya que considera patrones globales del proceso completo de hospitalización.")
+
     
     st.subheader("Situación al alta")
     if isinstance(predict_situacion_alta, list) and len(predict_situacion_alta) > 0:

@@ -207,37 +207,62 @@ def mostrar_resultados_simulador():
 def mostrar_botones_accion_simulador(gidenpac_real, generar_pdf_backend_fn, manejar_pdf_fn):
     """
     Muestra botones de acción del simulador.
-    Ahora delega en la función manejar_generacion_descarga_pdf del app.py
-    
-    Args:
-        gidenpac_real: ID del paciente real (para nombre de archivo)
-        generar_pdf_backend_fn: Función generar_pdf_backend de app.py
-        manejar_pdf_fn: Función helper para manejar la generación/descarga de PDF
+    Botones siempre visibles: Nuevo y PDF
     """
     st.markdown("---")
     st.markdown("<br>", unsafe_allow_html=True)
     
-    # Preparar función de generación de PDF
-    def generar_pdf_simulacion():
-        # Preparar datos para PDF
-        datos_para_pdf = {
-            **st.session_state.data_simulado,
-            "predict_preoperatorio": st.session_state.calculo_pre_sim,
-            "predict_postoperatorio": st.session_state.calculo_post_sim,
-            "predict_estancia_total": st.session_state.calculo_estancia_sim,
-            "predict_situacion_alta": st.session_state.probs_sit_sim,
-            "situacion_alta": st.session_state.situacion_alta_sim,
-            "categorias_situacion": st.session_state.categorias_situacion_sim
-        }
-        
-        return generar_pdf_backend_fn(es_simulacion=True, datos_simulacion=datos_para_pdf)
+    # ← AÑADIR: Mostrar toast si se acaba de generar
+    if st.session_state.get('mostrar_aviso_simulacion'):
+        st.toast("¡PDF generado correctamente!", icon="✅")
+        st.session_state['mostrar_aviso_simulacion'] = False
     
-    # Delegar todo el manejo de UI a la función helper
-    manejar_pdf_fn(
-        clave_bytes='pdf_simulacion_bytes',
-        clave_aviso='mostrar_aviso_simulacion',
-        gidenpac=gidenpac_real,
-        generar_pdf_fn=generar_pdf_simulacion,
-        prefijo_archivo="simulacion",
-        es_simulacion=True
-    )
+    col_nuevo, col_pdf = st.columns(2)
+    
+    # BOTÓN NUEVA SIMULACIÓN (siempre visible)
+    with col_nuevo:
+        if st.button("🔄 Nueva simulación", type="secondary", use_container_width=True):
+            # Resetear estados
+            st.session_state.simulacion_realizada = False
+            st.session_state.pdf_simulacion_bytes = None
+            st.rerun()
+    
+    # BOTÓN GENERAR/DESCARGAR PDF
+    with col_pdf:
+        # Si el PDF ya está generado, mostrar botón de descarga
+        if st.session_state.get('pdf_simulacion_bytes'):
+            timestamp = datetime.now().strftime('%Y%m%d_%H%M')
+            nombre_archivo = f"simulacion_{gidenpac_real}_{timestamp}.pdf"
+            
+            st.download_button(
+                label="📥 Descargar PDF",
+                data=st.session_state['pdf_simulacion_bytes'],
+                file_name=nombre_archivo,
+                mime="application/pdf",
+                type="primary",
+                use_container_width=True
+            )
+        
+        # Si no está generado, mostrar botón para generar
+        else:
+            if st.button("📄 Generar PDF", type="primary", use_container_width=True):
+                with st.spinner("Generando PDF..."):
+                    # Preparar datos para PDF
+                    datos_para_pdf = {
+                        **st.session_state.data_simulado,
+                        "predict_preoperatorio": st.session_state.calculo_pre_sim,
+                        "predict_postoperatorio": st.session_state.calculo_post_sim,
+                        "predict_estancia_total": st.session_state.calculo_estancia_sim,
+                        "predict_situacion_alta": st.session_state.probs_sit_sim,
+                        "situacion_alta": st.session_state.situacion_alta_sim,
+                        "categorias_situacion": st.session_state.categorias_situacion_sim
+                    }
+                    
+                    pdf_bytes, error = generar_pdf_backend_fn(es_simulacion=True, datos_simulacion=datos_para_pdf)
+                    
+                    if pdf_bytes:
+                        st.session_state['pdf_simulacion_bytes'] = pdf_bytes
+                        st.session_state['mostrar_aviso_simulacion'] = True  # ← AÑADIR
+                        st.rerun()
+                    else:
+                        st.error(f"Error al generar: {error}")
