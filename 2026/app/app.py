@@ -17,6 +17,40 @@ from utils.componentes_simulador import (
 )
 
 # ==========================================
+# ID DE PACIENTE (preparado para endpoint)
+# ==========================================
+TARGET_ID = os.getenv("PACIENTE_ID","LNRV194101570")  # Valor por defecto para pruebas. Quitar en producción.
+
+if not TARGET_ID:
+    st.error("❌ No se ha proporcionado un ID de paciente. Setea la env var PACIENTE_ID.")
+    st.stop()
+
+def extraer_datos_paciente(target_id):
+    """Ejecuta extract_data_model.py y copia el JSON a app/."""
+    import shutil
+    extract_dir = os.path.join(os.path.dirname(__file__), "extract_data_model")
+    script_path = os.path.join(extract_dir, "extract_data_model.py")
+
+    env = os.environ.copy()
+    env["PACIENTE_ID"] = target_id
+
+    result = subprocess.run(
+        [sys.executable, script_path],
+        capture_output=True, text=True, timeout=120, env=env
+    )
+    print(result.stdout)
+    if result.returncode != 0:
+        print(f"❌ Error al extraer datos: {result.stderr}")
+        return False
+
+    src = os.path.join(extract_dir, f"paciente_{target_id}.json")
+    dst = os.path.join(os.path.dirname(__file__), f"paciente_{target_id}.json")
+    if os.path.exists(src):
+        shutil.copy2(src, dst)
+        return True
+    return False
+
+# ==========================================
 # DETECCIÓN DE MODO DESDE URL (PARA PDF)
 # ==========================================
 query_params = st.query_params
@@ -279,8 +313,15 @@ else:
 if modo == "Visualización paciente":
     
     directorio_actual = os.path.dirname(__file__)
-    ruta_json = os.path.join(directorio_actual, "paciente_SRRD193407690.json")
+    TARGET_ID = os.getenv("PACIENTE_ID")
+    ruta_json = os.path.join(directorio_actual, f"paciente_{TARGET_ID}.json")
     
+    if not os.path.exists(ruta_json):
+        with st.spinner(f"Extrayendo datos del paciente {TARGET_ID}..."):
+            if not extraer_datos_paciente(TARGET_ID):
+                st.error(f"❌ No se pudo extraer el paciente {TARGET_ID}.")
+                st.stop()
+
     with open(ruta_json, "r") as file:
         data_raw = json.load(file)
     

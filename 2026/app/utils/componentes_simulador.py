@@ -3,6 +3,7 @@ Componentes específicos del modo simulador
 """
 import streamlit as st
 import json
+import os
 from datetime import datetime
 from utils.utils_mapeo import enriquecer_datos_para_ui, preparar_datos_simulacion_para_modelo
 from utils.componentes_visualizacion import mostrar_visualizacion
@@ -184,8 +185,7 @@ def calcular_predicciones_simulador(datos_formulario, predecir_dias_fn, predecir
 def mostrar_resultados_simulador():
     """Muestra los resultados de la simulación"""
     
-    with open("paciente_SRRD193407690.json", "r") as file:
-        data_raw = json.load(file)
+    with open(f"paciente_{os.getenv('PACIENTE_ID')}.json", "r") as file:        data_raw = json.load(file)
     data_original = enriquecer_datos_para_ui(data_raw)
     gidenpac_real = data_original["gidenpac"]
     
