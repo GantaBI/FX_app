@@ -16,6 +16,7 @@ from utils.componentes_simulador import (
     mostrar_botones_accion_simulador
 )
 
+
 # ==========================================
 # ID DE PACIENTE (preparado para endpoint)
 # ==========================================
@@ -101,7 +102,7 @@ def manejar_generacion_descarga_pdf(clave_bytes, clave_aviso, gidenpac, generar_
         
         with col_centro:
             label = "📄 Generar PDF Simulación" if es_simulacion else "📄 Generar Informe PDF"
-            if st.button(label, type="primary", use_container_width=True):
+            if st.button(label, type="primary", width='stretch'):
                 with st.spinner("Generando informe..."):
                     pdf_bytes, error = generar_pdf_fn()
                     
@@ -125,8 +126,8 @@ def manejar_generacion_descarga_pdf(clave_bytes, clave_aviso, gidenpac, generar_
         
         # Botón RESET (gris)
         with col_reset:
-            label_reset = "🔄 Nueva simulación" if es_simulacion else "🔄 Generar uno nuevo"
-            if st.button(label_reset, type="secondary", use_container_width=True):
+            label_reset = "🔄  Nuevasimulación" if es_simulacion else "🔄 Generar uno nuevo"
+            if st.button(label_reset, type="secondary", width='stretch'):
                 st.session_state[clave_bytes] = None
                 st.rerun()
         
@@ -142,7 +143,7 @@ def manejar_generacion_descarga_pdf(clave_bytes, clave_aviso, gidenpac, generar_
                 file_name=nombre_archivo,
                 mime="application/pdf",
                 type="primary",
-                use_container_width=True
+                width='stretch'
             )
             
             

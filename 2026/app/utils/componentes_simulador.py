@@ -39,7 +39,7 @@ def mostrar_formulario_simulador(predecir_dias_fn, predecir_probabilidades_fn,
         datos_formulario['itipsexo_map'] = st.selectbox(
             "Sexo", [0, 1], 
             index=_idx("itipsexo", 1),
-            format_func=lambda x: "Mujer" if x==0 else "Hombre"
+            format_func=lambda x: "Hombre" if x==0 else "Mujer"
         )
         datos_formulario['ds_edad_map'] = st.number_input("Edad", 0, 120, int(paciente.get("ds_edad") or 0))
     
@@ -183,7 +183,7 @@ def mostrar_formulario_simulador(predecir_dias_fn, predecir_probabilidades_fn,
     _, col_btn, _ = st.columns([1, 3, 1])
     
     with col_btn:
-        if st.button("Calcular predicciones", type="primary", use_container_width=True):
+        if st.button("Calcular predicciones", type="primary", width='stretch'):
             calcular_predicciones_simulador(
                 datos_formulario, 
                 predecir_dias_fn, 
@@ -282,7 +282,7 @@ def mostrar_botones_accion_simulador(gidenpac_real, generar_pdf_backend_fn, mane
 
     # Siempre visible → vuelve al formulario
     with col_nuevo:
-        if st.button("🔄 Nueva simulación", type="secondary", use_container_width=True):
+        if st.button("🔄 Nueva simulación", type="secondary", width='stretch'):
             st.session_state.simulacion_realizada = False
             st.session_state.pdf_simulacion_bytes = None
             st.rerun()
@@ -290,7 +290,7 @@ def mostrar_botones_accion_simulador(gidenpac_real, generar_pdf_backend_fn, mane
     # Solo PDF: generar o descargar
     with col_pdf:
         if not st.session_state.get('pdf_simulacion_bytes'):
-            if st.button("📄 Generar PDF Simulación", type="primary", use_container_width=True):
+            if st.button("📄 Generar PDF Simulación", type="primary", width='stretch'):
                 with st.spinner("Generando PDF..."):
                     pdf_bytes, error = generar_pdf_simulacion()
                     if pdf_bytes:
@@ -306,5 +306,5 @@ def mostrar_botones_accion_simulador(gidenpac_real, generar_pdf_backend_fn, mane
                 file_name=f"simulacion_{gidenpac_real}_{timestamp}.pdf",
                 mime="application/pdf",
                 type="primary",
-                use_container_width=True
+                width='stretch'
             )

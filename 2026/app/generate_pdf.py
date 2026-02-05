@@ -100,14 +100,27 @@ async def capture_sections(url, es_simulacion=False):
             }}""")
             
             if bounding_box:
+                # ← CAMBIO: Ajustar viewport ANTES de generar PDF
                 await page.setViewport({'width': 1920, 'height': int(bounding_box['height'] + 50)})
+                
+                # ← AÑADIR: Esperar a que se reajuste el layout
+                await asyncio.sleep(0.5)
+                
+                # ← AÑADIR: Re-evaluar bounding_box después del ajuste
+                bounding_box = await page.evaluate(f"""() => {{
+                    const el = document.querySelector('.no-overlap:nth-of-type({index})');
+                    if (!el) return null;
+                    const rect = el.getBoundingClientRect();
+                    return {{ x: rect.x, y: rect.y, width: rect.width, height: rect.height }};
+                }}""")
                 
                 print(f"   -> Guardando trozo: {filename_raw}")
                 await page.pdf({
                     'path': full_path_raw,
                     'printBackground': True,
-                    'preferCSSPageSize': True,
-                    'clip': bounding_box
+                    'format': 'A4',  # ← CAMBIAR
+                    'scale': 1.24,    # ← AÑADIR (ajusta entre 1.0-1.5)
+                    'margin': {'top': '5mm', 'right': '5mm', 'bottom': '5mm', 'left': '5mm'}  # ← AÑADIR
                 })
                 pdfs_raw.append(full_path_raw)
 

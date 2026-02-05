@@ -229,7 +229,9 @@ def mostrar_visualizacion(data, predict_preoperatorio, predict_postoperatorio, p
         "Valor": [anemia, vitamina_d, obesidad, acido_folico]
     })
     st.table(tabla_nutricion)
-    
+
+    st.markdown("<div class='no-overlap'></div>", unsafe_allow_html=True)
+
     # GERIATRÍA
     st.header("Geriatría")
     
@@ -251,8 +253,6 @@ def mostrar_visualizacion(data, predict_preoperatorio, predict_postoperatorio, p
     st.table(tabla_enfermedades)
     
     # GRÁFICO SITUACIÓN AL ALTA
-    st.markdown("<div class='no-overlap'></div>", unsafe_allow_html=True)
-    st.markdown("<br><br>", unsafe_allow_html=True)
     
     colores_dinamicos = [diccionario_colores.get(cat, "gray") for cat in categorias_situacion]
     crear_tabla_y_grafico(
