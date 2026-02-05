@@ -210,7 +210,6 @@ medical_patterns = {
         'CARDIOPATÍA ISQUÉMICA', 'ICC', 'ICC DESCOMPENSADA'
     ],
     'ds_deterioro_cognitivo': ['DETERIORO COGNITIVO', 'DEMENCIA'],
-    'ds_exitus': ['EXITUS', 'ÉXITUS'],
     'ds_insuficiencia_renal': [
         'I. RENAL', 'INSUFICIENCIA RENAL', 'ENFERMEDAD RENAL CRÓNICA', 'INSUFICIENCIA RENAL AGUDA',
         'INSUFICIENCIA RENAL CRÓNICA AGUDIZADA', 'INSUFICIENCIA RENAL CRONICA', 'IRC',
@@ -309,7 +308,62 @@ resultado.update(turno_onehot)
 resultado['ds_HTA'] = max(ant_flags['hta_ant'], resultado.get('ds_HTA', 0))
 resultado['ds_diabetes'] = max(ant_flags['diabetes_ant'], resultado.get('ds_diabetes', 0))
 
+# --- VALORES POR DEFECTO PARA TODOS LOS CAMPOS ---
+VALORES_DEFECTO = {
+    # Identificación
+    'gidenpac': 'DESCONOCIDO',
+    'fllegada': None,  # Dejar None si no existe
+    'hllegada': None,  # Dejar None si no existe
+    
+    # Demográficos
+    'itipsexo': 1,  # Mujer por defecto
+    'ds_edad': 91,
+    'iotrocen': 1,  # No viene de otro centro
+    'ds_centro_afueras': 0,  # Centro urbano
+    
+    # Constantes vitales
+    'ntensmin': 70,
+    'ntensmax': 150,
+    'ntempera': 36.6,
+    'nsatuoxi': 94,
+    
+    # Alergias
+    'ds_alergia_medicamentosa': 0,
+    'ds_alergia_alimenticia': 0,
+    'ds_otras_alergias': 0,
+    
+    # Escalas geriátricas
+    'movilidad': 2,
+    'barthel': 20,
+    'braden': 14,
+    'riesgo_caida': 6,
+    
+    # Lado de fractura
+    'ds_izq_der': 1,
+    
+    # Condiciones médicas (todas 0 = No)
+    'ds_HTA': 0,
+    'ds_diabetes': 0,
+    'ds_ITU': 0,
+    'ds_anemia': 0,
+    'ds_vitamina_d': 0,
+    'ds_obesidad': 0,
+    'ds_osteoporosis': 0,
+    'ds_acido_folico': 0,
+    'ds_insuficiencia_respiratoria': 0,
+    'ds_insuficiencia_cardiaca': 0,
+    'ds_deterioro_cognitivo': 0,
+    'ds_insuficiencia_renal': 0,
+}
+
+# Aplicar valores por defecto a TODOS los campos que sean None
+for campo, valor_defecto in VALORES_DEFECTO.items():
+    if campo in resultado and resultado[campo] is None:
+        resultado[campo] = valor_defecto
+        print(f"⚠️ {campo}: usando valor por defecto = {valor_defecto}")
+
 # --- GUARDAR ---
+
 excluir = ['ds_pre_oper', 'ds_post_oper'] + [k for k in resultado.keys() if k.startswith(('gdiagalt_', 'ds_izq_der_', 'ds_dia_', 'ds_mes_', 'ds_turno_'))]
 faltantes = [k for k in resultado.keys() if k not in excluir and resultado[k] is None]
 
