@@ -309,6 +309,7 @@ resultado['ds_HTA'] = max(ant_flags['hta_ant'], resultado.get('ds_HTA', 0))
 resultado['ds_diabetes'] = max(ant_flags['diabetes_ant'], resultado.get('ds_diabetes', 0))
 
 # --- VALORES POR DEFECTO PARA TODOS LOS CAMPOS ---
+# En caso de ser nulos, se asigna un valor por defecto (basado en la distribución general de pacientes) para evitar problemas en el modelo de predicción.
 VALORES_DEFECTO = {
     # Identificación
     'gidenpac': 'DESCONOCIDO',

@@ -59,11 +59,16 @@ def mostrar_visualizacion(data, predict_preoperatorio, predict_postoperatorio, p
     
     # Fecha/Hora actual (Madrid)
     fecha_actual = datetime.now(zona_horaria).strftime("%d/%m/%Y %H:%M")
-    fecha_ingreso = data.get("fllegada_map", fecha_actual) if not es_simulacion else fecha_actual
+    
+    # ← CAMBIAR AQUÍ:
+    if es_simulacion:
+        fecha_ingreso = "PACIENTE SIMULADO"  # ← Texto fijo para simulación
+    else:
+        fecha_ingreso = data.get("fllegada_map", "Desconocida")  # ← Paciente real
     
     st.markdown(
         f"""
-        <div style="display: flex; justify-content: flex-end; align-items: center; padding-right: 10px;">
+        <div style="display: flex; justify-content: flex-start; align-items: center; padding-right: 10px;">
             <p style="font-size: 16px; margin: 0;">Fecha de ingreso: {fecha_ingreso}</p>
         </div>
         """,
@@ -71,7 +76,7 @@ def mostrar_visualizacion(data, predict_preoperatorio, predict_postoperatorio, p
     )
     st.markdown(
         f"""
-        <div style="display: flex; justify-content: flex-end; align-items: center; padding-right: 10px;">
+        <div style="display: flex; justify-content: flex-start; align-items: center; padding-right: 10px;">
             <p style="font-size: 16px; margin: 0;">Fecha del documento: {fecha_actual}</p>
         </div>
         """,
