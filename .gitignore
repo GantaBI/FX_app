@@ -23,7 +23,7 @@ __pycache__/
 .vscode/
 *.tsv
 *.tfevents
-#*.pkl
+*.pkl
 *.cbm
 *.pdf
-#*.json
+*.json
