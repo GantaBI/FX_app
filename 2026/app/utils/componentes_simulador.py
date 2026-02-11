@@ -16,8 +16,16 @@ def mostrar_formulario_simulador(predecir_dias_fn, predecir_probabilidades_fn,
     # --- Cargar datos del paciente actual como defaults ---
     TARGET_ID = os.getenv("PACIENTE_ID")
     ruta_json = os.path.join(os.path.dirname(__file__), '..', f"paciente_{TARGET_ID}.json")
+    
+    # Verificar si el archivo existe
+    if not os.path.exists(ruta_json):
+        st.warning(f"⚠️ No se encontraron datos para el paciente {TARGET_ID}.")
+        st.info("Por favor, verifica que el ID del paciente sea correcto.")
+        st.stop()
+    
     with open(ruta_json, "r") as f:
         paciente = json.load(f)
+    
 
     # Helper: convierte None o valores fuera de rango a 0
     def _idx(campo, max_val):
@@ -233,9 +241,17 @@ def mostrar_resultados_simulador():
     
     TARGET_ID = os.getenv("PACIENTE_ID")
     ruta_json = os.path.join(os.path.dirname(__file__), '..', f"paciente_{TARGET_ID}.json")
+    
+    # Verificar si el archivo existe
+    if not os.path.exists(ruta_json):
+        st.warning(f"⚠️ No se encontraron datos para el paciente {TARGET_ID}.")
+        st.info("Por favor, verifica que el ID del paciente sea correcto.")
+        st.stop()
+    
     with open(ruta_json, "r") as file:
         data_raw = json.load(file)
     data_original = enriquecer_datos_para_ui(data_raw)
+    
     gidenpac_real = data_original["gidenpac"]
     
     mostrar_visualizacion(

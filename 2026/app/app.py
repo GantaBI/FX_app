@@ -319,14 +319,16 @@ if modo == "Visualización paciente":
     
     if not os.path.exists(ruta_json):
         with st.spinner(f"Extrayendo datos del paciente {TARGET_ID}..."):
-            if not extraer_datos_paciente(TARGET_ID):
-                st.error(f"❌ No se pudo extraer el paciente {TARGET_ID}.")
-                st.stop()
+            exito = extraer_datos_paciente(TARGET_ID)
+        
+        if not os.path.exists(ruta_json):  # Verificar de nuevo después de extraer
+            st.warning(f"⚠️ No se encontraron datos para el paciente {TARGET_ID}.")
+            st.info("Por favor, verifica que el ID del paciente sea correcto.")
+            st.stop()
 
     with open(ruta_json, "r") as file:
         data_raw = json.load(file)
     
-    # ... (código anterior de carga del JSON) ...
     data = enriquecer_datos_para_ui(data_raw)
     
     # Calcular predicciones
