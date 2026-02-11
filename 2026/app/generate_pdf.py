@@ -1,3 +1,4 @@
+from datetime import datetime
 import os
 import asyncio
 from pyppeteer import launch
@@ -10,7 +11,7 @@ from pdf_styles import CSS_OCULTAR_STREAMLIT
 nest_asyncio.apply()
 
 # ========== CONFIGURACIÓN ==========
-BASE_PATH_APP = "/home/ubuntu/STG-fractura_cadera/2026/app"
+BASE_PATH_APP = "/home/ubuntu/FX_app/2026/app"
 URL_STREAMLIT = "http://localhost:8501/"
 
 # Configuración del navegador
@@ -21,32 +22,27 @@ BROWSER_ARGS = ['--no-sandbox', '--disable-setuid-sandbox']
 PAGE_LOAD_TIMEOUT = 60000  # 60 segundos
 SIMULATION_WAIT_TIME = 5   # 5 segundos extra para procesar datos
 
-async def capture_sections(url, es_simulacion=False):
+async def capture_sections(url, es_simulacion=False, paciente_id=None):
     browser = None
     try:
         # 1. DEFINIR RUTAS
         base_path = BASE_PATH_APP
+        output_folder = os.path.join(base_path, "pacientes")
         
-        # Carpetas diferentes según el modo
+        # Crear carpeta si no existe
+        os.makedirs(output_folder, exist_ok=True)
+        
+        # Nombre del archivo final
         if es_simulacion:
-            output_folder = os.path.join(base_path, "informes", "simulacion")
+            timestamp = datetime.now().strftime('%Y%m%d_%H%M')
+            final_filename = f"paciente_{paciente_id}_sim_{timestamp}.pdf"
         else:
-            output_folder = os.path.join(base_path, "informes", "original")
-        
-        # Crear la carpeta si no existe
-        if not os.path.exists(output_folder):
-            try:
-                os.makedirs(output_folder, exist_ok=True)
-                print(f"📂 Carpeta creada: {output_folder}")
-            except Exception as e:
-                print(f"❌ Error creando carpeta (Revisa permisos): {e}")
-                return None
-        else:
-            print(f"📂 Usando carpeta existente: {output_folder}")
+            final_filename = f"paciente_{paciente_id}.pdf"
 
         # 2. INICIAR NAVEGADOR
         print("🚀 Lanzando navegador...")
-        browser = await launch(headless=True, args=BROWSER_ARGS)
+        browser_args_with_tz = BROWSER_ARGS + ['--lang=es-ES', '--timezone-id=Europe/Madrid']
+        browser = await launch(headless=True, args=browser_args_with_tz)
         page = await browser.newPage()
         await page.setViewport(BROWSER_VIEWPORT)
 
@@ -126,15 +122,20 @@ async def capture_sections(url, es_simulacion=False):
 
         # 7. GENERAR PDF FINAL (COMBINADO)
         if pdfs_raw:
-            final_filename = "informe_final.pdf"
             full_path_final = os.path.join(output_folder, final_filename)
             
             combine_odd_pages(pdfs_raw, full_path_final)
             
+            # ELIMINAR ARCHIVOS RAW TEMPORALES
+            for pdf_raw in pdfs_raw:
+                try:
+                    os.remove(pdf_raw)
+                except Exception as e:
+                    print(f"⚠️ No se pudo borrar {pdf_raw}: {e}")
+            
             print("-" * 50)
             print("✅ PROCESO COMPLETADO")
             print(f"📂 Ruta: {output_folder}")
-            print(f"📄 Archivos sueltos: {len(pdfs_raw)} (No borrados)")
             print(f"📕 Informe final: {final_filename}")
             print("-" * 50)
             
@@ -168,11 +169,11 @@ def combine_odd_pages(pdf_paths, output_path):
 
 # --- EJECUCIÓN ---
 if __name__ == "__main__":
-    # Detectar si se pasó argumento para simulación
-    es_simulacion = len(sys.argv) > 1 and sys.argv[1] == "--simulacion"
+    es_simulacion = "--simulacion" in sys.argv
+    paciente_id = sys.argv[-1]  # Último argumento es siempre el ID
     
     url = URL_STREAMLIT
-    resultado = asyncio.run(capture_sections(url, es_simulacion=es_simulacion))
+    resultado = asyncio.run(capture_sections(url, es_simulacion, paciente_id))
     
     # Devolver el path del PDF generado
     if resultado:

@@ -58,7 +58,7 @@ def mostrar_visualizacion(data, predict_preoperatorio, predict_postoperatorio, p
     }
     
     # Fecha/Hora actual (Madrid)
-    fecha_actual = datetime.now(zona_horaria).strftime("%d/%m/%Y %H:%M")
+    fecha_actual = datetime.now(pytz.UTC).astimezone(zona_horaria).strftime("%d/%m/%Y %H:%M")
     
     # ← CAMBIAR AQUÍ:
     if es_simulacion:

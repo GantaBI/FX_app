@@ -158,7 +158,7 @@ def _procesar_situacion_alta(data):
         data["gsitalta_map"] = "Desconocido"
 
 
-def preparar_datos_simulacion_para_modelo(datos_simulacion, ruta_json_base="paciente_SRRD193407690.json"):
+def preparar_datos_simulacion_para_modelo(datos_simulacion, ruta_json_base=None):
     """
     Convierte datos del simulador (con sufijo _map) al formato que espera el modelo (sin sufijo).
     También copia las columnas one-hot encoded del paciente base.
@@ -223,17 +223,19 @@ def preparar_datos_simulacion_para_modelo(datos_simulacion, ruta_json_base="paci
 
 
 def _cargar_datos_base(ruta_json_base):
-    """Carga el JSON del paciente base desde diferentes ubicaciones posibles"""
-    try:
-        # Intentar ruta relativa desde utils/
-        base_dir = os.path.dirname(os.path.abspath(__file__))
-        ruta_completa = os.path.join(base_dir, '..', ruta_json_base)
-        with open(ruta_completa, "r") as file:
-            return json.load(file)
-    except:
-        # Fallback: directorio actual
-        try:
-            with open(ruta_json_base, "r") as file:
-                return json.load(file)
-        except:
-            raise FileNotFoundError(f"No se encontró el archivo {ruta_json_base}")
+    """Carga el JSON del paciente base desde la carpeta pacientes/"""
+    # Si no se especifica ruta, usar el PACIENTE_ID del entorno
+    if ruta_json_base is None:
+        TARGET_ID = os.getenv("PACIENTE_ID", "LNRV194101570")
+        ruta_json_base = f"paciente_{TARGET_ID}.json"
+    
+    # Construir ruta a la carpeta pacientes/
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    carpeta_pacientes = os.path.join(base_dir, '..', 'pacientes')
+    ruta_completa = os.path.join(carpeta_pacientes, ruta_json_base)
+    
+    if not os.path.exists(ruta_completa):
+        raise FileNotFoundError(f"No se encontró el archivo {ruta_completa}")
+    
+    with open(ruta_completa, "r") as file:
+        return json.load(file)

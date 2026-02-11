@@ -9,12 +9,19 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 # --- CONFIGURACIÓN ---
+# --- CONFIGURACIÓN ---
+# --- CONFIGURACIÓN ---
 load_dotenv(Path(__file__).parent / '.env')
 API_URL = os.getenv("API_URL").rstrip('/')
 HEADERS = {'XApiKey': os.getenv("API_KEY")}
-TARGET_ID = os.getenv("PACIENTE_ID","LNRV194101570")  # Valor por defecto para pruebas. Quitar en producción.)
+TARGET_ID = os.getenv("PACIENTE_ID","LNRV194101570")
 CACHE_FILE = Path(__file__).parent / "cache_pacientes.pkl"
-OUTPUT_FILE = Path(__file__).parent / f"paciente_{TARGET_ID}.json"
+
+# Crear carpeta pacientes en el directorio raíz del proyecto (app/)
+CARPETA_PACIENTES = Path(__file__).parent.parent / "pacientes"  # Sube un nivel
+CARPETA_PACIENTES.mkdir(exist_ok=True)
+
+OUTPUT_FILE = CARPETA_PACIENTES / f"paciente_{TARGET_ID}.json"
 CACHE_HORAS = 6
 DIAS_MAXIMO_BUSQUEDA = 30
 hoy = datetime.date.today()

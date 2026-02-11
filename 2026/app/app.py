@@ -27,8 +27,7 @@ if not TARGET_ID:
     st.stop()
 
 def extraer_datos_paciente(target_id):
-    """Ejecuta extract_data_model.py y copia el JSON a app/."""
-    import shutil
+    """Ejecuta extract_data_model.py (que ya guarda en pacientes/)."""
     extract_dir = os.path.join(os.path.dirname(__file__), "extract_data_model")
     script_path = os.path.join(extract_dir, "extract_data_model.py")
 
@@ -40,16 +39,15 @@ def extraer_datos_paciente(target_id):
         capture_output=True, text=True, timeout=120, env=env
     )
     print(result.stdout)
+    
     if result.returncode != 0:
         print(f"❌ Error al extraer datos: {result.stderr}")
         return False
-
-    src = os.path.join(extract_dir, f"paciente_{target_id}.json")
-    dst = os.path.join(os.path.dirname(__file__), f"paciente_{target_id}.json")
-    if os.path.exists(src):
-        shutil.copy2(src, dst)
-        return True
-    return False
+    
+    # El script ya guarda en pacientes/, solo verificar que se creó
+    carpeta_pacientes = os.path.join(os.path.dirname(__file__), "pacientes")
+    ruta_json = os.path.join(carpeta_pacientes, f"paciente_{target_id}.json")
+    return os.path.exists(ruta_json)
 
 # ==========================================
 # DETECCIÓN DE MODO DESDE URL (PARA PDF)
@@ -244,18 +242,23 @@ def generar_pdf_backend(es_simulacion=False, datos_simulacion=None):
     """Genera PDF llamando al script externo"""
     base_dir = os.path.dirname(os.path.abspath(__file__))
     script_path = os.path.join(base_dir, "generate_pdf.py")
-    base_path_app = "/home/ubuntu/STG-fractura_cadera/2026/app"
+    carpeta_pacientes = os.path.join(base_dir, "pacientes")
     
+    # Nombre del PDF
     if es_simulacion:
-        pdf_path = os.path.join(base_path_app, "informes", "simulacion", "informe_final.pdf")
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M')
+        pdf_filename = f"paciente_{TARGET_ID}_sim_{timestamp}.pdf"
         temp_data_path = os.path.join(base_dir, "temp_simulacion.json")
         with open(temp_data_path, "w") as f:
             json.dump(datos_simulacion, f)
-        args = [sys.executable, script_path, "--simulacion"]
+        args = [sys.executable, script_path, "--simulacion", TARGET_ID]
     else:
-        pdf_path = os.path.join(base_path_app, "informes", "original", "informe_final.pdf")
-        args = [sys.executable, script_path]
-
+        pdf_filename = f"paciente_{TARGET_ID}.pdf"
+        args = [sys.executable, script_path, TARGET_ID]
+    
+    pdf_path = os.path.join(carpeta_pacientes, pdf_filename)
+    
+    # Eliminar PDF anterior si existe
     if os.path.exists(pdf_path):
         try:
             os.remove(pdf_path)
@@ -314,8 +317,11 @@ else:
 if modo == "Visualización paciente":
     
     directorio_actual = os.path.dirname(__file__)
+    carpeta_pacientes = os.path.join(directorio_actual, "pacientes")
+    os.makedirs(carpeta_pacientes, exist_ok=True)  # Crear si no existe
+
     TARGET_ID = os.getenv("PACIENTE_ID")
-    ruta_json = os.path.join(directorio_actual, f"paciente_{TARGET_ID}.json")
+    ruta_json = os.path.join(carpeta_pacientes, f"paciente_{TARGET_ID}.json")
     
     if not os.path.exists(ruta_json):
         with st.spinner(f"Extrayendo datos del paciente {TARGET_ID}..."):

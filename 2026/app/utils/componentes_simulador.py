@@ -15,7 +15,8 @@ def mostrar_formulario_simulador(predecir_dias_fn, predecir_probabilidades_fn,
     
     # --- Cargar datos del paciente actual como defaults ---
     TARGET_ID = os.getenv("PACIENTE_ID")
-    ruta_json = os.path.join(os.path.dirname(__file__), '..', f"paciente_{TARGET_ID}.json")
+    carpeta_pacientes = os.path.join(os.path.dirname(__file__), '..', "pacientes")
+    ruta_json = os.path.join(carpeta_pacientes, f"paciente_{TARGET_ID}.json")
     
     # Verificar si el archivo existe
     if not os.path.exists(ruta_json):
@@ -240,7 +241,8 @@ def mostrar_resultados_simulador():
     """Muestra los resultados de la simulación"""
     
     TARGET_ID = os.getenv("PACIENTE_ID")
-    ruta_json = os.path.join(os.path.dirname(__file__), '..', f"paciente_{TARGET_ID}.json")
+    carpeta_pacientes = os.path.join(os.path.dirname(__file__), '..', "pacientes")
+    ruta_json = os.path.join(carpeta_pacientes, f"paciente_{TARGET_ID}.json")
     
     # Verificar si el archivo existe
     if not os.path.exists(ruta_json):
