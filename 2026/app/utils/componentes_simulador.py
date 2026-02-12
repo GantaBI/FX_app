@@ -27,7 +27,6 @@ def mostrar_formulario_simulador(predecir_dias_fn, predecir_probabilidades_fn,
     with open(ruta_json, "r") as f:
         paciente = json.load(f)
     
-
     # Helper: convierte None o valores fuera de rango a 0
     def _idx(campo, max_val):
         val = int(paciente.get(campo) or 0)

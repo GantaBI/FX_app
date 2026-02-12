@@ -16,7 +16,6 @@ from utils.componentes_simulador import (
     mostrar_botones_accion_simulador
 )
 
-
 # ==========================================
 # ID DE PACIENTE (preparado para endpoint)
 # ==========================================
@@ -71,7 +70,7 @@ if modo_url == "simulacion":
         st.session_state.probs_sit_sim = datos_temp.get("predict_situacion_alta", [])
         st.session_state.situacion_alta_sim = datos_temp.get("situacion_alta", "N/A")
         st.session_state.categorias_situacion_sim = datos_temp.get("categorias_situacion", ["Mejora", "Empeora"])
-        st.session_state.fecha_ingreso_real = datos_temp.get("fecha_ingreso_real", "Desconocida")  # ← AÑADIR
+        st.session_state.fecha_ingreso_real = datos_temp.get("fecha_ingreso_real", "Desconocida") 
 
 # ==========================================
 # FUNCIONES DE MODELO
@@ -235,7 +234,6 @@ def load_css(file_name):
     with open(file_path, "r") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-# Luego la llamas igual que antes
 load_css("custom_styles.css")
 
 
@@ -346,7 +344,6 @@ if modo == "Visualización paciente":
     
     gidenpac = data.get("gidenpac", "Desconocido")
 
-    # --- INICIO DEL CAMBIO ---
     # 1. Recuperamos valores del JSON de forma segura (0.0 si no existen)
     val_json_pre = data.get("predict_preoperatorio", 0.0)
     val_json_post = data.get("predict_postoperatorio", 0.0)
@@ -362,16 +359,13 @@ if modo == "Visualización paciente":
         # Si no hay IA, intentamos leer del JSON, y si no, sumamos los parciales
         suma_default = predict_preoperatorio + predict_postoperatorio
         predict_estancia_total = data.get("predict_estancia_total", suma_default)
-    # --- FIN DEL CAMBIO ---
 
-    # ... el if anterior ...
     if mod_sit and len(probs_sit) > 0:
         predict_situacion_alta = probs_sit
         categorias_situacion = [diccionario_nombres.get(c, str(c)) for c in clases_sit]
         idx_max = probs_sit.index(max(probs_sit))
         situacion_alta = categorias_situacion[idx_max]
     else:
-        # --- CORRECCIÓN AQUÍ ---
         probs_json = data.get("predict_situacion_alta", [])
         categorias_situacion = ["Mejora", "Empeora"]
         
@@ -412,7 +406,6 @@ if modo == "Visualización paciente":
 # ==========================================
 # MODO: SIMULADOR
 # ==========================================
-
 else:
     if 'simulacion_realizada' not in st.session_state:
         st.session_state.simulacion_realizada = False
